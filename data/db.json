@@ -48,7 +48,9 @@
     "RespuestaJuegoDeCuestionario": 207,
     "JuegoDeVotacionUnoATodos": 8,
     "AlumnoJuegoDeVotacionUnoATodos": 65,
-    "Rubrica": 4
+    "Rubrica": 4,
+    "JuegoDeVotacionTodosAUno": 7,
+    "AlumnoJuegoDeVotacionTodosAUno": 49
   },
   "models": {
     "Profesor": {
@@ -531,7 +533,7 @@
       "51": "{\"id\":51,\"Silueta\":\"monstruo_silueta.png\",\"Privilegios\":[true,true,true,true,true,true],\"Complemento1\":\"monstruo_ojos3.png\",\"Complemento2\":\"monstruo_cuernos1.png\",\"Complemento3\":\"monstruo_boca1.png\",\"Complemento4\":\"monstruo_hijo3.png\",\"Voz\":\"Voz 023.m4a\",\"alumnoId\":19,\"juegoDeAva-tarId\":14}",
       "147": "{\"id\":147,\"Silueta\":\"cute_fondo.png\",\"Privilegios\":[true,true,true,true,true,true],\"Complemento1\":\"cute_silueta8.png\",\"Complemento2\":\"cute_complemento8.png\",\"Complemento3\":\"cute_boca8.png\",\"Complemento4\":\"cute_ojos8.png\",\"Voz\":\"555721\",\"alumnoId\":32,\"juegoDeAvatarId\":23}",
       "148": "{\"id\":148,\"Privilegios\":[true,true,true,true,true,true],\"alumnoId\":33,\"juegoDeAvatarId\":23}",
-      "149": "{\"id\":149,\"Silueta\":\"cute_fondo.png\",\"Privilegios\":[true,true,true,true,true,true],\"Complemento1\":\"cute_silueta4.png\",\"Complemento2\":\"cute_complemento4.png\",\"Complemento3\":\"cute_boca4.png\",\"Complemento4\":\"cute_ojos4.png\",\"Voz\":\"Voz 052.m4a\",\"alumnoId\":19,\"juegoDeAvatarId\":23}",
+      "149": "{\"id\":149,\"Silueta\":\"cute_fondo.png\",\"Privilegios\":[true,true,true,true,true,true],\"Complemento1\":\"cute_silueta14.png\",\"Complemento2\":\"cute_complemento14.png\",\"Complemento3\":\"cute_boca14.png\",\"Complemento4\":\"cute_ojos12.png\",\"Voz\":\"Voz 053.m4a\",\"alumnoId\":19,\"juegoDeAvatarId\":23}",
       "150": "{\"id\":150,\"Silueta\":\"cute_fondo.png\",\"Privilegios\":[true,true,true,true,true,true],\"Complemento1\":\"cute_silueta12.png\",\"Complemento2\":\"cute_complemento12.png\",\"Complemento3\":\"cute_boca12.png\",\"Complemento4\":\"cute_ojos12.png\",\"Voz\":\"Mi grabación 2.wav\",\"alumnoId\":34,\"juegoDeAvatarId\":23}",
       "151": "{\"id\":151,\"Privilegios\":[true,true,true,true,true,true],\"alumnoId\":32,\"juegoDeAvatarId\":24}",
       "152": "{\"id\":152,\"Privilegios\":[true,true,true,true,true,true],\"alumnoId\":33,\"juegoDeAvatarId\":24}",
@@ -772,6 +774,55 @@
     },
     "Rubrica": {
       "3": "{\"Nombre\":\"Presentacion oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No mas de 3 lineas en cada una\"]}],\"profesorId\":1,\"id\":3}"
+    },
+    "JuegoDeVotacionTodosAUno": {
+      "1": "{\"NombreJuego\":\"dssdasdadssd\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"C1\",\"C2\"],\"Pesos\":[40,60],\"grupoId\":22,\"id\":1}",
+      "2": "{\"NombreJuego\":\"Segunda prueba\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"Interes\",\"Contenido\"],\"Pesos\":[40,60],\"grupoId\":22,\"id\":2}",
+      "3": "{\"NombreJuego\":\"Votacion con 3 criterios\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"Claridad\",\"Contenido\",\"Interes\"],\"Pesos\":[33,33,34],\"grupoId\":22,\"id\":3}",
+      "4": "{\"NombreJuego\":\"sasasa\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"sa\"],\"Pesos\":[100],\"grupoId\":22,\"id\":4}",
+      "6": "{\"NombreJuego\":\"Votacion nueva\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"Interes\",\"Claridad\"],\"Pesos\":[40,60],\"grupoId\":22,\"id\":6}"
+    },
+    "AlumnoJuegoDeVotacionTodosAUno": {
+      "1": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":28,\"juegoDeVotacionUnoATodosId\":1,\"id\":1}",
+      "2": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":27,\"juegoDeVotacionUnoATodosId\":1,\"id\":2}",
+      "3": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":26,\"juegoDeVotacionUnoATodosId\":1,\"id\":3}",
+      "4": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":32,\"juegoDeVotacionUnoATodosId\":1,\"id\":4}",
+      "5": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":7,\"juegoDeVotacionUnoATodosId\":1,\"id\":5}",
+      "6": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":31,\"juegoDeVotacionUnoATodosId\":1,\"id\":6}",
+      "7": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":18,\"juegoDeVotacionUnoATodosId\":1,\"id\":7}",
+      "8": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":33,\"juegoDeVotacionUnoATodosId\":1,\"id\":8}",
+      "9": "{\"id\":9,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":28},{\"alumnoId\":27,\"votos\":[0,0]},{\"alumnoId\":26,\"votos\":[1,2]},{\"alumnoId\":32,\"votos\":[2,3]},{\"alumnoId\":7,\"votos\":[3,4]},{\"alumnoId\":31,\"votos\":[4,5]},{\"alumnoId\":18,\"votos\":[5,6]},{\"alumnoId\":33,\"votos\":[6,7]}],\"VotosRecibidos\":[],\"alumnoId\":28,\"juegoDeVotacionTodosAUnoId\":2}",
+      "10": "{\"id\":10,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":28,\"votos\":[0,0]},{\"alumnoId\":26,\"votos\":[1,1]},{\"alumnoId\":32,\"votos\":[2,2]},{\"alumnoId\":7,\"votos\":[3,3]},{\"alumnoId\":31,\"votos\":[4,4]},{\"alumnoId\":18,\"votos\":[5,5]},{\"alumnoId\":33,\"votos\":[6,6]}],\"VotosRecibidos\":[],\"alumnoId\":27,\"juegoDeVotacionTodosAUnoId\":2}",
+      "11": "{\"id\":11,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":28,\"votos\":[3,2]},{\"alumnoId\":27,\"votos\":[6,2]},{\"alumnoId\":32},{\"alumnoId\":7},{\"alumnoId\":31},{\"alumnoId\":18},{\"alumnoId\":33}],\"VotosRecibidos\":[],\"alumnoId\":26,\"juegoDeVotacionTodosAUnoId\":2}",
+      "12": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":32,\"juegoDeVotacionTodosAUnoId\":2,\"id\":12}",
+      "13": "{\"id\":13,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":26,\"votos\":[2,2]},{\"alumnoId\":32},{\"alumnoId\":31},{\"alumnoId\":18},{\"alumnoId\":33}],\"VotosRecibidos\":[],\"alumnoId\":7,\"juegoDeVotacionTodosAUnoId\":2}",
+      "14": "{\"id\":14,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":28,\"votos\":[2,2]},{\"alumnoId\":27,\"votos\":[0,0]},{\"alumnoId\":26,\"votos\":[3,3]},{\"alumnoId\":32,\"votos\":[2,3]},{\"alumnoId\":7,\"votos\":[7,6]},{\"alumnoId\":18,\"votos\":[3,3]},{\"alumnoId\":33,\"votos\":[5,5]}],\"VotosRecibidos\":[],\"alumnoId\":31,\"juegoDeVotacionTodosAUnoId\":2}",
+      "15": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":18,\"juegoDeVotacionTodosAUnoId\":2,\"id\":15}",
+      "16": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":33,\"juegoDeVotacionTodosAUnoId\":2,\"id\":16}",
+      "17": "{\"id\":17,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":7,\"votos\":[6,4,4]},{\"alumnoId\":31,\"votos\":[10,10,10]},{\"alumnoId\":18,\"votos\":[10,6,5]},{\"alumnoId\":33,\"votos\":[0,0,0]},{\"alumnoId\":27,\"votos\":[0,0,5]},{\"alumnoId\":26,\"votos\":[0,5,0]},{\"alumnoId\":32,\"votos\":[0,3,0]}],\"VotosRecibidos\":[],\"alumnoId\":28,\"juegoDeVotacionTodosAUnoId\":3}",
+      "18": "{\"id\":18,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":18,\"votos\":[5,6,4]},{\"alumnoId\":32,\"votos\":[6,10,10]}],\"VotosRecibidos\":[],\"alumnoId\":7,\"juegoDeVotacionTodosAUnoId\":3}",
+      "19": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":31,\"juegoDeVotacionTodosAUnoId\":3,\"id\":19}",
+      "20": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":18,\"juegoDeVotacionTodosAUnoId\":3,\"id\":20}",
+      "21": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":33,\"juegoDeVotacionTodosAUnoId\":3,\"id\":21}",
+      "22": "{\"id\":22,\"PuntosTotales\":0,\"VotosEmitidos\":[{\"alumnoId\":28,\"votos\":[6,4,5]},{\"alumnoId\":7,\"votos\":[10,10,10]},{\"alumnoId\":31,\"votos\":[3,7,4]},{\"alumnoId\":18,\"votos\":[3,2,3]},{\"alumnoId\":33,\"votos\":[3,3,5]},{\"alumnoId\":26,\"votos\":[5,5,2]},{\"alumnoId\":32,\"votos\":[4,4,2]}],\"VotosRecibidos\":[],\"alumnoId\":27,\"juegoDeVotacionTodosAUnoId\":3}",
+      "23": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":26,\"juegoDeVotacionTodosAUnoId\":3,\"id\":23}",
+      "24": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":32,\"juegoDeVotacionTodosAUnoId\":3,\"id\":24}",
+      "25": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":28,\"juegoDeVotacionTodosAUnoId\":4,\"id\":25}",
+      "26": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":27,\"juegoDeVotacionTodosAUnoId\":4,\"id\":26}",
+      "27": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":26,\"juegoDeVotacionTodosAUnoId\":4,\"id\":27}",
+      "28": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":32,\"juegoDeVotacionTodosAUnoId\":4,\"id\":28}",
+      "29": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":7,\"juegoDeVotacionTodosAUnoId\":4,\"id\":29}",
+      "30": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":31,\"juegoDeVotacionTodosAUnoId\":4,\"id\":30}",
+      "31": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":18,\"juegoDeVotacionTodosAUnoId\":4,\"id\":31}",
+      "32": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":33,\"juegoDeVotacionTodosAUnoId\":4,\"id\":32}",
+      "41": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":28,\"juegoDeVotacionTodosAUnoId\":6,\"id\":41}",
+      "42": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":7,\"juegoDeVotacionTodosAUnoId\":6,\"id\":42}",
+      "43": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":31,\"juegoDeVotacionTodosAUnoId\":6,\"id\":43}",
+      "44": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":18,\"juegoDeVotacionTodosAUnoId\":6,\"id\":44}",
+      "45": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":33,\"juegoDeVotacionTodosAUnoId\":6,\"id\":45}",
+      "46": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":27,\"juegoDeVotacionTodosAUnoId\":6,\"id\":46}",
+      "47": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":26,\"juegoDeVotacionTodosAUnoId\":6,\"id\":47}",
+      "48": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":32,\"juegoDeVotacionTodosAUnoId\":6,\"id\":48}"
     }
   }
 }

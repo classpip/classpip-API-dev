@@ -1,17 +1,17 @@
 {
-  "name": "JuegoDeVotacionUnoATodos",
-  "plural": "juegosDeVotacionUnoATodos",
+  "name": "JuegoDeVotacionTodosAUno",
+  "plural": "juegosDeVotacionTodosAUno",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Tipo": {
+    "NombreJuego": {
       "type": "string",
       "required": true
     },
-    "NombreJuego": {
+    "Tipo": {
       "type": "string",
       "required": true
     },
@@ -21,15 +21,18 @@
     },
     "JuegoActivo": {
       "type": "boolean",
-      "required": true,
-      "default": false
+      "default": true
     },
     "JuegoTerminado": {
-      "type": "boolean",
-      "required": true,
-      "default": false
+      "type": "boolean"
     },
-    "Puntos": {
+    "Conceptos": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "Pesos": {
       "type": [
         "number"
       ],
@@ -41,11 +44,8 @@
     "alumnos": {
       "type": "hasMany",
       "model": "Alumno",
-      "foreignKey": "juegoDeVotacionUnoATodosId",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "AlumnoJuegoDeVotacionUnoATodos"
+      "foreignKey": "juegoDeVotacionTodosAUnoId",
+      "through": "AlumnoJuegoDeVotacionTodosAUno"
     }
   },
   "acls": [],

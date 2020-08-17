@@ -1,1 +1,18 @@
-{"db":{"name":"db","connector":"memory"},"baseDatosEnMemoria":{"name":"baseDatosEnMemoria","localStorage":"","file":"./data/db.json","connector":"memory"},"imagenes":{"name":"imagenes","connector":"loopback-component-storage","provider":"filesystem","root":"./server/ficheros"}}
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "baseDatosEnMemoria": {
+    "name": "baseDatosEnMemoria",
+    "localStorage": "",
+    "file": "./data/db.json",
+    "connector": "memory"
+  },
+  "imagenes": {
+    "name": "imagenes",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/ficheros"
+  }
+}
