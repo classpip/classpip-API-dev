@@ -36,107 +36,107 @@
     "public": false
   },
   "Profesor": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Alumno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Grupo": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Equipo": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Juego": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDePuntos": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Punto": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Nivel": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeColeccion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Coleccion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Cromo": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Album": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "ReglaManualColeccion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "ReglaAutomaticaColeccion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeCompeticion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "ReglaManualCompeticion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "ReglaAutomaticaCompeticion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Liga": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Jornada": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Partido": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Matricula": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AsignacionEquipo": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AsignacionPuntoJuego": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDePuntos": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EquipoJuegoDePuntos": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "HistorialPuntosAlumno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "imagen": {
@@ -144,143 +144,143 @@
     "public": true
   },
   "Insignia": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "HistorialPuntosEquipo": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeColeccion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlbumEquipo": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EquipoJuegoDeColeccion": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeCompeticionLiga": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JornadaDeCompeticionLiga": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EnfrentamientoLiga": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeCompeticionLiga": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EquipoJuegoDeCompeticionLiga": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeCompeticionFormulaUno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JornadaDeCompeticionFormulaUno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeCompeticionFormulaUno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "EquipoJuegoDeCompeticionFormulaUno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Pregunta": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Cuestionario": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "PreguntaDelCuestionario": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "PuntoGeolocalizable": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Escenario": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeCuestionario": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeCuestionario": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "SesionClase": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AsistenciaClase": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "FamiliaAvatares": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeAvatar": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeAvatar": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeGeocaching": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeGeocaching": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeGeocachingPregunta": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "RespuestaJuegoDeCuestionario": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeVotacionUnoATodos": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeVotacionUnoATodos": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "Rubrica": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "JuegoDeVotacionTodosAUno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   },
   "AlumnoJuegoDeVotacionTodosAUno": {
-    "dataSource": "baseDatosEnMemoria",
+    "dataSource": "baseDatos",
     "public": true
   }
 }
