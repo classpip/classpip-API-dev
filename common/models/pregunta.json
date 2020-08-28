@@ -1,1 +1,76 @@
-{"name":"Pregunta","plural":"Preguntas","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Titulo":{"type":"string","required":true},"Pregunta":{"type":"string","required":true},"Tematica":{"type":"string","required":true},"RespuestaCorrecta":{"type":"string","required":true},"RespuestaIncorrecta1":{"type":"string","required":true},"RespuestaIncorrecta2":{"type":"string","required":true},"RespuestaIncorrecta3":{"type":"string","required":true},"FeedbackCorrecto":{"type":"string","required":true},"FeedbackIncorrecto":{"type":"string","required":true}},"validations":[],"relations":{"cuestionarios":{"type":"hasMany","model":"Cuestionario","foreignKey":"preguntaId","options":{"nestRemoting":true},"through":"PreguntaDelCuestionario"},"JuegosDeGeocaching":{"type":"hasMany","model":"JuegoDeGeocaching","foreignKey":"preguntaId","options":{"nestRemoting":true},"through":"JuegoDeGeocachingPregunta"},"alumnoJuegoDeCuestionarios":{"type":"hasMany","model":"AlumnoJuegoDeCuestionario","foreignKey":"preguntaId","through":"RespuestaJuegoDeCuestionario"}},"acls":[],"methods":{}}
+{
+  "name": "Pregunta",
+  "plural": "Preguntas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Pregunta": {
+      "type": "string",
+      "required": true
+    },
+    "Tematica": {
+      "type": "string",
+      "required": true
+    },
+    "RespuestaCorrecta": {
+      "type": "string",
+      "required": true
+    },
+    "RespuestaIncorrecta1": {
+      "type": "string",
+      "required": true
+    },
+    "RespuestaIncorrecta2": {
+      "type": "string",
+      "required": true
+    },
+    "RespuestaIncorrecta3": {
+      "type": "string",
+      "required": true
+    },
+    "FeedbackCorrecto": {
+      "type": "string",
+      "required": true
+    },
+    "FeedbackIncorrecto": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cuestionarios": {
+      "type": "hasMany",
+      "model": "Cuestionario",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "PreguntaDelCuestionario"
+    },
+    "JuegosDeGeocaching": {
+      "type": "hasMany",
+      "model": "JuegoDeGeocaching",
+      "foreignKey": "preguntaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "JuegoDeGeocachingPregunta"
+    },
+    "alumnoJuegoDeCuestionarios": {
+      "type": "hasMany",
+      "model": "AlumnoJuegoDeCuestionario",
+      "foreignKey": "preguntaId",
+      "through": "RespuestaJuegoDeCuestionario"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
