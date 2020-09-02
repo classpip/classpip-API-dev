@@ -1,1 +1,31 @@
-{"db":{"name":"db","connector":"memory"},"baseDatosEnMemoria":{"name":"baseDatosEnMemoria","localStorage":"","file":"./data/db.json","connector":"memory"},"imagenes":{"name":"imagenes","connector":"loopback-component-storage","provider":"filesystem","root":"./server/ficheros"}}
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "baseDatos": {
+    "name": "baseDatos",
+    "localStorage": "",
+    "file": "./data/db.json",
+    "connector": "memory"
+  },
+  "baseDatosMongoDB": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "classpip",
+    "password": "",
+    "name": "baseDatos",
+    "user": "",
+    "connector": "mongodb"
+  },
+
+
+  "imagenes": {
+    "name": "imagenes",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/ficheros"
+  }
+
+}

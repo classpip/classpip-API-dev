@@ -1,0 +1,1 @@
+{"name":"Rubrica","plural":"rubricas","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Descripcion":{"type":"string"},"Criterios":{"type":["object"]}},"validations":[],"relations":{},"acls":[],"methods":{}}

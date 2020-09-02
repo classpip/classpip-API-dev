@@ -1,0 +1,154 @@
+{
+  "ids": {
+    "Profesor": 3,
+    "Alumno": 16,
+    "Grupo": 1,
+    "Punto": 1,
+    "Coleccion": 1,
+    "Cromo": 1,
+    "Equipo": 1,
+    "JuegoDePuntos": 1,
+    "JuegoDeColeccion": 1,
+    "Matricula": 1,
+    "AsignacionEquipo": 1,
+    "AsignacionPuntoJuego": 1,
+    "Nivel": 1,
+    "AlumnoJuegoDePuntos": 1,
+    "EquipoJuegoDePuntos": 1,
+    "HistorialPuntosAlumno": 1,
+    "Insignia": 1,
+    "HistorialPuntosEquipo": 1,
+    "AlumnoJuegoDeColeccion": 1,
+    "EquipoJuegoDeColeccion": 1,
+    "Album": 1,
+    "AlbumEquipo": 1,
+    "JuegoDeCompeticionLiga": 1,
+    "JornadaDeCompeticionLiga": 1,
+    "EnfrentamientoLiga": 1,
+    "AlumnoJuegoDeCompeticionLiga": 1,
+    "EquipoJuegoDeCompeticionLiga": 1,
+    "JuegoDeCompeticionFormulaUno": 1,
+    "JornadaDeCompeticionFormulaUno": 1,
+    "AlumnoJuegoDeCompeticionFormulaUno": 1,
+    "EquipoJuegoDeCompeticionFormulaUno": 1,
+    "Escenario": 1,
+    "PuntoGeolocalizable": 1,
+    "Pregunta": 1,
+    "Cuestionario": 1,
+    "PreguntaDelCuestionario": 1,
+    "SesionClase": 1,
+    "AsistenciaClase": 1,
+    "FamiliaAvatares": 1,
+    "JuegoDeAvatar": 1,
+    "AlumnoJuegoDeAvatar": 1,
+    "JuegoDeCuestionario": 1,
+    "AlumnoJuegoDeCuestionario": 1,
+    "JuegoDeGeocaching": 1,
+    "AlumnoJuegoDeGeocaching": 1
+  },
+  "models": {
+    "Profesor": {
+      "1": "{\"Nombre\":\"Miguel\",\"Apellido\":\"Valero\",\"ImagenPerfil\":\"foto\",\"id\":1}",
+      "2": "{\"Nombre\":\"Roc\",\"Apellido\":\"Meseguer\",\"ImagenPerfil\":\"foto\",\"id\":2}"
+    },
+    "Alumno": {
+      "1": "{\"Nombre\":\"Pol\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Sergio\",\"PrimerApellido\":\"Sánchez\",\"SegundoApellido\":\"Plaza\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Albert\",\"PrimerApellido\":\"Lillo\",\"SegundoApellido\":\"Méndez\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":3}",
+      "4": "{\"Nombre\":\"Noa\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Esteve\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":4}",
+      "5": "{\"Nombre\":\"Berta\",\"PrimerApellido\":\"Junqué\",\"SegundoApellido\":\"Llaudet\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":5}",
+      "6": "{\"Nombre\":\"Victor\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":6}",
+      "7": "{\"Nombre\":\"David\",\"PrimerApellido\":\"Balboa\",\"SegundoApellido\":\"Mato\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":7}",
+      "8": "{\"Nombre\":\"Rocio\",\"PrimerApellido\":\"Saez\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":8}",
+      "9": "{\"Nombre\":\"Alex\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":9}",
+      "10": "{\"Nombre\":\"Francesc\",\"PrimerApellido\":\"Torrens\",\"SegundoApellido\":\"García\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":10}",
+      "11": "{\"Nombre\":\"Juan\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":11}",
+      "12": "{\"Nombre\":\"Iván\",\"PrimerApellido\":\"Aguilera\",\"SegundoApellido\":\"Martinez\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":12}",
+      "13": "{\"Nombre\":\"Josep\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":13}",
+      "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":14}",
+      "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":15}"
+    },
+    "Grupo": {
+
+    },
+    "Punto": {
+    },
+    "Coleccion": {
+
+    },
+    "Cromo": {
+    },
+    "Equipo": {
+
+    },
+    "JuegoDePuntos": {
+    },
+    "JuegoDeColeccion": {
+    },
+    "Matricula": {
+
+    },
+    "AsignacionEquipo": {
+    },
+    "AsignacionPuntoJuego": {
+
+    },
+    "Nivel": {
+    },
+    "AlumnoJuegoDePuntos": {
+    },
+    "EquipoJuegoDePuntos": {
+    },
+    "HistorialPuntosAlumno": {
+    },
+    "Insignia": {},
+    "HistorialPuntosEquipo": {},
+    "AlumnoJuegoDeColeccion": {
+    },
+    "EquipoJuegoDeColeccion": {
+    },
+    "Album": {
+    },
+    "AlbumEquipo": {},
+    "JuegoDeCompeticionLiga": {},
+    "JornadaDeCompeticionLiga": {},
+    "EnfrentamientoLiga": {},
+    "AlumnoJuegoDeCompeticionLiga": {},
+    "EquipoJuegoDeCompeticionLiga": {},
+    "JuegoDeCompeticionFormulaUno": {
+    },
+    "JornadaDeCompeticionFormulaUno": {
+    },
+    "AlumnoJuegoDeCompeticionFormulaUno": {
+    },
+    "EquipoJuegoDeCompeticionFormulaUno": {},
+    "Pregunta": {
+    },
+    "Cuestionario": {
+    },
+    "PreguntaDelCuestionario": {
+    },
+    "Escenario": {
+    },
+    "PuntoGeolocalizable": {
+    },
+    "SesionClase": {
+    },
+    "AsistenciaClase": {
+    },
+    "FamiliaAvatares": {
+    },
+    "JuegoDeAvatar": {
+    },
+    "AlumnoJuegoDeAvatar": {
+    },
+    "JuegoDeCuestionario": {
+    },
+    "AlumnoJuegoDeCuestionario": {
+    },
+    "JuegoDeGeocaching": {
+    },
+    "AlumnoJuegoDeGeocaching": {
+    }
+  }
+}
