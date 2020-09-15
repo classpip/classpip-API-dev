@@ -1,0 +1,10 @@
+"baseDatosMongoDB": {
+  "host": "localhost",
+  "port": 27017,
+  "url": "",
+  "database": "classpip",
+  "password": "",
+  "name": "baseDatos",
+  "user": "",
+  "connector": "mongodb"
+},

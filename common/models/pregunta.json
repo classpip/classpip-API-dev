@@ -19,6 +19,10 @@
       "type": "string",
       "required": true
     },
+    "Imagen": {
+      "type": "string",
+      "required": false
+    },
     "RespuestaCorrecta": {
       "type": "string",
       "required": true
