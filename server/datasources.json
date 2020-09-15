@@ -9,23 +9,10 @@
     "file": "./data/db.json",
     "connector": "memory"
   },
-  "baseDatosMongoDB": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "classpip",
-    "password": "",
-    "name": "baseDatos",
-    "user": "",
-    "connector": "mongodb"
-  },
-
-
   "imagenes": {
     "name": "imagenes",
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./server/ficheros"
   }
-
 }
