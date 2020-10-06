@@ -93,6 +93,11 @@
       "type": "hasMany",
       "model": "JuegoDeVotacionTodosAUno",
       "foreignKey": "grupoId"
+    },
+    "sesionesClase": {
+      "type": "hasMany",
+      "model": "SesionClase",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],
