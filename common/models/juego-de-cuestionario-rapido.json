@@ -1,6 +1,6 @@
 {
-  "name": "JuegoDeCuestionario",
-  "plural": "JuegosDeCuestionario",
+  "name": "JuegoDeCuestionarioRapido",
+  "plural": "juegosDeCuestionarioRapido",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,6 +8,10 @@
   },
   "properties": {
     "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
       "type": "string",
       "required": true
     },
@@ -21,8 +25,7 @@
     },
     "TiempoLimite": {
       "type": "number",
-      "required": false,
-      "default": 0
+      "required": false
     },
     "Presentacion": {
       "type": "string",
@@ -30,27 +33,19 @@
     },
     "JuegoActivo": {
       "type": "boolean",
-      "required": true,
-      "default": false
+      "required": true
     },
     "JuegoTerminado": {
       "type": "boolean",
-      "required": true,
-      "default": false
+      "required": true
+    },
+    "Clave": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "alumnos": {
-      "type": "hasMany",
-      "model": "Alumno",
-      "foreignKey": "juegoDeCuestionarioId",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "AlumnoJuegoDeCuestionario"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
