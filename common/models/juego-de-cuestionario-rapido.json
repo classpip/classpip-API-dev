@@ -42,6 +42,10 @@
     "Clave": {
       "type": "string",
       "required": true
+    },
+    "Respuestas": {
+      "type": "object",
+      "required": false
     }
   },
   "validations": [],
