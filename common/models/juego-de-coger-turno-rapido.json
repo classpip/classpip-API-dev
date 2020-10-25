@@ -1,6 +1,6 @@
 {
-  "name": "JuegoDeVotacionRapida",
-  "plural": "juegosDeVotacionRapida",
+  "name": "JuegoDeCogerTurnoRapido",
+  "plural": "juegosDeCogerTurnoRapido",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -15,25 +15,19 @@
       "type": "string",
       "required": true
     },
-    "Clave": {
+    "Presentacion": {
       "type": "string",
       "required": true
     },
-    "Conceptos": {
+    "Turnos": {
       "type": [
-        "string"
+        "object"
       ],
       "required": true
     },
-    "Puntos": {
-      "type": [
-        "number"
-      ],
+    "Clave": {
+      "type": "string",
       "required": true
-    },
-    "Respuestas": {
-      "type": "object",
-      "required": false
     }
   },
   "validations": [],
