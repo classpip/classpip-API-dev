@@ -21,6 +21,12 @@
         "object"
       ],
       "required": false
+    },
+    "Observaciones": {
+      "type": [
+        "string"
+      ],
+      "required": false
     }
   },
   "validations": [],
