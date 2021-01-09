@@ -1,1 +1,38 @@
-{"name":"Cuestionario","plural":"Cuestionarios","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Titulo":{"type":"string","required":true},"Descripcion":{"type":"string","required":true}},"validations":[],"relations":{"Preguntas":{"type":"hasMany","model":"Pregunta","foreignKey":"cuestionarioId","options":{"nestRemoting":true},"through":"PreguntaDelCuestionario"},"juegosDeCuestionario":{"type":"hasMany","model":"JuegoDeCuestionario","foreignKey":"cuestionarioId"}},"acls":[],"methods":{}}
+{
+  "name": "Cuestionario",
+  "plural": "Cuestionarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Preguntas": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "cuestionarioId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "PreguntaDelCuestionario"
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "cuestionarioId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

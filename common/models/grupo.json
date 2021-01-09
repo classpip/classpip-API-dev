@@ -15,7 +15,6 @@
       "type": "string",
       "required": true
     }
-
   },
   "validations": [],
   "relations": {
@@ -92,6 +91,11 @@
     "juegoDeVotacionTodosAUno": {
       "type": "hasMany",
       "model": "JuegoDeVotacionTodosAUno",
+      "foreignKey": "grupoId"
+    },
+    "juegosDeEvaluacion": {
+      "type": "hasMany",
+      "model": "JuegoDeEvaluacion",
       "foreignKey": "grupoId"
     }
   },

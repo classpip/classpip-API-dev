@@ -1,1 +1,34 @@
-{"name":"SesionClase","plural":"SesionesClase","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Descripcion":{"type":"string"},"Dia":{"type":"string"},"Hora":{"type":"string"}},"validations":[],"relations":{"matriculas":{"type":"hasMany","model":"Matricula","foreignKey":"sesionClaseId","options":{"nestRemoting":true},"through":"AsistenciaClase"}},"acls":[],"methods":{}}
+{
+  "name": "SesionClase",
+  "plural": "SesionesClase",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Descripcion": {
+      "type": "string"
+    },
+    "Dia": {
+      "type": "string"
+    },
+    "Hora": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "matriculas": {
+      "type": "hasMany",
+      "model": "Matricula",
+      "foreignKey": "sesionClaseId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AsistenciaClase"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

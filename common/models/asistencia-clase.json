@@ -1,1 +1,35 @@
-{"name":"AsistenciaClase","plural":"AsistenciasClase","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Hora":{"type":"string"}},"validations":[],"relations":{"sesionClase":{"type":"belongsTo","model":"SesionClase","foreignKey":"sesionClaseId","options":{"nestRemoting":true}},"matricula":{"type":"belongsTo","model":"Matricula","foreignKey":"matriculaId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "AsistenciaClase",
+  "plural": "AsistenciasClase",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Hora": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "sesionClase": {
+      "type": "belongsTo",
+      "model": "SesionClase",
+      "foreignKey": "sesionClaseId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "matricula": {
+      "type": "belongsTo",
+      "model": "Matricula",
+      "foreignKey": "matriculaId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

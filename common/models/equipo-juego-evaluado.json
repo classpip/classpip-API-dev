@@ -1,23 +1,26 @@
 {
-  "name": "EnfrentamientoLiga",
-  "plural": "EnfrentamientosLiga",
+  "name": "EquipoJuegoEvaluado",
+  "plural": "equiposJuegoEvaluado",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "JugadorUno": {
+    "equipoEvaluadoId": {
       "type": "number",
       "required": true
     },
-    "JugadorDos": {
-      "type": "number",
+    "equiposEvaluadoresIds": {
+      "type": [
+        "number"
+      ],
       "required": true
     },
-    "Ganador": {
+    "notaFinal": {
       "type": "number",
-      "required": false
+      "required": true,
+      "default": 0
     }
   },
   "validations": [],
