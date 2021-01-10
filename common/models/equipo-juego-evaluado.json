@@ -12,7 +12,7 @@
       "required": true,
       "default": 0
     },
-    "equipoEvaluadoresIds": {
+    "equiposEvaluadoresIds": {
       "type": [
         "number"
       ],

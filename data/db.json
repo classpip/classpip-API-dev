@@ -52,7 +52,7 @@
     "JuegoDeVotacionTodosAUno": 12,
     "AlumnoJuegoDeVotacionTodosAUno": 73,
     "FamiliaImagenesPerfil": 24,
-    "JuegoDeEvaluacion": 11
+    "JuegoDeEvaluacion": 14
   },
   "models": {
     "Profesor": {
@@ -2375,7 +2375,10 @@
       "7": "{\"NombreJuego\":\"J3\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":7,\"rubricaId\":3}",
       "8": "{\"NombreJuego\":\"J4\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":8,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
       "9": "{\"NombreJuego\":\"J4\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[],\"metodoSubcriterios\":false,\"Penalizacion\":[[{\"num\":1,\"p\":75},{\"num\":2,\"p\":50}],[{\"num\":1,\"p\":75},{\"num\":2,\"p\":50},{\"num\":3,\"p\":0}]],\"id\":9,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
-      "10": "{\"NombreJuego\":\"J5\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":1,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":10,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}"
+      "10": "{\"NombreJuego\":\"J5\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":1,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":10,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
+      "11": "{\"NombreJuego\":\"K1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":1,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":11,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
+      "12": "{\"NombreJuego\":\"K2\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":12,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
+      "13": "{\"NombreJuego\":\"K4\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":13,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}"
     }
   }
 }
