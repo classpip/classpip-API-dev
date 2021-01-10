@@ -129,6 +129,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeVotacionTodosAUno"
+    },
+    "juegosDeEvaluacion": {
+      "type": "hasMany",
+      "model": "JuegoDeEvaluacion",
+      "foreignKey": "AlumnoJuegoDeEvaluacion",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoEvaluado"
     }
   },
   "acls": [],

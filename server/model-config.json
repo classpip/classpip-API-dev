@@ -294,5 +294,9 @@
   "EquipoJuegoEvaluado": {
     "dataSource": "db",
     "public": true
+  },
+  "AlumnoJuegoEvaluado": {
+    "dataSource": "db",
+    "public": true
   }
 }

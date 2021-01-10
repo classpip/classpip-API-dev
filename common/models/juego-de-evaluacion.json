@@ -67,6 +67,11 @@
       "type": "hasMany",
       "model": "EquipoJuegoEvaluado",
       "foreignKey": "juegoEvaluacionId"
+    },
+    "alumnosJuegoEvaluado": {
+      "type": "hasMany",
+      "model": "AlumnoJuegoEvaluado",
+      "foreignKey": "juegoEvaluacionId"
     }
   },
   "acls": [],
