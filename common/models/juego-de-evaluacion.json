@@ -62,7 +62,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "equiposJuegoEvaluado": {
+      "type": "hasMany",
+      "model": "EquipoJuegoEvaluado",
+      "foreignKey": "juegoEvaluacionId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

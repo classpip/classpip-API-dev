@@ -7,24 +7,30 @@
     "validateUpsert": true
   },
   "properties": {
-    "equipoEvaluadoId": {
+    "notaFinal": {
       "type": "number",
-      "required": true
+      "required": true,
+      "default": 0
     },
-    "equiposEvaluadoresIds": {
+    "equipoEvaluadoresIds": {
       "type": [
         "number"
       ],
-      "required": true
-    },
-    "notaFinal": {
-      "type": "number",
       "required": true,
       "default": 0
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "equipoEvaluadoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
