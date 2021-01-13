@@ -1,1 +1,37 @@
-{"name":"EquipoJuegoDeCompeticionFormulaUno","plural":"EquiposJuegoDeCompeticionFormulaUno","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"PuntosTotalesEquipo":{"type":"number","required":true,"default":0}},"validations":[],"relations":{"equipo":{"type":"belongsTo","model":"Equipo","foreignKey":"EquipoId","options":{"nestRemoting":true}},"juegoDeCompeticionFormulaUno":{"type":"belongsTo","model":"JuegoDeCompeticionFormulaUno","foreignKey":"JuegoDeCompeticionFormulaUnoId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "EquipoJuegoDeCompeticionFormulaUno",
+  "plural": "EquiposJuegoDeCompeticionFormulaUno",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "PuntosTotalesEquipo": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "EquipoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCompeticionFormulaUno": {
+      "type": "belongsTo",
+      "model": "JuegoDeCompeticionFormulaUno",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

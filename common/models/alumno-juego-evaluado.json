@@ -1,21 +1,22 @@
 {
-  "name": "AlumnoJuegoDeVotacionUnoATodos",
-  "plural": "alumnosJuegoDeVotacionUnoATodos",
+  "name": "AlumnoJuegoEvaluado",
+  "plural": "alumnosJuegoEvaluado",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "puntosTotales": {
+    "notaFinal": {
       "type": "number",
       "required": false,
-      "default": 0
+      "default": null
     },
-    "votos": {
+    "alumnosEvaluadoresIds": {
       "type": [
         "number"
-      ]
+      ],
+      "required": true
     }
   },
   "validations": [],
@@ -23,15 +24,7 @@
     "alumno": {
       "type": "belongsTo",
       "model": "Alumno",
-      "foreignKey": "alumnoId",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "juegoDeVotacionUnoATodos": {
-      "type": "belongsTo",
-      "model": "JuegoDeVotacionUnoATodos",
-      "foreignKey": "juegoDeVotacionUnoATodosId",
+      "foreignKey": "alumnoEvaluadoId",
       "options": {
         "nestRemoting": true
       }
