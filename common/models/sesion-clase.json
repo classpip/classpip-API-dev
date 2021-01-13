@@ -15,6 +15,18 @@
     },
     "Hora": {
       "type": "string"
+    },
+    "Asistencia": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "Observaciones": {
+      "type": [
+        "string"
+      ],
+      "required": false
     }
   },
   "validations": [],
