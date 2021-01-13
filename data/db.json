@@ -52,7 +52,7 @@
     "JuegoDeVotacionTodosAUno": 12,
     "AlumnoJuegoDeVotacionTodosAUno": 73,
     "FamiliaImagenesPerfil": 24,
-    "JuegoDeEvaluacion": 17
+    "JuegoDeEvaluacion": 18
   },
   "models": {
     "Profesor": {
@@ -2381,7 +2381,8 @@
       "13": "{\"NombreJuego\":\"K4\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":13,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
       "14": "{\"NombreJuego\":\"Y1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":14,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
       "15": "{\"NombreJuego\":\"Y2\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":15,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
-      "16": "{\"NombreJuego\":\"H1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":16,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}"
+      "16": "{\"NombreJuego\":\"H1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":16,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}",
+      "17": "{\"NombreJuego\":\"Juego7\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":17,\"profesorId\":1,\"grupoId\":27,\"rubricaId\":3}"
     }
   }
 }
