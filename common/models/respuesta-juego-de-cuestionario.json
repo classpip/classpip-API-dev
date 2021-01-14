@@ -1,1 +1,30 @@
-{"name":"RespuestaJuegoDeCuestionario","plural":"respuestasJuegoDeCuestionario","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Respuesta":{"type":"string","required":true}},"validations":[],"relations":{"alumnoJuegoDeCuestionario":{"type":"belongsTo","model":"AlumnoJuegoDeCuestionario","foreignKey":"alumnoJuegoDeCuestionarioId"},"pregunta":{"type":"belongsTo","model":"Pregunta","foreignKey":"preguntaId"}},"acls":[],"methods":{}}
+{
+  "name": "RespuestaJuegoDeCuestionario",
+  "plural": "respuestasJuegoDeCuestionario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Respuesta": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnoJuegoDeCuestionario": {
+      "type": "belongsTo",
+      "model": "AlumnoJuegoDeCuestionario",
+      "foreignKey": "alumnoJuegoDeCuestionarioId"
+    },
+    "pregunta": {
+      "type": "belongsTo",
+      "model": "Pregunta",
+      "foreignKey": "preguntaId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

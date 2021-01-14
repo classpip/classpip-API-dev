@@ -1,1 +1,37 @@
-{"name":"AlumnoJuegoDeCompeticionFormulaUno","plural":"AlumnosJuegoDeCompeticionFormulaUno","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"PuntosTotalesAlumno":{"type":"number","required":true,"default":0}},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"AlumnoId","options":{"nestRemoting":true}},"juegoDeCompeticionFormulaUno":{"type":"belongsTo","model":"JuegoDeCompeticionFormulaUno","foreignKey":"JuegoDeCompeticionFormulaUnoId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeCompeticionFormulaUno",
+  "plural": "AlumnosJuegoDeCompeticionFormulaUno",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "PuntosTotalesAlumno": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "AlumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCompeticionFormulaUno": {
+      "type": "belongsTo",
+      "model": "JuegoDeCompeticionFormulaUno",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
