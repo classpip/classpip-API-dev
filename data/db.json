@@ -1,16 +1,16 @@
 {
   "ids": {
     "Profesor": 12,
-    "Alumno": 124,
-    "Grupo": 48,
+    "Alumno": 129,
+    "Grupo": 51,
     "Punto": 8,
     "Coleccion": 11,
     "Cromo": 156,
-    "Equipo": 27,
+    "Equipo": 35,
     "JuegoDePuntos": 20,
     "JuegoDeColeccion": 107,
-    "Matricula": 247,
-    "AsignacionEquipo": 59,
+    "Matricula": 263,
+    "AsignacionEquipo": 79,
     "AsignacionPuntoJuego": 56,
     "Nivel": 9,
     "AlumnoJuegoDePuntos": 126,
@@ -58,7 +58,10 @@
     "JuegoDeEncuestaRapida": 77,
     "JuegoDeVotacionRapida": 14,
     "JuegoDeCuestionarioRapido": 37,
-    "JuegoDeCogerTurnoRapido": 13
+    "JuegoDeCogerTurnoRapido": 13,
+    "JuegoDeEvaluacion": 19,
+    "AlumnoJuegoEvaluado": 11,
+    "EquipoJuegoEvaluado": 5
   },
   "models": {
     "Profesor": {
@@ -162,7 +165,12 @@
       "120": "{\"id\":120,\"Nombre\":\"A3\",\"PrimerApellido\":\"A3\",\"SegundoApellido\":\"A3\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10618.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A3\",\"Email\":\"A3@upc.edu\",\"Password\":\"A3\",\"profesorId\":8}",
       "121": "{\"id\":121,\"Nombre\":\"A4\",\"PrimerApellido\":\"A4\",\"SegundoApellido\":\"A4\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10681.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A4\",\"Email\":\"A4@UPC.EDU\",\"Password\":\"A4\",\"profesorId\":8}",
       "122": "{\"id\":122,\"Nombre\":\"A5\",\"PrimerApellido\":\"A5\",\"SegundoApellido\":\"A5\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A5\",\"Email\":\"A5@UPC.EDU\",\"Password\":\"A5\",\"profesorId\":8}",
-      "123": "{\"id\":123,\"Nombre\":\"A6\",\"PrimerApellido\":\"A6\",\"SegundoApellido\":\"A6\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10749.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A6\",\"Email\":\"A6@UPC.EDU\",\"Password\":\"A6\",\"profesorId\":8}"
+      "123": "{\"id\":123,\"Nombre\":\"A6\",\"PrimerApellido\":\"A6\",\"SegundoApellido\":\"A6\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10749.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A6\",\"Email\":\"A6@UPC.EDU\",\"Password\":\"A6\",\"profesorId\":8}",
+      "124": "{\"Nombre\":\"IZAN1\",\"PrimerApellido\":\"IZAN1\",\"SegundoApellido\":\"IZAN1\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g152719.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"IZAN1\",\"Email\":\"izan1@izan1.izan1\",\"Password\":\"IZAN1\",\"profesorId\":1,\"id\":124}",
+      "125": "{\"Nombre\":\"IZAN2\",\"PrimerApellido\":\"IZAN2\",\"SegundoApellido\":\"IZAN2\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g152719.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"IZAN2\",\"Email\":\"izan2@izan2.izan2\",\"Password\":\"IZAN2\",\"profesorId\":1,\"id\":125}",
+      "126": "{\"Nombre\":\"IZAN3\",\"PrimerApellido\":\"IZAN3\",\"SegundoApellido\":\"IZAN3\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g152719.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"IZAN3\",\"Email\":\"izan3@izan3.izan3\",\"Password\":\"IZAN3\",\"profesorId\":1,\"id\":126}",
+      "127": "{\"Nombre\":\"IZAN4\",\"PrimerApellido\":\"IZAN4\",\"SegundoApellido\":\"IZAN4\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g152719.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"IZAN4\",\"Email\":\"izan4@izan4.izan4\",\"Password\":\"IZAN4\",\"profesorId\":1,\"id\":127}",
+      "128": "{\"Nombre\":\"IZAN5\",\"PrimerApellido\":\"IZAN5\",\"SegundoApellido\":\"IZAN5\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g152719.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"IZAN5\",\"Email\":\"izan5@izan5.izan5\",\"Password\":\"IZAN5\",\"profesorId\":1,\"id\":128}"
     },
     "Grupo": {
       "21": "{\"Nombre\":\"Familia\",\"Descripcion\":\"Familia\",\"profesorId\":1,\"id\":21,\"FamiliaDeImagenesDePerfilAsignada\":\"Monigotes\"}",
@@ -178,7 +186,10 @@
       "38": "{\"Nombre\":\"Gamificación UAM 2020\",\"Descripcion\":\"Gamificación UAM 2020\",\"profesorId\":8,\"id\":38}",
       "44": "{\"Nombre\":\"Prueba\",\"Descripcion\":\"prueba\",\"profesorId\":8,\"id\":44}",
       "45": "{\"Nombre\":\"Pruebas imagenes\",\"Descripcion\":\"pruebas imagenes\",\"profesorId\":8,\"id\":45}",
-      "47": "{\"Nombre\":\"mas pruebas\",\"Descripcion\":\"mas pruebas\",\"profesorId\":8,\"id\":47}"
+      "47": "{\"Nombre\":\"mas pruebas\",\"Descripcion\":\"mas pruebas\",\"profesorId\":8,\"id\":47}",
+      "48": "{\"Nombre\":\"Grupo Evaluacion\",\"Descripcion\":\"GEV\",\"profesorId\":1,\"id\":48}",
+      "49": "{\"Nombre\":\"IZAN GRUPO EV\",\"Descripcion\":\"GEVIZAN\",\"profesorId\":1,\"id\":49}",
+      "50": "{\"Nombre\":\"Evaluacion 2\",\"Descripcion\":\"sa\",\"profesorId\":1,\"id\":50}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea autojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjmáticamente)\",\"profesorId\":1,\"id\":1}",
@@ -238,7 +249,13 @@
       "23": "{\"id\":23,\"Nombre\":\"Equipo_1\",\"FotoEquipo\":\"http://147.83.118.92:3000/api/imagenes/LogosEquipos/download/IMG-20201212-WA0002.jpg\",\"grupoId\":38}",
       "24": "{\"Nombre\":\"Equipo_2\",\"grupoId\":38,\"id\":24}",
       "25": "{\"Nombre\":\"Equipo_4\",\"grupoId\":38,\"id\":25}",
-      "26": "{\"Nombre\":\"Equipo_5\",\"grupoId\":38,\"id\":26}"
+      "26": "{\"Nombre\":\"Equipo_5\",\"grupoId\":38,\"id\":26}",
+      "29": "{\"Nombre\":\"Equipo_0\",\"grupoId\":48,\"id\":29}",
+      "30": "{\"Nombre\":\"Equipo_1\",\"grupoId\":48,\"id\":30}",
+      "31": "{\"Nombre\":\"Equipo_0\",\"grupoId\":49,\"id\":31}",
+      "32": "{\"Nombre\":\"Equipo_1\",\"grupoId\":49,\"id\":32}",
+      "33": "{\"Nombre\":\"Equipo_0\",\"grupoId\":50,\"id\":33}",
+      "34": "{\"Nombre\":\"Equipo_1\",\"grupoId\":50,\"id\":34}"
     },
     "JuegoDePuntos": {
       "5": "{\"NombreJuego\":\"Puntos individual\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":22,\"id\":5}",
@@ -350,7 +367,22 @@
       "243": "{\"alumnoId\":120,\"grupoId\":47,\"id\":243}",
       "244": "{\"alumnoId\":121,\"grupoId\":47,\"id\":244}",
       "245": "{\"alumnoId\":122,\"grupoId\":47,\"id\":245}",
-      "246": "{\"alumnoId\":123,\"grupoId\":47,\"id\":246}"
+      "246": "{\"alumnoId\":123,\"grupoId\":47,\"id\":246}",
+      "247": "{\"alumnoId\":28,\"grupoId\":48,\"id\":247}",
+      "248": "{\"alumnoId\":27,\"grupoId\":48,\"id\":248}",
+      "249": "{\"alumnoId\":26,\"grupoId\":48,\"id\":249}",
+      "250": "{\"alumnoId\":35,\"grupoId\":48,\"id\":250}",
+      "252": "{\"alumnoId\":36,\"grupoId\":48,\"id\":252}",
+      "253": "{\"alumnoId\":124,\"grupoId\":49,\"id\":253}",
+      "254": "{\"alumnoId\":125,\"grupoId\":49,\"id\":254}",
+      "255": "{\"alumnoId\":126,\"grupoId\":49,\"id\":255}",
+      "256": "{\"alumnoId\":127,\"grupoId\":49,\"id\":256}",
+      "257": "{\"alumnoId\":128,\"grupoId\":49,\"id\":257}",
+      "258": "{\"alumnoId\":124,\"grupoId\":50,\"id\":258}",
+      "259": "{\"alumnoId\":125,\"grupoId\":50,\"id\":259}",
+      "260": "{\"alumnoId\":126,\"grupoId\":50,\"id\":260}",
+      "261": "{\"alumnoId\":127,\"grupoId\":50,\"id\":261}",
+      "262": "{\"alumnoId\":128,\"grupoId\":50,\"id\":262}"
     },
     "AsignacionEquipo": {
       "1": "{\"alumnoId\":1,\"equipoId\":1,\"grupoId\":1,\"id\":1}",
@@ -409,7 +441,22 @@
       "55": "{\"alumnoId\":103,\"equipoId\":25,\"grupoId\":38,\"id\":55}",
       "56": "{\"alumnoId\":97,\"equipoId\":26,\"grupoId\":38,\"id\":56}",
       "57": "{\"alumnoId\":106,\"equipoId\":26,\"grupoId\":38,\"id\":57}",
-      "58": "{\"alumnoId\":114,\"equipoId\":26,\"grupoId\":38,\"id\":58}"
+      "58": "{\"alumnoId\":114,\"equipoId\":26,\"grupoId\":38,\"id\":58}",
+      "64": "{\"alumnoId\":36,\"equipoId\":29,\"grupoId\":48,\"id\":64}",
+      "65": "{\"alumnoId\":28,\"equipoId\":29,\"grupoId\":48,\"id\":65}",
+      "66": "{\"alumnoId\":27,\"equipoId\":29,\"grupoId\":48,\"id\":66}",
+      "67": "{\"alumnoId\":26,\"equipoId\":30,\"grupoId\":48,\"id\":67}",
+      "68": "{\"alumnoId\":35,\"equipoId\":30,\"grupoId\":48,\"id\":68}",
+      "69": "{\"alumnoId\":127,\"equipoId\":31,\"grupoId\":49,\"id\":69}",
+      "70": "{\"alumnoId\":128,\"equipoId\":31,\"grupoId\":49,\"id\":70}",
+      "71": "{\"alumnoId\":126,\"equipoId\":31,\"grupoId\":49,\"id\":71}",
+      "72": "{\"alumnoId\":124,\"equipoId\":32,\"grupoId\":49,\"id\":72}",
+      "73": "{\"alumnoId\":125,\"equipoId\":32,\"grupoId\":49,\"id\":73}",
+      "74": "{\"alumnoId\":127,\"equipoId\":33,\"grupoId\":50,\"id\":74}",
+      "75": "{\"alumnoId\":125,\"equipoId\":33,\"grupoId\":50,\"id\":75}",
+      "76": "{\"alumnoId\":124,\"equipoId\":33,\"grupoId\":50,\"id\":76}",
+      "77": "{\"alumnoId\":126,\"equipoId\":34,\"grupoId\":50,\"id\":77}",
+      "78": "{\"alumnoId\":128,\"equipoId\":34,\"grupoId\":50,\"id\":78}"
     },
     "AsignacionPuntoJuego": {
       "12": "{\"juegoDePuntosId\":5,\"puntoId\":3,\"id\":12}",
@@ -3780,6 +3827,30 @@
       "32": "{\"id\":32,\"NombreJuego\":\"gam\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"27059256\",\"Respuestas\":[{\"nick\":\"Maria\",\"respuestas\":{\"Nota\":0.1,\"Tiempo\":8,\"Preguntas\":[186,187,184,183,185],\"Respuestas\":[\"-\",\"-\",\"-\",\"-\",\"-\"]}},{\"nick\":\"Miguel\",\"respuestas\":{\"Nota\":0.1,\"Tiempo\":6,\"Preguntas\":[186,184,187,185,183],\"Respuestas\":[\"-\",\"-\",\"-\",\"-\",\"-\"]}},{\"nick\":\"Carlos\",\"respuestas\":{\"Nota\":0.1,\"Tiempo\":7,\"Preguntas\":[184,183,186,185,187],\"Respuestas\":[\"-\",\"-\",\"-\",\"-\",\"-\"]}},{\"nick\":\"castro\",\"respuestas\":{\"Nota\":15,\"Tiempo\":22,\"Preguntas\":[185,187,186,183,184],\"Respuestas\":[\"Asignación de puntos\",\"Al uso combinado de Puntos, insignias (Badges) y clasificaciones (Leaderboard)\",\"Monopoly\",\"Achiever\",\"Vemcer al rival\"]}},{\"nick\":\"rosa\",\"respuestas\":{\"Nota\":11,\"Tiempo\":15,\"Preguntas\":[183,184,186,185,187],\"Respuestas\":[\"Achiever\",\"Curiosidad\",\"Monopoly\",\"Asignación de puntos\",\"Al uso combinado de Puntos, insignias (Badges) y clasificaciones (Leaderboard)\"]}},{\"nick\":\"luis\",\"respuestas\":{\"Nota\":6,\"Tiempo\":29,\"Preguntas\":[186,184,187,185,183],\"Respuestas\":[\"Monopoly\",\"-\",\"Al uso combinado de Puntos, insignias (Badges) y clasificaciones (Leaderboard)\",\"-\",\"-\"]}}],\"profesorId\":8,\"cuestionarioId\":41}",
       "36": "{\"id\":36,\"NombreJuego\":\"aaaa\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":120,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"94934876\",\"Respuestas\":[{\"nick\":\"miguel\",\"respuestas\":{\"Nota\":11,\"Tiempo\":25,\"Preguntas\":[185,184,183,186,187],\"Respuestas\":[\"Asignación de puntos\",\"Vemcer al rival\",\"Achiever\",\"Monopoly\",\"A uno de los elementos clave en la teoría de la autodeterminación\"]}}],\"profesorId\":8,\"cuestionarioId\":41}"
     },
-    "JuegoDeCogerTurnoRapido": {}
+    "JuegoDeCogerTurnoRapido": {},
+    "JuegoDeEvaluacion": {
+      "15": "{\"NombreJuego\":\"Q1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":15,\"profesorId\":1,\"grupoId\":49,\"rubricaId\":3}",
+      "16": "{\"NombreJuego\":\"Q1_S\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":3,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":16,\"profesorId\":1,\"grupoId\":49,\"rubricaId\":3}",
+      "17": "{\"NombreJuego\":\"Q2\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"id\":17,\"profesorId\":1,\"grupoId\":49,\"rubricaId\":3}",
+      "18": "{\"NombreJuego\":\"Q3\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":0,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":false,\"Penalizacion\":[[{\"num\":1,\"p\":75},{\"num\":2,\"p\":50}],[{\"num\":1,\"p\":75},{\"num\":2,\"p\":50},{\"num\":3,\"p\":0}]],\"id\":18,\"profesorId\":1,\"grupoId\":49,\"rubricaId\":3}"
+    },
+    "AlumnoJuegoEvaluado": {
+      "1": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[128,126],\"id\":1,\"alumnoEvaluadoId\":124,\"juegoEvaluacionId\":15}",
+      "2": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[124,127],\"id\":2,\"alumnoEvaluadoId\":125,\"juegoEvaluacionId\":15}",
+      "3": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[127,128],\"id\":3,\"alumnoEvaluadoId\":126,\"juegoEvaluacionId\":15}",
+      "4": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[128,126],\"id\":4,\"alumnoEvaluadoId\":127,\"juegoEvaluacionId\":15}",
+      "5": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[125,127],\"id\":5,\"alumnoEvaluadoId\":128,\"juegoEvaluacionId\":15}",
+      "6": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[125,127,126],\"id\":6,\"alumnoEvaluadoId\":124,\"juegoEvaluacionId\":16}",
+      "7": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[126,128,124],\"id\":7,\"alumnoEvaluadoId\":125,\"juegoEvaluacionId\":16}",
+      "8": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[128,124,127],\"id\":8,\"alumnoEvaluadoId\":126,\"juegoEvaluacionId\":16}",
+      "9": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[124,125,128],\"id\":9,\"alumnoEvaluadoId\":127,\"juegoEvaluacionId\":16}",
+      "10": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[125,127,124],\"id\":10,\"alumnoEvaluadoId\":128,\"juegoEvaluacionId\":16}"
+    },
+    "EquipoJuegoEvaluado": {
+      "1": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":[32],\"alumnosEvaluadoresIds\":null,\"id\":1,\"equipoEvaluadoId\":31,\"juegoEvaluacionId\":17}",
+      "2": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":[31],\"alumnosEvaluadoresIds\":null,\"id\":2,\"equipoEvaluadoId\":32,\"juegoEvaluacionId\":17}",
+      "3": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[125,124],\"id\":3,\"equipoEvaluadoId\":31,\"juegoEvaluacionId\":18}",
+      "4": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[128,127,126],\"id\":4,\"equipoEvaluadoId\":32,\"juegoEvaluacionId\":18}"
+    }
   }
 }
