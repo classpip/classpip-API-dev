@@ -167,7 +167,7 @@
       "119": "{\"id\":119,\"Nombre\":\"A2\",\"PrimerApellido\":\"A2\",\"SegundoApellido\":\"A2\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10600.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A2\",\"Email\":\"A2@upc.edu\",\"Password\":\"A2\",\"profesorId\":8}",
       "120": "{\"id\":120,\"Nombre\":\"A3\",\"PrimerApellido\":\"A3\",\"SegundoApellido\":\"A3\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10618.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A3\",\"Email\":\"A3@upc.edu\",\"Password\":\"A3\",\"profesorId\":8}",
       "121": "{\"Nombre\":\"A\",\"PrimerApellido\":\"A\",\"SegundoApellido\":\"A\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"A\",\"Email\":\"A@gmail.com\",\"Password\":\"A\",\"profesorId\":10,\"id\":121}",
-      "122": "{\"Nombre\":\"Miquel\",\"PrimerApellido\":\"Solera\",\"SegundoApellido\":\"Varela\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"Miquel\",\"Email\":\"miquelsolera@gmail.com\",\"Password\":\"Solera\",\"profesorId\":10,\"id\":122}"
+      "122": "{\"Nombre\":\"Miquel\",\"PrimerApellido\":\"Solera\",\"SegundoApellido\":\"Varela\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"Miquel\",\"Email\":\"miquelsolera@gmail.com\",\"Password\":\"Solera\",\"profesorId\":10,\"id\":122}",
       "123": "{\"id\":123,\"Nombre\":\"A6\",\"PrimerApellido\":\"A6\",\"SegundoApellido\":\"A6\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10749.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A6\",\"Email\":\"A6@UPC.EDU\",\"Password\":\"A6\",\"profesorId\":8}",
       "124": "{\"id\":124,\"Nombre\":\"Juan\",\"PrimerApellido\":\"Juan\",\"SegundoApellido\":\"Juan\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g117199.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"Juan\",\"Email\":\"juanXXXX@upc.edu\",\"Password\":\"Juan\",\"profesorId\":8}",
       "125": "{\"id\":125,\"Nombre\":\"Carlos\",\"PrimerApellido\":\"Vazquez \",\"SegundoApellido\":\"Crespo\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g116874.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"carlosvazquez\",\"Email\":\"vcarlos139@gmail.com\",\"Password\":\"1234\",\"profesorId\":8}",
@@ -384,8 +384,7 @@
       "236": "{\"alumnoId\":119,\"grupoId\":45,\"id\":236}",
       "237": "{\"alumnoId\":120,\"grupoId\":45,\"id\":237}",
       "238": "{\"alumnoId\":122,\"grupoId\":46,\"id\":238}",
-      "239": "{\"alumnoId\":121,\"grupoId\":46,\"id\":239}"
-
+      "239": "{\"alumnoId\":121,\"grupoId\":46,\"id\":239}",
       "253": "{\"alumnoId\":129,\"grupoId\":49,\"id\":253}",
       "254": "{\"alumnoId\":124,\"grupoId\":49,\"id\":254}",
       "255": "{\"alumnoId\":127,\"grupoId\":49,\"id\":255}",
