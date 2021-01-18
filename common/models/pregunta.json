@@ -35,7 +35,6 @@
             "type": "string",
             "required": true
         },
-
         "RespuestaCorrecta": {
             "type": "string",
             "required": false
@@ -57,7 +56,6 @@
             "type": ["object"],
             "required": false
         }
-
     },
     "validations": [],
     "relations": {
