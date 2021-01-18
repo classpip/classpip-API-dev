@@ -37,7 +37,7 @@ En la actualidad Classpip se compone de 5 aplicaciones. A continuación se descr
 Este es el repositorio del código de la aplicación (en su versión en desarrollo) que permite exponer los datos en formato API-REST a las diferentes aplicaciones que los van a consumir (Dashboard, movil-profesor, movil-estudiante, etc.).
 
 ## Modelos de datos
-Consulta aquí los [modelos de datos](https://github.com/rocmeseguer/classpip-services/blob/master/ModelosClasspip.pdf) actuales usados en Classpip.
+Consulta aquí los [modelos de datos](https://github.com/classpip/classpip-API-dev/blob/master/ModelosClasspip.pdf) actuales usados en Classpip.
 
 ## Git y GitHub
 
