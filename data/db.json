@@ -1,15 +1,15 @@
 {
   "ids": {
-    "Profesor": 10,
-    "Alumno": 121,
-    "Grupo": 46,
+    "Profesor": 12,
+    "Alumno": 123,
+    "Grupo": 47,
     "Punto": 8,
     "Coleccion": 11,
     "Cromo": 156,
     "Equipo": 27,
     "JuegoDePuntos": 19,
     "JuegoDeColeccion": 104,
-    "Matricula": 238,
+    "Matricula": 240,
     "AsignacionEquipo": 59,
     "AsignacionPuntoJuego": 52,
     "Nivel": 7,
@@ -22,10 +22,10 @@
     "EquipoJuegoDeColeccion": 61,
     "Album": 3618,
     "AlbumEquipo": 146,
-    "JuegoDeCompeticionLiga": 7,
-    "JornadaDeCompeticionLiga": 22,
-    "EnfrentamientoLiga": 73,
-    "AlumnoJuegoDeCompeticionLiga": 37,
+    "JuegoDeCompeticionLiga": 8,
+    "JornadaDeCompeticionLiga": 27,
+    "EnfrentamientoLiga": 78,
+    "AlumnoJuegoDeCompeticionLiga": 39,
     "EquipoJuegoDeCompeticionLiga": 5,
     "JuegoDeCompeticionFormulaUno": 19,
     "JornadaDeCompeticionFormulaUno": 74,
@@ -33,19 +33,19 @@
     "EquipoJuegoDeCompeticionFormulaUno": 5,
     "Escenario": 11,
     "PuntoGeolocalizable": 28,
-    "Cuestionario": 38,
-    "PreguntaDelCuestionario": 109,
+    "Cuestionario": 39,
+    "PreguntaDelCuestionario": 113,
     "SesionClase": 59,
     "AsistenciaClase": 230,
-    "Pregunta": 141,
+    "Pregunta": 165,
     "FamiliaAvatares": 51,
     "JuegoDeAvatar": 45,
     "AlumnoJuegoDeAvatar": 279,
-    "JuegoDeCuestionario": 67,
-    "AlumnoJuegoDeCuestionario": 339,
+    "JuegoDeCuestionario": 77,
+    "AlumnoJuegoDeCuestionario": 356,
     "JuegoDeGeocaching": 25,
     "AlumnoJuegoDeGeocaching": 89,
-    "RespuestaJuegoDeCuestionario": 628,
+    "RespuestaJuegoDeCuestionario": 637,
     "JuegoDeVotacionUnoATodos": 21,
     "AlumnoJuegoDeVotacionUnoATodos": 188,
     "Rubrica": 4,
@@ -57,7 +57,7 @@
     "AlumnoJuegoDeCuestionarioSatisfaccion": 55,
     "JuegoDeEncuestaRapida": 65,
     "JuegoDeVotacionRapida": 12,
-    "JuegoDeCuestionarioRapido": 29,
+    "JuegoDeCuestionarioRapido": 30,
     "JuegoDeCogerTurnoRapido": 10
   },
   "models": {
@@ -69,7 +69,9 @@
       "5": "{\"Nombre\":\"Luicas\",\"PrimerApellido\":\"a\",\"SegundoApellido\":\"a\",\"NombreUsuario\":\"a\",\"email\":\"a@upc.edu\",\"Password\":\"a\",\"id\":5}",
       "7": "{\"Nombre\":\"profe\",\"PrimerApellido\":\"profe\",\"SegundoApellido\":\"profe\",\"NombreUsuario\":\"profe\",\"email\":\"profe@upc.edu\",\"Password\":\"profe\",\"ImagenPerfil\":null,\"Identificador\":\"22666\",\"id\":7}",
       "8": "{\"id\":8,\"Nombre\":\"talleres\",\"PrimerApellido\":\"talleres\",\"SegundoApellido\":\"talleresa\",\"NombreUsuario\":\"talleres\",\"email\":\"miguel.valero@upc.edu\",\"Password\":\"talleres\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g104133.png\",\"Identificador\":\"61152\"}",
-      "9": "{\"Nombre\":\"ggg\",\"PrimerApellido\":\"ggg\",\"SegundoApellido\":\"ggg\",\"NombreUsuario\":\"ggg\",\"email\":\"ggg@upc.edu\",\"Password\":\"ggg\",\"ImagenPerfil\":null,\"Identificador\":\"89134\",\"id\":9}"
+      "9": "{\"Nombre\":\"ggg\",\"PrimerApellido\":\"ggg\",\"SegundoApellido\":\"ggg\",\"NombreUsuario\":\"ggg\",\"email\":\"ggg@upc.edu\",\"Password\":\"ggg\",\"ImagenPerfil\":null,\"Identificador\":\"89134\",\"id\":9}",
+      "10": "{\"id\":10,\"Nombre\":\"Miquel\",\"PrimerApellido\":\"Solera\",\"SegundoApellido\":\"Varela\",\"NombreUsuario\":\"Miquel\",\"email\":\"miquelsolera@gmail.com\",\"Password\":\"Solera\",\"ImagenPerfil\":null,\"Identificador\":\"01470\"}",
+      "11": "{\"Nombre\":\"Miquel\",\"PrimerApellido\":\"Ohana\",\"SegundoApellido\":\"Ohana\",\"NombreUsuario\":\"AAA\",\"email\":\"miquelsolera@gmail.com\",\"Password\":\"AAA\",\"ImagenPerfil\":null,\"Identificador\":\"61889\",\"id\":11}"
     },
     "Alumno": {
       "4": "{\"id\":4,\"Nombre\":\"Noa\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Esteve\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g149680.png\",\"PermisoCambioImagenPerfil\":false,\"profesorId\":1}",
@@ -157,7 +159,9 @@
       "117": "{\"id\":117,\"Nombre\":\"Beatriz\",\"PrimerApellido\":\" Cubelos\",\"SegundoApellido\":\" Álvarez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10547.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"Beatriz\",\"Email\":\" beatriz.cubelos@uam.es\",\"Password\":\"lo6aoq7w\",\"profesorId\":8}",
       "118": "{\"id\":118,\"Nombre\":\"A1\",\"PrimerApellido\":\"A1\",\"SegundoApellido\":\"A1\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10579.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A1\",\"Email\":\"A1@upc.edu\",\"Password\":\"A1\",\"profesorId\":8}",
       "119": "{\"id\":119,\"Nombre\":\"A2\",\"PrimerApellido\":\"A2\",\"SegundoApellido\":\"A2\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10600.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A2\",\"Email\":\"A2@upc.edu\",\"Password\":\"A2\",\"profesorId\":8}",
-      "120": "{\"id\":120,\"Nombre\":\"A3\",\"PrimerApellido\":\"A3\",\"SegundoApellido\":\"A3\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10618.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A3\",\"Email\":\"A3@upc.edu\",\"Password\":\"A3\",\"profesorId\":8}"
+      "120": "{\"id\":120,\"Nombre\":\"A3\",\"PrimerApellido\":\"A3\",\"SegundoApellido\":\"A3\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g10618.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"A3\",\"Email\":\"A3@upc.edu\",\"Password\":\"A3\",\"profesorId\":8}",
+      "121": "{\"Nombre\":\"A\",\"PrimerApellido\":\"A\",\"SegundoApellido\":\"A\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"A\",\"Email\":\"A@gmail.com\",\"Password\":\"A\",\"profesorId\":10,\"id\":121}",
+      "122": "{\"Nombre\":\"Miquel\",\"PrimerApellido\":\"Solera\",\"SegundoApellido\":\"Varela\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"Miquel\",\"Email\":\"miquelsolera@gmail.com\",\"Password\":\"Solera\",\"profesorId\":10,\"id\":122}"
     },
     "Grupo": {
       "21": "{\"Nombre\":\"Familia\",\"Descripcion\":\"Familia\",\"profesorId\":1,\"id\":21,\"FamiliaDeImagenesDePerfilAsignada\":\"Monigotes\"}",
@@ -172,7 +176,8 @@
       "37": "{\"Nombre\":\"Prueba\",\"Descripcion\":\"sasa\",\"profesorId\":3,\"id\":37}",
       "38": "{\"Nombre\":\"Gamificación UAM 2020\",\"Descripcion\":\"Gamificación UAM 2020\",\"profesorId\":8,\"id\":38}",
       "44": "{\"Nombre\":\"Prueba\",\"Descripcion\":\"prueba\",\"profesorId\":8,\"id\":44}",
-      "45": "{\"Nombre\":\"Pruebas imagenes\",\"Descripcion\":\"pruebas imagenes\",\"profesorId\":8,\"id\":45}"
+      "45": "{\"Nombre\":\"Pruebas imagenes\",\"Descripcion\":\"pruebas imagenes\",\"profesorId\":8,\"id\":45}",
+      "46": "{\"Nombre\":\"Grupo para pruebas\",\"Descripcion\":\"Grupo para las pruebas de las modificaciones realizadas\",\"profesorId\":10,\"id\":46}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea autojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjmáticamente)\",\"profesorId\":1,\"id\":1}",
@@ -207,8 +212,6 @@
       "154": "{\"Nombre\":\"sed\",\"ImagenDelante\":\"sed_a.png\",\"ImagenDetras\":\"sed_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":10,\"id\":154}",
       "155": "{\"Nombre\":\"chmod\",\"ImagenDelante\":\"chmod_a.png\",\"ImagenDetras\":\"chmod_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":10,\"id\":155}"
     },
-
-
     "Equipo": {
       "1": "{\"Nombre\":\"Equipo_0\",\"grupoId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Equipo_2\",\"grupoId\":1,\"id\":2}",
@@ -344,7 +347,9 @@
       "234": "{\"alumnoId\":107,\"grupoId\":44,\"id\":234}",
       "235": "{\"alumnoId\":118,\"grupoId\":45,\"id\":235}",
       "236": "{\"alumnoId\":119,\"grupoId\":45,\"id\":236}",
-      "237": "{\"alumnoId\":120,\"grupoId\":45,\"id\":237}"
+      "237": "{\"alumnoId\":120,\"grupoId\":45,\"id\":237}",
+      "238": "{\"alumnoId\":122,\"grupoId\":46,\"id\":238}",
+      "239": "{\"alumnoId\":121,\"grupoId\":46,\"id\":239}"
     },
     "AsignacionEquipo": {
       "1": "{\"alumnoId\":1,\"equipoId\":1,\"grupoId\":1,\"id\":1}",
@@ -1869,7 +1874,8 @@
     "JuegoDeCompeticionLiga": {
       "3": "{\"NumeroTotalJornadas\":3,\"NombreJuego\":\"Liga equipos\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":22,\"TipoJuegoCompeticion\":\"Liga\",\"id\":3}",
       "4": "{\"NumeroTotalJornadas\":4,\"NombreJuego\":\"Liga individual\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":22,\"TipoJuegoCompeticion\":\"Liga\",\"id\":4}",
-      "5": "{\"NumeroTotalJornadas\":5,\"NombreJuego\":\"Liga 3\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":22,\"TipoJuegoCompeticion\":\"Liga\",\"id\":5}"
+      "5": "{\"NumeroTotalJornadas\":5,\"NombreJuego\":\"Liga 3\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":22,\"TipoJuegoCompeticion\":\"Liga\",\"id\":5}",
+      "7": "{\"NumeroTotalJornadas\":5,\"NombreJuego\":\"Juego de Competición\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":46,\"TipoJuegoCompeticion\":\"Liga\",\"id\":7}"
     },
     "JornadaDeCompeticionLiga": {
       "7": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":3,\"id\":7}",
@@ -1883,7 +1889,12 @@
       "15": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":15}",
       "16": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":16}",
       "17": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":17}",
-      "18": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":18}"
+      "18": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":18}",
+      "22": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":7,\"id\":22}",
+      "23": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":7,\"id\":23}",
+      "24": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":7,\"id\":24}",
+      "25": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":7,\"id\":25}",
+      "26": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":7,\"id\":26}"
     },
     "EnfrentamientoLiga": {
       "25": "{\"id\":25,\"JugadorUno\":6,\"JugadorDos\":9,\"Ganador\":6,\"JornadaDeCompeticionLigaId\":7}",
@@ -1929,7 +1940,12 @@
       "65": "{\"JugadorUno\":7,\"JugadorDos\":28,\"JornadaDeCompeticionLigaId\":18,\"id\":65}",
       "66": "{\"JugadorUno\":31,\"JugadorDos\":18,\"JornadaDeCompeticionLigaId\":18,\"id\":66}",
       "71": "{\"JugadorUno\":33,\"JugadorDos\":34,\"JornadaDeCompeticionLigaId\":21,\"id\":71}",
-      "72": "{\"JugadorUno\":19,\"JugadorDos\":32,\"JornadaDeCompeticionLigaId\":21,\"id\":72}"
+      "72": "{\"JugadorUno\":19,\"JugadorDos\":32,\"JornadaDeCompeticionLigaId\":21,\"id\":72}",
+      "73": "{\"JugadorUno\":122,\"JugadorDos\":121,\"JornadaDeCompeticionLigaId\":22,\"id\":73}",
+      "74": "{\"JugadorUno\":121,\"JugadorDos\":122,\"JornadaDeCompeticionLigaId\":23,\"id\":74}",
+      "75": "{\"JugadorUno\":122,\"JugadorDos\":121,\"JornadaDeCompeticionLigaId\":24,\"id\":75}",
+      "76": "{\"JugadorUno\":121,\"JugadorDos\":122,\"JornadaDeCompeticionLigaId\":25,\"id\":76}",
+      "77": "{\"JugadorUno\":122,\"JugadorDos\":121,\"JornadaDeCompeticionLigaId\":26,\"id\":77}"
     },
     "AlumnoJuegoDeCompeticionLiga": {
       "17": "{\"id\":17,\"PuntosTotalesAlumno\":9,\"AlumnoId\":28,\"JuegoDeCompeticionLigaId\":4}",
@@ -1947,7 +1963,9 @@
       "29": "{\"id\":29,\"PuntosTotalesAlumno\":3,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":5}",
       "30": "{\"id\":30,\"PuntosTotalesAlumno\":1,\"AlumnoId\":31,\"JuegoDeCompeticionLigaId\":5}",
       "31": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":18,\"JuegoDeCompeticionLigaId\":5,\"id\":31}",
-      "32": "{\"id\":32,\"PuntosTotalesAlumno\":3,\"AlumnoId\":33,\"JuegoDeCompeticionLigaId\":5}"
+      "32": "{\"id\":32,\"PuntosTotalesAlumno\":3,\"AlumnoId\":33,\"JuegoDeCompeticionLigaId\":5}",
+      "37": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":122,\"JuegoDeCompeticionLigaId\":7,\"id\":37}",
+      "38": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":121,\"JuegoDeCompeticionLigaId\":7,\"id\":38}"
     },
     "EquipoJuegoDeCompeticionLiga": {
       "1": "{\"id\":1,\"PuntosTotalesEquipo\":3,\"EquipoId\":6,\"JuegoDeCompeticionLigaId\":3}",
@@ -2187,8 +2205,13 @@
       "136": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":136}",
       "137": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":137}",
       "139": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":139}",
-      "140": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":140}"
-
+      "140": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":140}",
+      "145": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":11,\"id\":145}",
+      "146": "{\"Titulo\":\"Suma\",\"Pregunta\":\"Â¿CuÃ¡nto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":11,\"id\":146}",
+      "149": "{\"Titulo\":\"A\",\"Pregunta\":\"¿A?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0001.jpg\",\"RespuestaCorrecta\":\"A\",\"RespuestaIncorrecta1\":\"B\",\"RespuestaIncorrecta2\":\"C\",\"RespuestaIncorrecta3\":\"D\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":149}",
+      "150": "{\"Titulo\":\"B\",\"Pregunta\":\"¿B?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0002.jpg\",\"RespuestaCorrecta\":\"B\",\"RespuestaIncorrecta1\":\"C\",\"RespuestaIncorrecta2\":\"D\",\"RespuestaIncorrecta3\":\"E\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":150}",
+      "151": "{\"Titulo\":\"C\",\"Pregunta\":\"¿C?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"C\",\"RespuestaIncorrecta1\":\"D\",\"RespuestaIncorrecta2\":\"E\",\"RespuestaIncorrecta3\":\"F\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":151}",
+      "152": "{\"Titulo\":\"Sense imatge\",\"Pregunta\":\"Â¿TÃ© imatge?\",\"Tematica\":\"Testing\",\"RespuestaCorrecta\":\"No\",\"RespuestaIncorrecta1\":\"A\",\"RespuestaIncorrecta2\":\"B\",\"RespuestaIncorrecta3\":\"C\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":152}"
     },
     "Cuestionario": {
       "2": "{\"Titulo\":\"Cuestionario para demos\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":2}",
@@ -2196,7 +2219,8 @@
       "30": "{\"Titulo\":\"pruieba\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":1,\"id\":30}",
       "33": "{\"Titulo\":\"pruieba(copia) retocada por Antonia\",\"Descripcion\":\"demo\",\"Publico\":true,\"profesorId\":3,\"id\":33}",
       "36": "{\"Titulo\":\"Lo básico de gamificación\",\"Descripcion\":\"Para el taller de gamificación\",\"Publico\":true,\"profesorId\":1,\"id\":36}",
-      "37": "{\"Titulo\":\"Lo básico sobre Gamificación\",\"Descripcion\":\"para el taller de Gamificación\",\"Publico\":true,\"profesorId\":8,\"id\":37}"
+      "37": "{\"Titulo\":\"Lo básico sobre Gamificación\",\"Descripcion\":\"para el taller de Gamificación\",\"Publico\":true,\"profesorId\":8,\"id\":37}",
+      "38": "{\"Titulo\":\"Cuestionario imagen \",\"Descripcion\":\"Cuestionario de prueba para ver si la imagen se ve en la app\",\"Publico\":false,\"profesorId\":10,\"id\":38}"
     },
     "PreguntaDelCuestionario": {
       "4": "{\"preguntaId\":4,\"cuestionarioId\":2,\"id\":4}",
@@ -2227,7 +2251,11 @@
       "105": "{\"preguntaId\":46,\"cuestionarioId\":37,\"id\":105}",
       "106": "{\"preguntaId\":47,\"cuestionarioId\":37,\"id\":106}",
       "107": "{\"preguntaId\":48,\"cuestionarioId\":37,\"id\":107}",
-      "108": "{\"preguntaId\":49,\"cuestionarioId\":37,\"id\":108}"
+      "108": "{\"preguntaId\":49,\"cuestionarioId\":37,\"id\":108}",
+      "109": "{\"preguntaId\":149,\"cuestionarioId\":38,\"id\":109}",
+      "110": "{\"preguntaId\":150,\"cuestionarioId\":38,\"id\":110}",
+      "111": "{\"preguntaId\":151,\"cuestionarioId\":38,\"id\":111}",
+      "112": "{\"preguntaId\":152,\"cuestionarioId\":38,\"id\":112}"
     },
     "Escenario": {
       "7": "{\"Mapa\":\"Montjuic\",\"Descripcion\":\"Ubicaciones de zonas turísticas de Montjuic\",\"profesorId\":1,\"id\":7}",
@@ -2509,7 +2537,16 @@
       "50": "{\"NombreJuego\":\"qqqq\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":21,\"cuestionarioId\":35,\"Tipo\":\"Juego De Cuestionario\",\"id\":50}",
       "57": "{\"NombreJuego\":\"Cuestionario\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":8,\"grupoId\":38,\"cuestionarioId\":37,\"Tipo\":\"Juego De Cuestionario\",\"id\":57}",
       "60": "{\"NombreJuego\":\"cuestionario\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":8,\"grupoId\":39,\"cuestionarioId\":37,\"Tipo\":\"Juego De Cuestionario\",\"id\":60}",
-      "66": "{\"NombreJuego\":\"cuestionario\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":8,\"grupoId\":45,\"cuestionarioId\":37,\"Tipo\":\"Juego De Cuestionario\",\"id\":66}"
+      "66": "{\"NombreJuego\":\"cuestionario\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":8,\"grupoId\":45,\"cuestionarioId\":37,\"Tipo\":\"Juego De Cuestionario\",\"id\":66}",
+      "68": "{\"NombreJuego\":\"Juego de prueba\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":60,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"id\":68}",
+      "69": "{\"NombreJuego\":\"Prueba\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":60,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"id\":69}",
+      "70": "{\"NombreJuego\":\"Prueba\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":60,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"id\":70}",
+      "71": "{\"NombreJuego\":\"A\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":100,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"Modalidad\":\"Kahoot\",\"id\":71}",
+      "72": "{\"NombreJuego\":\"Prueba con Modalidad\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":100,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"Modalidad\":\"Test clásico\",\"id\":72}",
+      "73": "{\"NombreJuego\":\"Prueba Modalidad Kahoot\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":120,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"Modalidad\":\"Kahoot\",\"id\":73}",
+      "74": "{\"NombreJuego\":\"A\",\"Modalidad\":\"Test clásico\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":9,\"TiempoLimite\":120,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"id\":74}",
+      "75": "{\"NombreJuego\":\"Prueba Modalidad Kahoot 2\",\"Modalidad\":\"Kahoot\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":100,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"id\":75}",
+      "76": "{\"NombreJuego\":\"Juego de Cuestionario Clásico\",\"Modalidad\":\"Test clásico\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":100,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":10,\"grupoId\":46,\"cuestionarioId\":38,\"Tipo\":\"Juego De Cuestionario\",\"id\":76}"
     },
     "AlumnoJuegoDeCuestionario": {
       "62": "{\"id\":62,\"Nota\":2,\"Contestado\":true,\"alumnoId\":14,\"juegoDeCuestionarioId\":7}",
@@ -2634,9 +2671,25 @@
       "333": "{\"id\":333,\"Nota\":7,\"Contestado\":true,\"TiempoEmpleado\":14,\"alumnoId\":118,\"juegoDeCuestionarioId\":65}",
       "334": "{\"id\":334,\"Nota\":15,\"Contestado\":true,\"TiempoEmpleado\":17,\"alumnoId\":119,\"juegoDeCuestionarioId\":65}",
       "335": "{\"id\":335,\"Nota\":11,\"Contestado\":true,\"TiempoEmpleado\":26,\"alumnoId\":120,\"juegoDeCuestionarioId\":65}",
-      "336": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":118,\"juegoDeCuestionarioId\":66,\"id\":336}",
+      "336": "{\"id\":336,\"Nota\":0.1,\"Contestado\":true,\"TiempoEmpleado\":55,\"alumnoId\":118,\"juegoDeCuestionarioId\":66}",
       "337": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":120,\"juegoDeCuestionarioId\":66,\"id\":337}",
-      "338": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":119,\"juegoDeCuestionarioId\":66,\"id\":338}"
+      "338": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":119,\"juegoDeCuestionarioId\":66,\"id\":338}",
+      "340": "{\"id\":340,\"Nota\":0.1,\"Contestado\":true,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":68}",
+      "341": "{\"id\":341,\"Nota\":6,\"Contestado\":true,\"TiempoEmpleado\":47,\"alumnoId\":122,\"juegoDeCuestionarioId\":69}",
+      "342": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":70,\"id\":342}",
+      "343": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":70,\"id\":343}",
+      "344": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":71,\"id\":344}",
+      "345": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":71,\"id\":345}",
+      "346": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":72,\"id\":346}",
+      "347": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":72,\"id\":347}",
+      "348": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":73,\"id\":348}",
+      "349": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":73,\"id\":349}",
+      "350": "{\"id\":350,\"Nota\":0.1,\"Contestado\":true,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":74}",
+      "351": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":74,\"id\":351}",
+      "352": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":75,\"id\":352}",
+      "353": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":75,\"id\":353}",
+      "354": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":122,\"juegoDeCuestionarioId\":76,\"id\":354}",
+      "355": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":121,\"juegoDeCuestionarioId\":76,\"id\":355}"
     },
     "JuegoDeGeocaching": {
       "2": "{\"NombreJuego\":\"gero\",\"PuntuacionCorrecta\":1,\"PuntuacionIncorrecta\":1,\"PuntuacionCorrectaBonus\":1,\"PuntuacionIncorrectaBonus\":1,\"PreguntasBasicas\":[1],\"PreguntasBonus\":[2],\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":6,\"idescenario\":1,\"Tipo\":\"Juego De Geocaching\",\"id\":2}",
@@ -2708,8 +2761,6 @@
       "91": "{\"Respuesta\":\"12\",\"alumnoJuegoDeCuestionarioId\":59,\"preguntaId\":2,\"id\":91}",
       "94": "{\"Respuesta\":\"Paris\",\"alumnoJuegoDeCuestionarioId\":60,\"preguntaId\":1,\"id\":94}",
       "95": "{\"Respuesta\":\"12\",\"alumnoJuegoDeCuestionarioId\":60,\"preguntaId\":2,\"id\":95}",
-      "102": "{\"Respuesta\":\"Paris\",\"alumnoJuegoDeCuestionarioId\":67,\"preguntaId\":1,\"id\":102}",
-      "103": "{\"Respuesta\":\"11\",\"alumnoJuegoDeCuestionarioId\":67,\"preguntaId\":2,\"id\":103}",
       "104": "{\"Respuesta\":\"Paris\",\"alumnoJuegoDeCuestionarioId\":65,\"preguntaId\":1,\"id\":104}",
       "105": "{\"Respuesta\":\"15\",\"alumnoJuegoDeCuestionarioId\":65,\"preguntaId\":2,\"id\":105}",
       "106": "{\"Respuesta\":\"12\",\"alumnoJuegoDeCuestionarioId\":68,\"preguntaId\":2,\"id\":106}",
@@ -3233,7 +3284,16 @@
       "624": "{\"Respuesta\":\"Achiever\",\"alumnoJuegoDeCuestionarioId\":335,\"preguntaId\":45,\"id\":624}",
       "625": "{\"Respuesta\":\"Asignación de puntos\",\"alumnoJuegoDeCuestionarioId\":335,\"preguntaId\":49,\"id\":625}",
       "626": "{\"Respuesta\":\"Al uso combinado de Puntos, insignias (Badges) y clasificaciones (Leaderboard)\",\"alumnoJuegoDeCuestionarioId\":335,\"preguntaId\":48,\"id\":626}",
-      "627": "{\"Respuesta\":\"Sensación de logro\",\"alumnoJuegoDeCuestionarioId\":335,\"preguntaId\":47,\"id\":627}"
+      "627": "{\"Respuesta\":\"Sensación de logro\",\"alumnoJuegoDeCuestionarioId\":335,\"preguntaId\":47,\"id\":627}",
+      "628": "{\"Respuesta\":\"no\",\"alumnoJuegoDeCuestionarioId\":336,\"preguntaId\":49,\"id\":628}",
+      "629": "{\"Respuesta\":\"No\",\"alumnoJuegoDeCuestionarioId\":336,\"preguntaId\":45,\"id\":629}",
+      "630": "{\"Respuesta\":\"Puede ser\",\"alumnoJuegoDeCuestionarioId\":336,\"preguntaId\":46,\"id\":630}",
+      "631": "{\"Respuesta\":\"no\",\"alumnoJuegoDeCuestionarioId\":336,\"preguntaId\":47,\"id\":631}",
+      "632": "{\"Respuesta\":\"no\",\"alumnoJuegoDeCuestionarioId\":336,\"preguntaId\":48,\"id\":632}",
+      "633": "{\"Respuesta\":\"-\",\"alumnoJuegoDeCuestionarioId\":341,\"preguntaId\":149,\"id\":633}",
+      "634": "{\"Respuesta\":\"-\",\"alumnoJuegoDeCuestionarioId\":341,\"preguntaId\":150,\"id\":634}",
+      "635": "{\"Respuesta\":\"C\",\"alumnoJuegoDeCuestionarioId\":341,\"preguntaId\":151,\"id\":635}",
+      "636": "{\"Respuesta\":\"No\",\"alumnoJuegoDeCuestionarioId\":341,\"preguntaId\":152,\"id\":636}"
     },
     "JuegoDeVotacionUnoATodos": {
       "6": "{\"Tipo\":\"Juego De Votación Uno A Todos\",\"NombreJuego\":\"Votacion\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Puntos\":[10,5,1],\"grupoId\":22,\"id\":6}",
@@ -3520,7 +3580,8 @@
     },
     "JuegoDeVotacionRapida": {},
     "JuegoDeCuestionarioRapido": {
-      "28": "{\"NombreJuego\":\"aaa\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":4,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":56,\"Presentacion\":\"Preguntas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"87910733\",\"Respuestas\":[],\"profesorId\":8,\"cuestionarioId\":37,\"id\":28}"
+      "28": "{\"NombreJuego\":\"aaa\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":4,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":56,\"Presentacion\":\"Preguntas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"87910733\",\"Respuestas\":[],\"profesorId\":8,\"cuestionarioId\":37,\"id\":28}",
+      "29": "{\"NombreJuego\":\"Cuestionario de prueba\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":60,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"07182206\",\"Respuestas\":[],\"profesorId\":10,\"cuestionarioId\":38,\"id\":29}"
     },
     "JuegoDeCogerTurnoRapido": {}
   }
