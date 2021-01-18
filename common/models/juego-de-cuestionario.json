@@ -1,56 +1,60 @@
 {
-  "name": "JuegoDeCuestionario",
-  "plural": "JuegosDeCuestionario",
-  "base": "PersistedModel",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "NombreJuego": {
-      "type": "string",
-      "required": true
+    "name": "JuegoDeCuestionario",
+    "plural": "JuegosDeCuestionario",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
     },
-    "PuntuacionCorrecta": {
-      "type": "number",
-      "required": true
+    "properties": {
+        "NombreJuego": {
+            "type": "string",
+            "required": true
+        },
+        "Modalidad": {
+            "type": "string",
+            "required": true
+        },
+        "PuntuacionCorrecta": {
+            "type": "number",
+            "required": true
+        },
+        "PuntuacionIncorrecta": {
+            "type": "number",
+            "required": true
+        },
+        "TiempoLimite": {
+            "type": "number",
+            "required": false,
+            "default": 0
+        },
+        "Presentacion": {
+            "type": "string",
+            "required": true
+        },
+        "JuegoActivo": {
+            "type": "boolean",
+            "required": true,
+            "default": false
+        },
+        "JuegoTerminado": {
+            "type": "boolean",
+            "required": true,
+            "default": false
+        }
     },
-    "PuntuacionIncorrecta": {
-      "type": "number",
-      "required": true
+    "validations": [],
+    "relations": {
+        "alumnos": {
+            "type": "hasMany",
+            "model": "Alumno",
+            "foreignKey": "juegoDeCuestionarioId",
+            "options": {
+                "nestRemoting": true
+            },
+            "through": "AlumnoJuegoDeCuestionario"
+        }
     },
-    "TiempoLimite": {
-      "type": "number",
-      "required": false,
-      "default": 0
-    },
-    "Presentacion": {
-      "type": "string",
-      "required": true
-    },
-    "JuegoActivo": {
-      "type": "boolean",
-      "required": true,
-      "default": false
-    },
-    "JuegoTerminado": {
-      "type": "boolean",
-      "required": true,
-      "default": false
-    }
-  },
-  "validations": [],
-  "relations": {
-    "alumnos": {
-      "type": "hasMany",
-      "model": "Alumno",
-      "foreignKey": "juegoDeCuestionarioId",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "AlumnoJuegoDeCuestionario"
-    }
-  },
-  "acls": [],
-  "methods": {}
+    "acls": [],
+    "methods": {}
 }

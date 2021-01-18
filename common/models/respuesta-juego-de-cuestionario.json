@@ -8,8 +8,8 @@
   },
   "properties": {
     "Respuesta": {
-      "type": "string",
-      "required": true
+      "type": ["string"],
+      "required": false
     }
   },
   "validations": [],
