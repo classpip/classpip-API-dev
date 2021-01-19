@@ -319,11 +319,11 @@
     "dataSource": "baseDatos",
     "public": true
   },
-  "EquipoJuegoEvaluado": {
+  "EquipoJuegoDeEvaluacion": {
     "dataSource": "baseDatos",
     "public": true
   },
-  "AlumnoJuegoEvaluado": {
+  "AlumnoJuegoDeEvaluacion": {
     "dataSource": "baseDatos",
     "public": true
   }

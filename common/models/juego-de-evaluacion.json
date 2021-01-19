@@ -63,15 +63,23 @@
   },
   "validations": [],
   "relations": {
-    "equiposJuegoEvaluado": {
+    "equipos": {
       "type": "hasMany",
-      "model": "EquipoJuegoEvaluado",
-      "foreignKey": "juegoEvaluacionId"
+      "model": "Equipo",
+      "foreignKey": "juegoDeEvaluacionId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDeEvaluacion"
     },
-    "alumnosJuegoEvaluado": {
+    "alumnos": {
       "type": "hasMany",
-      "model": "AlumnoJuegoEvaluado",
-      "foreignKey": "juegoEvaluacionId"
+      "model": "Alumno",
+      "foreignKey": "juegoDeEvaluacionId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeEvaluacion"
     }
   },
   "acls": [],
