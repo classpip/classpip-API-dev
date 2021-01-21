@@ -25,6 +25,13 @@
       ],
       "required": false,
       "default": null
+    },
+    "respuestas":{
+      "type": [
+        "any"
+      ],
+      "required": false,
+      "default": null
     }
   },
   "validations": [],

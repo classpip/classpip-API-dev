@@ -17,6 +17,13 @@
         "number"
       ],
       "required": true
+    },
+    "respuestas":{
+      "type": [
+        "any"
+      ],
+      "required": false,
+      "default": null
     }
   },
   "validations": [],
