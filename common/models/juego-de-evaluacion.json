@@ -11,6 +11,10 @@
       "type": "string",
       "required": true
     },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    },
     "Tipo": {
       "type": "string",
       "required": true
