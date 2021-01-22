@@ -17,6 +17,6 @@
 coverage
 node_modules
 npm-debug.log
-data/db.json
+data
 server/ficheros/AudiosAvatares/**
 server/ficheros/ImagenCromo/**
