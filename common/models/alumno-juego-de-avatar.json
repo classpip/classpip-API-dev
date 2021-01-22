@@ -1,1 +1,56 @@
-{"name":"AlumnoJuegoDeAvatar","plural":"alumnosJuegoAvatar","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Silueta":{"type":"string"},"Privilegios":{"type":["boolean"],"required":true},"Complemento1":{"type":"string"},"Complemento2":{"type":"string"},"Complemento3":{"type":"string"},"Complemento4":{"type":"string"},"Voz":{"type":"string"}},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId","options":{"nestRemoting":true}},"juegoDeAvatar":{"type":"belongsTo","model":"JuegoDeAvatar","foreignKey":"juegoDeAvatarId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeAvatar",
+  "plural": "alumnosJuegoAvatar",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Silueta": {
+      "type": "string"
+    },
+    "Privilegios": {
+      "type": [
+        "boolean"
+      ],
+      "required": true
+    },
+    "Complemento1": {
+      "type": "string"
+    },
+    "Complemento2": {
+      "type": "string"
+    },
+    "Complemento3": {
+      "type": "string"
+    },
+    "Complemento4": {
+      "type": "string"
+    },
+    "Voz": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeAvatar": {
+      "type": "belongsTo",
+      "model": "JuegoDeAvatar",
+      "foreignKey": "juegoDeAvatarId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
