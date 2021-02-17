@@ -1,1 +1,31 @@
-{"name":"AsignacionEquipo","plural":"AsignacionEquipos","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId","options":{"nestRemoting":true}},"equipo":{"type":"belongsTo","model":"Equipo","foreignKey":"equipoId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "AsignacionEquipo",
+  "plural": "AsignacionEquipos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

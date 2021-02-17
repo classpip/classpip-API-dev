@@ -1,1 +1,29 @@
-{"name":"FamiliaImagenesPerfil","plural":"familiasImagenesPerfil","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"NombreFamilia":{"type":"string","required":true},"NumeroImagenes":{"type":"number","required":true},"Imagenes":{"type":["string"],"required":true}},"validations":[],"relations":{},"acls":[],"methods":{}}
+{
+  "name": "FamiliaImagenesPerfil",
+  "plural": "familiasImagenesPerfil",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NombreFamilia": {
+      "type": "string",
+      "required": true
+    },
+    "NumeroImagenes": {
+      "type": "number",
+      "required": true
+    },
+    "Imagenes": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

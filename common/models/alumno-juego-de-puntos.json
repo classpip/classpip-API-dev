@@ -1,1 +1,46 @@
-{"name":"AlumnoJuegoDePuntos","plural":"AlumnoJuegosDePuntos","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"PuntosTotalesAlumno":{"type":"number","required":true,"default":0}},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId","options":{"nestRemoting":true}},"juegoDePuntos":{"type":"belongsTo","model":"JuegoDePuntos","foreignKey":"juegoDePuntosId","options":{"nestRemoting":true}},"puntos":{"type":"hasMany","model":"Punto","foreignKey":"alumnoJuegoDePuntosId","options":{"nestRemoting":true},"through":"HistorialPuntosAlumno"}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDePuntos",
+  "plural": "AlumnoJuegosDePuntos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "PuntosTotalesAlumno": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDePuntos": {
+      "type": "belongsTo",
+      "model": "JuegoDePuntos",
+      "foreignKey": "juegoDePuntosId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "puntos": {
+      "type": "hasMany",
+      "model": "Punto",
+      "foreignKey": "alumnoJuegoDePuntosId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "HistorialPuntosAlumno"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
