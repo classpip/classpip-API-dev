@@ -31,9 +31,6 @@
       "type": "any",
       "required": false
     }
-
-
-    
   },
   "validations": [],
   "relations": {},

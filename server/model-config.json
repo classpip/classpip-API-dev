@@ -358,5 +358,9 @@
   "frame": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "pruebas": {
+    "dataSource": "db",
+    "public": true
   }
 }

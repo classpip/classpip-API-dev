@@ -156,7 +156,8 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoEvaluado"
-    },"libro": {
+    },
+    "libro": {
       "type": "hasMany",
       "model": "Libro",
       "foreignKey": "alumnoId"
