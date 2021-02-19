@@ -32,7 +32,15 @@
     "equipo": {
       "type": "belongsTo",
       "model": "Equipo",
-      "foreignKey": "equipoEvaluadoId",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeEvaluacion": {
+      "type": "belongsTo",
+      "model": "JuegoDeEvaluacion",
+      "foreignKey": "juegoEvaluacionId",
       "options": {
         "nestRemoting": true
       }

@@ -15,6 +15,12 @@
       "type": "string",
       "required": true
     },
+
+    "Modalidad": {
+      "type": "string",
+      "required": true
+    },
+
     "PuntuacionCorrecta": {
       "type": "number",
       "required": true

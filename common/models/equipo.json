@@ -62,6 +62,17 @@
         "nestRemoting": true
       },
       "through": "EquipoJuegoDeCompeticionLiga"
+
+    },
+    "juegosDeEvaluacion": {
+      "type": "hasMany",
+      "model": "JuegoDeEvaluacion",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoEvaluado"
+
     }
   },
   "acls": [],

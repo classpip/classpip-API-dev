@@ -21,14 +21,25 @@
   },
   "validations": [],
   "relations": {
+
+
     "alumno": {
       "type": "belongsTo",
       "model": "Alumno",
-      "foreignKey": "alumnoEvaluadoId",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeEvaluacion": {
+      "type": "belongsTo",
+      "model": "JuegoDeEvaluacion",
+      "foreignKey": "juegoEvaluacionId",
       "options": {
         "nestRemoting": true
       }
     }
+
   },
   "acls": [],
   "methods": {}
