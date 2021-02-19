@@ -154,6 +154,11 @@
       "type": "hasMany",
       "model": "JuegoDeEvaluacion",
       "foreignKey": "profesorId"
+    },
+    "recursosLibros": {
+      "type": "hasMany",
+      "model": "recursosLibro",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],

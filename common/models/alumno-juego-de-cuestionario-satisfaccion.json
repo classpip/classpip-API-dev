@@ -1,1 +1,41 @@
-{"name":"AlumnoJuegoDeCuestionarioSatisfaccion","plural":"alumnosJuegoDeCuestionarioSatisfaccion","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Contestado":{"type":"boolean","required":true,"default":false},"RespuestasAfirmaciones":{"type":["number"]},"RespuestasPreguntasAbiertas":{"type":["string"]}},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId"},"juegoDeCuestionarioSatisfaccion":{"type":"belongsTo","model":"JuegoDeCuestionarioSatisfaccion","foreignKey":"juegoDeCuestionarioSatisfaccionId"}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeCuestionarioSatisfaccion",
+  "plural": "alumnosJuegoDeCuestionarioSatisfaccion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Contestado": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "RespuestasAfirmaciones": {
+      "type": [
+        "number"
+      ]
+    },
+    "RespuestasPreguntasAbiertas": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId"
+    },
+    "juegoDeCuestionarioSatisfaccion": {
+      "type": "belongsTo",
+      "model": "JuegoDeCuestionarioSatisfaccion",
+      "foreignKey": "juegoDeCuestionarioSatisfaccionId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

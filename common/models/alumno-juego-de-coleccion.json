@@ -1,1 +1,40 @@
-{"name":"AlumnoJuegoDeColeccion","plural":"AlumnosJuegoDeColeccion","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId","options":{"nestRemoting":true}},"juegoDeColeccion":{"type":"belongsTo","model":"JuegoDeColeccion","foreignKey":"juegoDeColeccionId","options":{"nestRemoting":true}},"cromos":{"type":"hasMany","model":"Cromo","foreignKey":"alumnoJuegoDeColeccionId","options":{"nestRemoting":true},"through":"Album"}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeColeccion",
+  "plural": "AlumnosJuegoDeColeccion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeColeccion": {
+      "type": "belongsTo",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "juegoDeColeccionId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "cromos": {
+      "type": "hasMany",
+      "model": "Cromo",
+      "foreignKey": "alumnoJuegoDeColeccionId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Album"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

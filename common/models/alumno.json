@@ -156,6 +156,17 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeEvaluacion"
+    },
+    "libro": {
+      "type": "hasMany",
+      "model": "Libro",
+      "foreignKey": "alumnoId"
+    },
+    "juegodelibro": {
+      "type": "hasMany",
+      "model": "juego-de-libro",
+      "foreignKey": "alumnoId"
+
     }
   },
   "acls": [],

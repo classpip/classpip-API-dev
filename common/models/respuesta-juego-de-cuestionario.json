@@ -8,7 +8,9 @@
   },
   "properties": {
     "Respuesta": {
-      "type": ["string"],
+      "type": [
+        "string"
+      ],
       "required": false
     }
   },
