@@ -1,1 +1,66 @@
-{"name":"JuegoDeAvatar","plural":"juegosDeAvatar","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"NombreJuego":{"type":"string","required":true},"Tipo":{"type":"string","required":true},"Modo":{"type":"string","required":true},"JuegoActivo":{"type":"boolean","required":true,"default":true},"Familias":{"type":["number"],"required":true},"CriteriosPrivilegioComplemento1":{"type":"string"},"CriteriosPrivilegioComplemento2":{"type":"string"},"CriteriosPrivilegioComplemento3":{"type":"string"},"CriteriosPrivilegioComplemento4":{"type":"string"},"CriteriosPrivilegioVoz":{"type":"string"},"CriteriosPrivilegioVerTodos":{"type":"string"}},"validations":[],"relations":{"alumnos":{"type":"hasMany","model":"Alumno","foreignKey":"juegoDeAvatarId","options":{"nestRemoting":true},"through":"AlumnoJuegoDeAvatar"}},"acls":[],"methods":{}}
+{
+  "name": "JuegoDeAvatar",
+  "plural": "juegosDeAvatar",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Modo": {
+      "type": "string",
+      "required": true
+    },
+    "JuegoActivo": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "Familias": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "CriteriosPrivilegioComplemento1": {
+      "type": "string"
+    },
+    "CriteriosPrivilegioComplemento2": {
+      "type": "string"
+    },
+    "CriteriosPrivilegioComplemento3": {
+      "type": "string"
+    },
+    "CriteriosPrivilegioComplemento4": {
+      "type": "string"
+    },
+    "CriteriosPrivilegioVoz": {
+      "type": "string"
+    },
+    "CriteriosPrivilegioVerTodos": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeAvatarId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeAvatar"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

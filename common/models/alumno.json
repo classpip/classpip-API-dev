@@ -151,11 +151,25 @@
     "juegosDeEvaluacion": {
       "type": "hasMany",
       "model": "JuegoDeEvaluacion",
+
       "foreignKey": "alumnoId",
+
       "options": {
         "nestRemoting": true
       },
       "through": "AlumnoJuegoEvaluado"
+
+    },
+    "libro": {
+      "type": "hasMany",
+      "model": "Libro",
+      "foreignKey": "alumnoId"
+    },
+    "juegodelibro": {
+      "type": "hasMany",
+      "model": "juego-de-libro",
+      "foreignKey": "alumnoId"
+
     }
   },
   "acls": [],
