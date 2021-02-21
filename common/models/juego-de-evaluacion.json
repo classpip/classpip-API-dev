@@ -38,7 +38,7 @@
     },
     "notaProfesorNormal": {
       "type": "boolean",
-      "required": true
+      "required": false
     },
     "autoEvaluacion": {
       "type": "boolean",
@@ -56,9 +56,15 @@
     },
     "metodoSubcriterios": {
       "type": "boolean",
-      "required": true
+      "required": false
     },
     "Penalizacion": {
+      "type": [
+        "any"
+      ],
+      "required": false
+    },
+    "PreguntasAbiertas": {
       "type": [
         "any"
       ],
