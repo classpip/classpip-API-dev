@@ -6,11 +6,11 @@
     "Punto": 10,
     "Coleccion": 16,
     "Cromo": 201,
-    "Equipo": 34,
+    "Equipo": 36,
     "JuegoDePuntos": 31,
     "JuegoDeColeccion": 113,
     "Matricula": 291,
-    "AsignacionEquipo": 75,
+    "AsignacionEquipo": 80,
     "AsignacionPuntoJuego": 96,
     "Nivel": 12,
     "AlumnoJuegoDePuntos": 227,
@@ -288,7 +288,9 @@
       "30": "{\"Nombre\":\"Equipo_0\",\"grupoId\":51,\"id\":30}",
       "31": "{\"Nombre\":\"Equipo_1\",\"grupoId\":51,\"id\":31}",
       "32": "{\"Nombre\":\"Equipo_2\",\"grupoId\":51,\"id\":32}",
-      "33": "{\"Nombre\":\"Equipo_3\",\"grupoId\":51,\"id\":33}"
+      "33": "{\"Nombre\":\"Equipo_3\",\"grupoId\":51,\"id\":33}",
+      "34": "{\"Nombre\":\"Equipo_0\",\"grupoId\":55,\"id\":34}",
+      "35": "{\"Nombre\":\"Equipo_1\",\"grupoId\":55,\"id\":35}"
     },
     "JuegoDePuntos": {
       "5": "{\"NombreJuego\":\"Puntos individual\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":22,\"id\":5}",
@@ -489,7 +491,12 @@
       "71": "{\"alumnoId\":117,\"equipoId\":32,\"grupoId\":51,\"id\":71}",
       "72": "{\"alumnoId\":105,\"equipoId\":32,\"grupoId\":51,\"id\":72}",
       "73": "{\"alumnoId\":112,\"equipoId\":32,\"grupoId\":51,\"id\":73}",
-      "74": "{\"alumnoId\":107,\"equipoId\":33,\"grupoId\":51,\"id\":74}"
+      "74": "{\"alumnoId\":107,\"equipoId\":33,\"grupoId\":51,\"id\":74}",
+      "75": "{\"alumnoId\":33,\"equipoId\":34,\"grupoId\":55,\"id\":75}",
+      "76": "{\"alumnoId\":56,\"equipoId\":34,\"grupoId\":55,\"id\":76}",
+      "77": "{\"alumnoId\":58,\"equipoId\":34,\"grupoId\":55,\"id\":77}",
+      "78": "{\"alumnoId\":54,\"equipoId\":35,\"grupoId\":55,\"id\":78}",
+      "79": "{\"alumnoId\":50,\"equipoId\":35,\"grupoId\":55,\"id\":79}"
     },
     "AsignacionPuntoJuego": {
       "12": "{\"juegoDePuntosId\":5,\"puntoId\":3,\"id\":12}",
