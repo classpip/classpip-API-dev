@@ -1,7 +1,7 @@
 {
   "ids": {
     "Profesor": 16,
-    "Alumno": 318,
+    "Alumno": 313,
     "Grupo": 63,
     "Punto": 10,
     "Coleccion": 18,
@@ -186,7 +186,7 @@
       "308": "{\"id\":308,\"Nombre\":\"Diego\",\"PrimerApellido\":\"Vargas\",\"SegundoApellido\":\"Gómez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/37.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"Diego\",\"Email\":\"diego.vargas.gomez@estudiantat.upc.edu\",\"Password\":\"9hq246vg\",\"profesorId\":1}",
       "309": "{\"id\":309,\"Nombre\":\"Daniel\",\"PrimerApellido\":\"Avilés\",\"SegundoApellido\":\"Fernández\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/38.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DanielA\",\"Email\":\"daniel.aviles@upc.edu\",\"Password\":\"afxtclcg\",\"profesorId\":1}",
       "310": "{\"id\":310,\"Nombre\":\"Javier\",\"PrimerApellido\":\"Marquez\",\"SegundoApellido\":\"Camacho\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/39.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"JavierM\",\"Email\":\"javier.marquez.camacho@estudiantat.upc.edu\",\"Password\":\"r9fcj9h6\",\"profesorId\":1}",
-      "311": "{\"id\":311,\"Nombre\":\"David\",\"PrimerApellido\":\"Vazquez\",\"SegundoApellido\":\"Jimenez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/40.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DavidV\",\"Email\":\"david.vazquez.jimenez@estudiantat.upc.edu\",\"Password\":\"rtuihnk4\",\"profesorId\":1}"
+      "311": "{\"id\":311,\"Nombre\":\"David\",\"PrimerApellido\":\"Vazquez\",\"SegundoApellido\":\"Jimenez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/40.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DavidV\",\"Email\":\"david.vazquez.jimenez@estudiantat.upc.edu\",\"Password\":\"rtuihnk4\",\"profesorId\":1}",
     },
     "Grupo": {
       "55": "{\"Nombre\":\"pruebas evaluacion\",\"Descripcion\":\"pruebas evaluacion\",\"profesorId\":14,\"id\":55}",
@@ -196,7 +196,8 @@
       "61": "{\"Nombre\":\"SO_2020Q2_Mañana\",\"Descripcion\":\"SO_2020Q2_Mañana\",\"profesorId\":1,\"id\":61}",
       "62": "{\"Nombre\":\"SO_2020Q2Tarde\",\"Descripcion\":\"SO_2020Q2Tarde\",\"profesorId\":1,\"id\":62}"
     },
-    "Punto": {},
+    "Punto": {
+    },
     "Coleccion": {
       "9": "{\"Nombre\":\"Compositores\",\"ImagenColeccion\":\"compositores.png\",\"DosCaras\":true,\"Publica\":true,\"profesorId\":8,\"id\":9}",
       "10": "{\"Nombre\":\"Comandos Linux\",\"ImagenColeccion\":\"linux.jpg\",\"DosCaras\":true,\"Publica\":true,\"profesorId\":8,\"id\":10}",
@@ -347,7 +348,8 @@
       "71": "{\"Nombre\":\"g56\",\"FotoEquipo\":\"http://147.83.118.92:3000/api/imagenes/LogosEquipos/download/undefined\",\"grupoId\":55,\"id\":71}",
       "72": "{\"Nombre\":\"g78\",\"FotoEquipo\":\"http://147.83.118.92:3000/api/imagenes/LogosEquipos/download/undefined\",\"grupoId\":55,\"id\":72}"
     },
-    "JuegoDePuntos": {},
+    "JuegoDePuntos": {
+    },
     "JuegoDeColeccion": {
       "119": "{\"NombreJuego\":\"Comandos interesantes de linux\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":61,\"coleccionId\":10,\"id\":119}",
       "120": "{\"NombreJuego\":\"Comandos de linux\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":62,\"coleccionId\":10,\"id\":120}"
@@ -574,11 +576,18 @@
       "200": "{\"alumnoId\":141,\"equipoId\":72,\"grupoId\":55,\"id\":200}",
       "201": "{\"alumnoId\":142,\"equipoId\":72,\"grupoId\":55,\"id\":201}"
     },
-    "AsignacionPuntoJuego": {},
-    "Nivel": {},
-    "AlumnoJuegoDePuntos": {},
-    "EquipoJuegoDePuntos": {},
-    "HistorialPuntosAlumno": {},
+    "AsignacionPuntoJuego": {
+   
+    },
+    "Nivel": {
+       },
+    "AlumnoJuegoDePuntos": {
+    
+    },
+    "EquipoJuegoDePuntos": {
+    },
+    "HistorialPuntosAlumno": {
+    },
     "Insignia": {},
     "HistorialPuntosEquipo": {},
     "AlumnoJuegoDeColeccion": {
@@ -622,7 +631,9 @@
       "665": "{\"alumnoId\":311,\"juegoDeColeccionId\":120,\"id\":665}",
       "666": "{\"alumnoId\":295,\"juegoDeColeccionId\":120,\"id\":666}"
     },
-    "EquipoJuegoDeColeccion": {},
+    "EquipoJuegoDeColeccion": {
+
+    },
     "Album": {
       "4188": "{\"cromoId\":148,\"alumnoJuegoDeColeccionId\":628,\"id\":4188}",
       "4189": "{\"cromoId\":153,\"alumnoJuegoDeColeccionId\":629,\"id\":4189}",
@@ -780,32 +791,56 @@
       "4348": "{\"cromoId\":148,\"alumnoJuegoDeColeccionId\":666,\"id\":4348}",
       "4349": "{\"cromoId\":151,\"alumnoJuegoDeColeccionId\":648,\"id\":4349}"
     },
-    "AlbumEquipo": {},
-    "JuegoDeCompeticionLiga": {},
-    "JornadaDeCompeticionLiga": {},
-    "EnfrentamientoLiga": {},
-    "AlumnoJuegoDeCompeticionLiga": {},
+    "AlbumEquipo": {
+    },
+    "JuegoDeCompeticionLiga": {
+        },
+    "JornadaDeCompeticionLiga": {
+     },
+    "EnfrentamientoLiga": {
+       },
+    "AlumnoJuegoDeCompeticionLiga": {
+      },
     "EquipoJuegoDeCompeticionLiga": {},
-    "JuegoDeCompeticionFormulaUno": {},
-    "JornadaDeCompeticionFormulaUno": {},
-    "AlumnoJuegoDeCompeticionFormulaUno": {},
+    "JuegoDeCompeticionFormulaUno": {
+     },
+    "JornadaDeCompeticionFormulaUno": {
+     },
+    "AlumnoJuegoDeCompeticionFormulaUno": {
+    },
     "EquipoJuegoDeCompeticionFormulaUno": {},
-    "Pregunta": {},
-    "Cuestionario": {},
-    "PreguntaDelCuestionario": {},
-    "Escenario": {},
-    "PuntoGeolocalizable": {},
-    "SesionClase": {},
-    "FamiliaAvatares": {},
-    "JuegoDeAvatar": {},
-    "AlumnoJuegoDeAvatar": {},
-    "JuegoDeCuestionario": {},
-    "AlumnoJuegoDeCuestionario": {},
-    "JuegoDeGeocaching": {},
-    "AlumnoJuegoDeGeocaching": {},
-    "RespuestaJuegoDeCuestionario": {},
-    "JuegoDeVotacionUnoATodos": {},
-    "AlumnoJuegoDeVotacionUnoATodos": {},
+    "Pregunta": {
+    },
+    "Cuestionario": {
+    },
+    "PreguntaDelCuestionario": {
+    },
+    "Escenario": {
+    },
+    "PuntoGeolocalizable": {
+    },
+    "SesionClase": {
+    },
+    "FamiliaAvatares": {
+    },
+    "JuegoDeAvatar": {
+    },
+    "AlumnoJuegoDeAvatar": {
+    },
+    "JuegoDeCuestionario": {
+    },
+    "AlumnoJuegoDeCuestionario": {
+    },
+    "JuegoDeGeocaching": {
+    },
+    "AlumnoJuegoDeGeocaching": {
+    },
+    "RespuestaJuegoDeCuestionario": {
+    },
+    "JuegoDeVotacionUnoATodos": {
+    },
+    "AlumnoJuegoDeVotacionUnoATodos": {
+    },
     "Rubrica": {
       "3": "{\"Nombre\":\"Presentacion oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No mas de 3 lineas en cada una\"]}],\"profesorId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Presentacion oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No mas de 3 lineas en cada una\"]}],\"profesorId\":14,\"id\":4}",
@@ -815,8 +850,10 @@
       "9": "{\"Nombre\":\"Presentaci�n oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No m�s de 3 lineas en cada una\"]}],\"profesorId\":14,\"id\":9}",
       "10": "{\"Nombre\":\"4 SÚPER-PODERS\",\"Descripcion\":\"Per avaluar els diferents reptes\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\"Capacitat de formular i dissenyar idees motivadores i originals.\",\"Capacitat per captar l’interès amb les idees aportades.\"]},{\"Nombre\":\"COMUNICACIÓ\",\"Elementos\":[\"Habilitat comunicativa per estructurar correctament i amb cohesió les idees.\",\"Capacitat de síntesi\"]},{\"Nombre\":\"INTEL·LIGÈNCIA\",\"Elementos\":[\"Capacitat d’aportar idees i/o arguments rellevants i importants.\",\"Domini del llenguatge específic segons diferents aspectes del món educatiu.\"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\"Capacitat d’adequació en l’ús de les noves tecnologies.\",\"Capacitat de presentar idees de manera motivadora i original amb l’ús de la tecnologia.\"]}],\"profesorId\":15,\"id\":10}"
     },
-    "JuegoDeVotacionTodosAUno": {},
-    "AlumnoJuegoDeVotacionTodosAUno": {},
+    "JuegoDeVotacionTodosAUno": {
+    },
+    "AlumnoJuegoDeVotacionTodosAUno": {
+    },
     "FamiliaImagenesPerfil": {
       "15": "{\"NombreFamilia\":\"Fantasmas\",\"Publica\":false,\"NumeroImagenes\":16,\"Imagenes\":[\"g15142.png\",\"g15156.png\",\"g15172.png\",\"g15184.png\",\"g15195.png\",\"g15208.png\",\"g15222.png\",\"g15233.png\",\"g15241.png\",\"g15254.png\",\"g15269.png\",\"g15283.png\",\"g15295.png\",\"g15308.png\",\"g15321.png\",\"g15334.png\"],\"profesorId\":1,\"id\":15}",
       "16": "{\"id\":16,\"NombreFamilia\":\"Emotis\",\"NumeroImagenes\":30,\"Imagenes\":[\"g116874.png\",\"g116931.png\",\"g116986.png\",\"g117059.png\",\"g117147.png\",\"g117199.png\",\"g117270.png\",\"g117308.png\",\"g117359.png\",\"g117446.png\",\"g117530.png\",\"g117582.png\",\"g117672.png\",\"g117731.png\",\"g117781.png\",\"g117821.png\",\"g117871.png\",\"g117937.png\",\"g117971.png\",\"g118017.png\",\"g118062.png\",\"g118090.png\",\"g118596.png\",\"g118680.png\",\"g118731.png\",\"g118799.png\",\"g118841.png\",\"g118909.png\",\"g118965.png\",\"g119001.png\"],\"profesorId\":1,\"Publica\":true}",
@@ -830,13 +867,19 @@
       "24": "{\"NombreFamilia\":\"Otros emojis\",\"Publica\":false,\"NumeroImagenes\":36,\"Imagenes\":[\"g1655.png\",\"g1661.png\",\"g1667.png\",\"g1672.png\",\"g1680.png\",\"g1691.png\",\"g1699.png\",\"g1708.png\",\"g1716.png\",\"g1734.png\",\"g1841.png\",\"g1847.png\",\"g1853.png\",\"g1859.png\",\"g1865.png\",\"g1873.png\",\"g1882.png\",\"g1890.png\",\"g1900.png\",\"g1910.png\",\"g2017.png\",\"g2025.png\",\"g2033.png\",\"g2039.png\",\"g2045.png\",\"g2053.png\",\"g2061.png\",\"g2067.png\",\"g2075.png\",\"g2083.png\",\"g2089.png\",\"g2095.png\",\"g2101.png\",\"g2109.png\",\"g2115.png\",\"g2121.png\"],\"profesorId\":1,\"id\":24}",
       "25": "{\"id\":25,\"NombreFamilia\":\"monigotes\",\"NumeroImagenes\":173,\"Imagenes\":[\"1.png\",\"2.png\",\"3.png\",\"4.png\",\"5.png\",\"6.png\",\"8.png\",\"9.png\",\"10.png\",\"11.png\",\"12.png\",\"13.png\",\"14.png\",\"15.png\",\"16.png\",\"17.png\",\"18.png\",\"19.png\",\"20.png\",\"21.png\",\"22.png\",\"23.png\",\"24.png\",\"25.png\",\"26.png\",\"27.png\",\"28.png\",\"29.png\",\"30.png\",\"31.png\",\"32.png\",\"33.png\",\"34.png\",\"35.png\",\"36.png\",\"37.png\",\"38.png\",\"39.png\",\"40.png\",\"41.png\",\"42.png\",\"43.png\",\"44.png\",\"45.png\",\"46.png\",\"47.png\",\"48.png\",\"49.png\",\"50.png\",\"51.png\",\"52.png\",\"53.png\",\"54.png\",\"55.png\",\"56.png\",\"57.png\",\"58.png\",\"59.png\",\"60.png\",\"61.png\",\"62.png\",\"63.png\",\"64.png\",\"65.png\",\"66.png\",\"67.png\",\"68.png\",\"69.png\",\"70.png\",\"71.png\",\"72.png\",\"73.png\",\"74.png\",\"75.png\",\"76.png\",\"77.png\",\"78.png\",\"79.png\",\"80.png\",\"81.png\",\"82.png\",\"83.png\",\"84.png\",\"85.png\",\"86.png\",\"87.png\",\"88.png\",\"89.png\",\"90.png\",\"91.png\",\"92.png\",\"93.png\",\"94.png\",\"95.png\",\"96.png\",\"97.png\",\"98.png\",\"99.png\",\"100.png\",\"101.png\",\"102.png\",\"103.png\",\"104.png\",\"105.png\",\"106.png\",\"107.png\",\"108.png\",\"109.png\",\"110.png\",\"112.png\",\"113.png\",\"114.png\",\"115.png\",\"116.png\",\"117.png\",\"118.png\",\"119.png\",\"120.png\",\"121.png\",\"122.png\",\"123.png\",\"124.png\",\"125.png\",\"126.png\",\"127.png\",\"128.png\",\"129.png\",\"130.png\",\"131.png\",\"132.png\",\"133.png\",\"134.png\",\"135.png\",\"136.png\",\"137.png\",\"138.png\",\"139.png\",\"140.png\",\"141.png\",\"142.png\",\"143.png\",\"144.png\",\"145.png\",\"146.png\",\"147.png\",\"148.png\",\"149.png\",\"150.png\",\"151.png\",\"152.png\",\"153.png\",\"154.png\",\"155.png\",\"156.png\",\"157.png\",\"158.png\",\"159.png\",\"160.png\",\"161.png\",\"162.png\",\"163.png\",\"164.png\",\"165.png\",\"166.png\",\"167.png\",\"168.png\",\"169.png\",\"170.png\",\"171.png\",\"172.png\",\"173.png\",\"174.png\",\"175.png\"],\"profesorId\":14,\"Publica\":true}"
     },
-    "CuestionarioSatisfaccion": {},
-    "JuegoDeCuestionarioSatisfaccion": {},
-    "AlumnoJuegoDeCuestionarioSatisfaccion": {},
-    "JuegoDeEncuestaRapida": {},
+    "CuestionarioSatisfaccion": {
+    },
+    "JuegoDeCuestionarioSatisfaccion": {
+    },
+    "AlumnoJuegoDeCuestionarioSatisfaccion": {
+    },
+    "JuegoDeEncuestaRapida": {
+    },
     "JuegoDeVotacionRapida": {},
-    "JuegoDeCuestionarioRapido": {},
-    "JuegoDeCogerTurnoRapido": {},
+    "JuegoDeCuestionarioRapido": {
+    },
+    "JuegoDeCogerTurnoRapido": {
+    },
     "JuegoDeEvaluacion": {
       "19": "{\"NombreJuego\":\"RETO 1\",\"Descripcion\":\"RETO 1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":5,\"Pesos\":[],\"metodoSubcriterios\":false,\"Penalizacion\":[],\"PreguntasAbiertas\":[\"¿Qué aspecto podría mejorar?\",\"¿Qué aspecto debería mantener y potenciar?\"],\"id\":19,\"profesorId\":15,\"grupoId\":56,\"rubricaId\":0}",
       "20": "{\"NombreJuego\":\"Equipos\",\"Descripcion\":\"EQUIPOS\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":0,\"Pesos\":[],\"metodoSubcriterios\":false,\"Penalizacion\":[],\"PreguntasAbiertas\":[\"Pregunta 1\",\"Pregunta 2\",\"Pregunta 3\"],\"id\":20,\"profesorId\":15,\"grupoId\":56,\"rubricaId\":0}",
@@ -852,7 +895,8 @@
       "46": "{\"NombreJuego\":\"equipos con evaluacion individual\",\"Descripcion\":\"equipos con evaluacion individual\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":46,\"profesorId\":14,\"grupoId\":55,\"rubricaId\":4}"
     },
     "AlumnoJuegoEvaluado": {},
-    "escena": {},
+    "escena": {
+    },
     "AlumnoJuegoDeEvaluacion": {
       "86": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[145,144,150,146,149],\"respuestas\":[{\"profesorId\":15,\"respuesta\":[\"Profesor evalúa a A5: esto\",\"Profesor evalúa a A5: lo otro\"]},{\"alumnoId\":145,\"respuesta\":[\"a4 evalua a a5\",\"a4 evalua a a5\"]}],\"id\":86,\"alumnoId\":148,\"juegoDeEvaluacionId\":19}",
       "87": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[145,148,149,150,144],\"respuestas\":[{\"profesorId\":15,\"respuesta\":[\"Profesor evalúa a A3: esto\",\"Profesor evalúa a A3: lo otro\"]},{\"alumnoId\":148,\"respuesta\":[\"a5 evalua a a3 primera pregunta\",\"a5 evalua a a3 primera pregunta\"]},{\"alumnoId\":145,\"respuesta\":[\"a4 evalua a a3\",\"a4 evalua a a3\"]}],\"id\":87,\"alumnoId\":147,\"juegoDeEvaluacionId\":19}",
@@ -1079,11 +1123,17 @@
       "50": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[142,137],\"respuestas\":null,\"id\":50,\"equipoId\":71,\"juegoDeEvaluacionId\":46}",
       "51": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[137,136],\"respuestas\":null,\"id\":51,\"equipoId\":72,\"juegoDeEvaluacionId\":46}"
     },
-    "recursosLibro": {},
-    "juego-de-libro": {},
-    "recursosJuegoLibro": {},
-    "alumnojuegodecuento": {},
-    "Libro": {},
-    "frame": {}
+    "recursosLibro": {
+    },
+    "juego-de-libro": {
+    },
+    "recursosJuegoLibro": {
+    },
+    "alumnojuegodecuento": {
+    },
+    "Libro": {
+    },
+    "frame": {
+    }
   }
 }
