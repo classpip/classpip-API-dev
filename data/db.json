@@ -3,18 +3,18 @@
     "Profesor": 16,
     "Alumno": 318,
     "Grupo": 63,
-    "Punto": 10,
+    "Punto": 12,
     "Coleccion": 18,
     "Cromo": 239,
     "Equipo": 73,
-    "JuegoDePuntos": 31,
+    "JuegoDePuntos": 32,
     "JuegoDeColeccion": 121,
     "Matricula": 555,
     "AsignacionEquipo": 202,
-    "AsignacionPuntoJuego": 96,
+    "AsignacionPuntoJuego": 98,
     "Nivel": 12,
     "AlumnoJuegoDePuntos": 227,
-    "EquipoJuegoDePuntos": 14,
+    "EquipoJuegoDePuntos": 18,
     "HistorialPuntosAlumno": 340,
     "Insignia": 1,
     "HistorialPuntosEquipo": 2,
@@ -33,22 +33,22 @@
     "EquipoJuegoDeCompeticionFormulaUno": 5,
     "Escenario": 11,
     "PuntoGeolocalizable": 28,
-    "Cuestionario": 55,
-    "PreguntaDelCuestionario": 156,
+    "Cuestionario": 57,
+    "PreguntaDelCuestionario": 171,
     "SesionClase": 200,
     "AsistenciaClase": 2815,
-    "Pregunta": 252,
+    "Pregunta": 267,
     "FamiliaAvatares": 51,
     "JuegoDeAvatar": 49,
     "AlumnoJuegoDeAvatar": 316,
-    "JuegoDeCuestionario": 111,
-    "AlumnoJuegoDeCuestionario": 973,
+    "JuegoDeCuestionario": 112,
+    "AlumnoJuegoDeCuestionario": 981,
     "JuegoDeGeocaching": 25,
     "AlumnoJuegoDeGeocaching": 89,
-    "RespuestaJuegoDeCuestionario": 1140,
-    "JuegoDeVotacionUnoATodos": 25,
-    "AlumnoJuegoDeVotacionUnoATodos": 208,
-    "Rubrica": 12,
+    "RespuestaJuegoDeCuestionario": 1150,
+    "JuegoDeVotacionUnoATodos": 27,
+    "AlumnoJuegoDeVotacionUnoATodos": 216,
+    "Rubrica": 14,
     "JuegoDeVotacionTodosAUno": 18,
     "AlumnoJuegoDeVotacionTodosAUno": 110,
     "FamiliaImagenesPerfil": 26,
@@ -57,19 +57,20 @@
     "AlumnoJuegoDeCuestionarioSatisfaccion": 69,
     "JuegoDeEncuestaRapida": 83,
     "JuegoDeVotacionRapida": 16,
-    "JuegoDeCuestionarioRapido": 50,
+    "JuegoDeCuestionarioRapido": 51,
     "JuegoDeCogerTurnoRapido": 16,
-    "JuegoDeEvaluacion": 47,
+    "JuegoDeEvaluacion": 50,
     "AlumnoJuegoEvaluado": 9,
-    "AlumnoJuegoDeEvaluacion": 688,
+    "AlumnoJuegoDeEvaluacion": 724,
     "EquipoJuegoDeEvaluacion": 52,
-    "recursosLibro": 5,
+    "recursosLibro": 6,
     "juego-de-libro": 3,
     "recursosJuegoLibro": 3,
     "alumnojuegodecuento": 17,
     "Libro": 5,
     "escena": 6,
-    "frame": 7
+    "frame": 7,
+    "EquipoJuegoDeVotacionUnoATodos": 5
   },
   "models": {
     "Profesor": {
@@ -196,7 +197,10 @@
       "61": "{\"Nombre\":\"SO_2020Q2_Mañana\",\"Descripcion\":\"SO_2020Q2_Mañana\",\"profesorId\":1,\"id\":61}",
       "62": "{\"Nombre\":\"SO_2020Q2Tarde\",\"Descripcion\":\"SO_2020Q2Tarde\",\"profesorId\":1,\"id\":62}"
     },
-    "Punto": {},
+    "Punto": {
+      "10": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":14,\"id\":10}",
+      "11": "{\"Nombre\":\"xz\",\"Descripcion\":\"xz\",\"profesorId\":14,\"id\":11}"
+    },
     "Coleccion": {
       "9": "{\"Nombre\":\"Compositores\",\"ImagenColeccion\":\"compositores.png\",\"DosCaras\":true,\"Publica\":true,\"profesorId\":8,\"id\":9}",
       "10": "{\"Nombre\":\"Comandos Linux\",\"ImagenColeccion\":\"linux.jpg\",\"DosCaras\":true,\"Publica\":true,\"profesorId\":8,\"id\":10}",
@@ -347,7 +351,9 @@
       "71": "{\"Nombre\":\"g56\",\"FotoEquipo\":\"http://147.83.118.92:3000/api/imagenes/LogosEquipos/download/undefined\",\"grupoId\":55,\"id\":71}",
       "72": "{\"Nombre\":\"g78\",\"FotoEquipo\":\"http://147.83.118.92:3000/api/imagenes/LogosEquipos/download/undefined\",\"grupoId\":55,\"id\":72}"
     },
-    "JuegoDePuntos": {},
+    "JuegoDePuntos": {
+      "31": "{\"NombreJuego\":\"dssd\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":55,\"id\":31}"
+    },
     "JuegoDeColeccion": {
       "119": "{\"NombreJuego\":\"Comandos interesantes de linux\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":61,\"coleccionId\":10,\"id\":119}",
       "120": "{\"NombreJuego\":\"Comandos de linux\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":62,\"coleccionId\":10,\"id\":120}"
@@ -574,10 +580,18 @@
       "200": "{\"alumnoId\":141,\"equipoId\":72,\"grupoId\":55,\"id\":200}",
       "201": "{\"alumnoId\":142,\"equipoId\":72,\"grupoId\":55,\"id\":201}"
     },
-    "AsignacionPuntoJuego": {},
+    "AsignacionPuntoJuego": {
+      "96": "{\"juegoDePuntosId\":31,\"puntoId\":11,\"id\":96}",
+      "97": "{\"juegoDePuntosId\":31,\"puntoId\":10,\"id\":97}"
+    },
     "Nivel": {},
     "AlumnoJuegoDePuntos": {},
-    "EquipoJuegoDePuntos": {},
+    "EquipoJuegoDePuntos": {
+      "14": "{\"PuntosTotalesEquipo\":0,\"equipoId\":69,\"juegoDePuntosId\":31,\"id\":14}",
+      "15": "{\"PuntosTotalesEquipo\":0,\"equipoId\":70,\"juegoDePuntosId\":31,\"id\":15}",
+      "16": "{\"PuntosTotalesEquipo\":0,\"equipoId\":71,\"juegoDePuntosId\":31,\"id\":16}",
+      "17": "{\"PuntosTotalesEquipo\":0,\"equipoId\":72,\"juegoDePuntosId\":31,\"id\":17}"
+    },
     "HistorialPuntosAlumno": {},
     "Insignia": {},
     "HistorialPuntosEquipo": {},
@@ -790,22 +804,89 @@
     "JornadaDeCompeticionFormulaUno": {},
     "AlumnoJuegoDeCompeticionFormulaUno": {},
     "EquipoJuegoDeCompeticionFormulaUno": {},
-    "Pregunta": {},
-    "Cuestionario": {},
-    "PreguntaDelCuestionario": {},
+    "Pregunta": {
+      "252": "{\"Titulo\":\"Madrid\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"¿Qué ciudad es?\",\"Tematica\":\"Ciudades\",\"Imagen\":\"madrid_4t.jpg\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"RespuestaCorrecta\":\"Madrid\",\"RespuestaIncorrecta1\":\"Barcelona\",\"RespuestaIncorrecta2\":\"Sevilla\",\"RespuestaIncorrecta3\":\"Málaga\",\"profesorId\":1,\"id\":252}",
+      "253": "{\"Titulo\":\"Barcelona\",\"Tipo\":\"Respuesta abierta\",\"Pregunta\":\"¿Qué ciudad es?\",\"Tematica\":\"Ciudades\",\"Imagen\":\"barcelona_4t.jpg\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"RespuestaCorrecta\":\"Barcelona\",\"profesorId\":1,\"id\":253}",
+      "254": "{\"Titulo\":\"Sevilla\",\"Tipo\":\"Verdadero o falso\",\"Pregunta\":\"Esta foto es de Barcelona\",\"Tematica\":\"Ciudades\",\"Imagen\":\"sevilla_4t.jpg\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"RespuestaCorrecta\":\"falso\",\"profesorId\":1,\"id\":254}",
+      "255": "{\"Titulo\":\"Empareja\",\"Tipo\":\"Emparejamiento\",\"Pregunta\":\"Empareja paises con sus capitales\",\"Tematica\":\"Ciudades\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"Emparejamientos\":[{\"l\":\"Francia\",\"r\":\"París\"},{\"l\":\"España\",\"r\":\"Madrid\"},{\"l\":\"Italia\",\"r\":\"Roma\"},{\"l\":\"Portugal\",\"r\":\"Lisboa\"}],\"profesorId\":1,\"id\":255}",
+      "257": "{\"Titulo\":\"comandos Linux 1\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p1.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. El comando set guarda cada una de las palabras que vienen a continuación en $1, $2, etc\",\"RespuestaCorrecta\":\"Escribe en consola la letra 'c'\",\"RespuestaIncorrecta1\":\"Escribe en consola '$1'\",\"RespuestaIncorrecta2\":\"Escribe en consola 'a b c\",\"RespuestaIncorrecta3\":\"Escribe en consola 'a b c d e f'\",\"profesorId\":1,\"id\":257}",
+      "258": "{\"Titulo\":\"comandos Linux 2\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p2.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Lista los ficheros que fueron creados a las 12:30\",\"RespuestaCorrecta\":\"Lista los ficheros que fueron creados a las 12:30\",\"RespuestaIncorrecta1\":\"Muestra las lineas de los ficheros del directorio de trabajo que contienen '12:30'\",\"RespuestaIncorrecta2\":\"Muestra las lineas entre la 12 y la 30 de todos los ficheros del directorio de trabajo\",\"RespuestaIncorrecta3\":\"Genera un fichero con los nombres de los ficheros creados a las 12:30\",\"profesorId\":1,\"id\":258}",
+      "259": "{\"Titulo\":\"comandos Linux 3\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p3.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Mueve al nuevo directorio los ficheros que tienen un 7 en el nombre\",\"RespuestaCorrecta\":\"Crea el directorio datos dentro del directorio res y mueve a ese directorio el todos los ficheros de texto que tienen un 7 en el nombre\",\"RespuestaIncorrecta1\":\"Crea el directorio datos dentro del directorio res y copia en él todos los ficheros que tienen un 7 en el nombre\",\"RespuestaIncorrecta2\":\"Copia en res todos los ficheros que contienen un 7\",\"RespuestaIncorrecta3\":\"Crea el directorio datos dentro del directorio res y copia en él todos los ficheros de texto que tienen un 7 en el nombre\",\"profesorId\":1,\"id\":259}",
+      "260": "{\"Titulo\":\"comandos Linux 4\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p4.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Crea un fichero con la primera línea de b.txt y la última de a.txt\",\"RespuestaCorrecta\":\"Crea un fichero con la primera línea de a.txt y la última de b.txt\",\"RespuestaIncorrecta1\":\"Crea un fichero con la primera línea de b.txt y la última de a.txt\",\"RespuestaIncorrecta2\":\"Elimina la primera linea de a.txt y la última de b.txt\",\"RespuestaIncorrecta3\":\"Une el contenido de a.txt y el de b.txt\",\"profesorId\":1,\"id\":260}",
+      "261": "{\"Titulo\":\"comandos Linux 5\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p5.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Escribe en consola el número de ficheros de texto que hay en el directorio de trabajo cuyo nombre empieza por 'a' seguido de un dígito.\",\"RespuestaCorrecta\":\"Escribe en consola el número de ficheros de texto que hay en el directorio de trabajo cuyo nombre empieza por 'a' seguido de un dígito.\",\"RespuestaIncorrecta1\":\"Escribe en consola el número de ficheros de texto que hay en el directorio de trabajo cuyo nombre empieza por 'a[0-9]'\",\"RespuestaIncorrecta2\":\"Escribe en consola el contenido de los ficheros de texto que hay en el directorio de trabajo cuyo nombre empieza por 'a' seguido de un dígito.\",\"RespuestaIncorrecta3\":\"Escribe en consola el tamaño de ficheros de texto que hay en el directorio de trabajo cuyo nombre empieza por 'a' seguido de un dígito.\",\"profesorId\":1,\"id\":261}",
+      "262": "{\"Titulo\":\"comandos Linux 6\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p6.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Añade al final del fichero 'carta.txt' una línea con la palabra 'Adios'\",\"RespuestaCorrecta\":\"Añade al final del fichero 'carta.txt' una línea con la palabra 'Adios'\",\"RespuestaIncorrecta1\":\"Añade al fichero 'carta.txt' una línea con la palabra 'Adios'\",\"RespuestaIncorrecta2\":\"Crea al fichero 'carta.txt' con la palabra 'Adios'\",\"RespuestaIncorrecta3\":\"Muestra las líneas de 'carta.txt' que contienen la palabra 'Adios'\",\"profesorId\":1,\"id\":262}",
+      "263": "{\"Titulo\":\"comandos Linux 7\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p7.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Repite la última línea del fichero a.txt\",\"RespuestaCorrecta\":\"Repite la última línea del fichero a.txt\",\"RespuestaIncorrecta1\":\"Elimina la última línea del fichero a.txt\",\"RespuestaIncorrecta2\":\"Escribe en consola la última línea del fichero a.txt\",\"RespuestaIncorrecta3\":\"Añade '-1' al fichero a.txt\",\"profesorId\":1,\"id\":263}",
+      "264": "{\"Titulo\":\"comandos Linux 8\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p8.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Muestra en consola las líneas 4 y 5 de a.txt\",\"RespuestaCorrecta\":\"Muestra en consola las líneas 4 y 5 de a.txt\",\"RespuestaIncorrecta1\":\"Elimina las líneas 4 y 5 de a.txt\",\"RespuestaIncorrecta2\":\"Elimina las 5 primeras líneas de a.txt\",\"RespuestaIncorrecta3\":\"Escribe en consola las 5 primeras líneas de a.txt seguidas de las 2 últimas\",\"profesorId\":1,\"id\":264}",
+      "265": "{\"Titulo\":\"comandos Linux 9\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p9.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Muestra en consola las lineas de a.txt que contienen las palabras 'libro' y 'pera'\",\"RespuestaCorrecta\":\"Muestra en consola las lineas de a.txt que contienen las palabras 'libro' y 'pera'\",\"RespuestaIncorrecta1\":\"Cuenta las lineas de a.txt que contienen las palabras 'libro' y 'pera'\",\"RespuestaIncorrecta2\":\"Muestra en consola las lineas de a.txt que contienen la palabra 'libro' o la palabra 'pera'\",\"RespuestaIncorrecta3\":\"Añade a a.txt una línea con la palabra 'libro' y otra con la palabra 'pera'\",\"profesorId\":1,\"id\":265}",
+      "266": "{\"Titulo\":\"comandos Linux 10\",\"Tipo\":\"Cuatro opciones\",\"Pregunta\":\"Selecciona la opción que mejor describe lo que hace el comando\",\"Tematica\":\"Comandos Linux\",\"Imagen\":\"p10.png\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. Copia en el directorio res todos los ficheros de texto que empiezan por 'a' seguida de dos caracteres y quita a esas copias el permiso de escritura\",\"RespuestaCorrecta\":\"Copia en el directorio res todos los ficheros de texto que empiezan por 'a' seguida de dos caracteres y quita a esas copias el permiso de escritura\",\"RespuestaIncorrecta1\":\"Copia en el directorio res todos los ficheros de texto que empiezan por 'a' y quita a esas copias el permiso de escritura\",\"RespuestaIncorrecta2\":\"Copia en el directorio res todos los ficheros de texto que empiezan por a seguida de dos caracteres y quita el permiso de escritura al directorio res\",\"RespuestaIncorrecta3\":\"Copia en el directorio res todos los ficheros de texto que empiezan por a seguida de dos caracteres y luego los cambia de modo\",\"profesorId\":1,\"id\":266}"
+    },
+    "Cuestionario": {
+      "55": "{\"Titulo\":\"Cuatro tipos\",\"Descripcion\":\"cruatro tipos\",\"Publico\":true,\"profesorId\":1,\"id\":55}",
+      "56": "{\"Titulo\":\"Comandos Linux\",\"Descripcion\":\"Comandos Linux\",\"Publico\":true,\"profesorId\":1,\"id\":56}"
+    },
+    "PreguntaDelCuestionario": {
+      "156": "{\"preguntaId\":252,\"cuestionarioId\":55,\"id\":156}",
+      "157": "{\"preguntaId\":253,\"cuestionarioId\":55,\"id\":157}",
+      "158": "{\"preguntaId\":254,\"cuestionarioId\":55,\"id\":158}",
+      "159": "{\"preguntaId\":255,\"cuestionarioId\":55,\"id\":159}",
+      "160": "{\"preguntaId\":257,\"cuestionarioId\":56,\"id\":160}",
+      "161": "{\"preguntaId\":258,\"cuestionarioId\":56,\"id\":161}",
+      "162": "{\"preguntaId\":259,\"cuestionarioId\":56,\"id\":162}",
+      "163": "{\"preguntaId\":260,\"cuestionarioId\":56,\"id\":163}",
+      "164": "{\"preguntaId\":261,\"cuestionarioId\":56,\"id\":164}",
+      "165": "{\"preguntaId\":262,\"cuestionarioId\":56,\"id\":165}",
+      "167": "{\"preguntaId\":263,\"cuestionarioId\":56,\"id\":167}",
+      "168": "{\"preguntaId\":264,\"cuestionarioId\":56,\"id\":168}",
+      "169": "{\"preguntaId\":265,\"cuestionarioId\":56,\"id\":169}",
+      "170": "{\"preguntaId\":266,\"cuestionarioId\":56,\"id\":170}"
+    },
     "Escenario": {},
     "PuntoGeolocalizable": {},
     "SesionClase": {},
     "FamiliaAvatares": {},
     "JuegoDeAvatar": {},
     "AlumnoJuegoDeAvatar": {},
-    "JuegoDeCuestionario": {},
-    "AlumnoJuegoDeCuestionario": {},
+    "JuegoDeCuestionario": {
+      "111": "{\"NombreJuego\":\"cuestionario\",\"Modalidad\":\"Clásico\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":60,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":14,\"grupoId\":55,\"cuestionarioId\":56,\"Tipo\":\"Juego De Cuestionario\",\"id\":111}"
+    },
+    "AlumnoJuegoDeCuestionario": {
+      "973": "{\"id\":973,\"Nota\":0,\"Contestado\":true,\"TiempoEmpleado\":60,\"alumnoId\":136,\"juegoDeCuestionarioId\":111}",
+      "974": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":138,\"juegoDeCuestionarioId\":111,\"id\":974}",
+      "975": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":140,\"juegoDeCuestionarioId\":111,\"id\":975}",
+      "976": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":141,\"juegoDeCuestionarioId\":111,\"id\":976}",
+      "977": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":142,\"juegoDeCuestionarioId\":111,\"id\":977}",
+      "978": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":135,\"juegoDeCuestionarioId\":111,\"id\":978}",
+      "979": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":137,\"juegoDeCuestionarioId\":111,\"id\":979}",
+      "980": "{\"Nota\":0,\"Contestado\":false,\"TiempoEmpleado\":0,\"alumnoId\":139,\"juegoDeCuestionarioId\":111,\"id\":980}"
+    },
     "JuegoDeGeocaching": {},
     "AlumnoJuegoDeGeocaching": {},
-    "RespuestaJuegoDeCuestionario": {},
-    "JuegoDeVotacionUnoATodos": {},
-    "AlumnoJuegoDeVotacionUnoATodos": {},
+    "RespuestaJuegoDeCuestionario": {
+      "1140": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":259,\"id\":1140}",
+      "1141": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":257,\"id\":1141}",
+      "1142": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":262,\"id\":1142}",
+      "1143": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":261,\"id\":1143}",
+      "1144": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":260,\"id\":1144}",
+      "1145": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":265,\"id\":1145}",
+      "1146": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":264,\"id\":1146}",
+      "1147": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":263,\"id\":1147}",
+      "1148": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":258,\"id\":1148}",
+      "1149": "{\"Respuesta\":[\"-\"],\"alumnoJuegoDeCuestionarioId\":973,\"preguntaId\":266,\"id\":1149}"
+    },
+    "JuegoDeVotacionUnoATodos": {
+      "25": "{\"Tipo\":\"Juego De Votación Uno A Todos\",\"NombreJuego\":\"dsdds\",\"Modo\":\"Equipos\",\"ModoReparto\":\"Reparto libre\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Puntos\":[20],\"grupoId\":55,\"id\":25}",
+      "26": "{\"Tipo\":\"Juego De Votación Uno A Todos\",\"NombreJuego\":\"votacion individual\",\"Modo\":\"Individual\",\"ModoReparto\":\"Reparto libre\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Puntos\":[25],\"grupoId\":55,\"id\":26}"
+    },
+    "AlumnoJuegoDeVotacionUnoATodos": {
+      "208": "{\"id\":208,\"puntosTotales\":0,\"alumnoId\":136,\"juegoDeVotacionUnoATodosId\":26}",
+      "209": "{\"id\":209,\"puntosTotales\":0,\"alumnoId\":138,\"juegoDeVotacionUnoATodosId\":26}",
+      "210": "{\"id\":210,\"puntosTotales\":0,\"alumnoId\":140,\"juegoDeVotacionUnoATodosId\":26}",
+      "211": "{\"id\":211,\"puntosTotales\":0,\"alumnoId\":141,\"juegoDeVotacionUnoATodosId\":26}",
+      "212": "{\"id\":212,\"puntosTotales\":0,\"alumnoId\":142,\"juegoDeVotacionUnoATodosId\":26}",
+      "213": "{\"id\":213,\"puntosTotales\":0,\"alumnoId\":135,\"juegoDeVotacionUnoATodosId\":26}",
+      "214": "{\"id\":214,\"puntosTotales\":0,\"alumnoId\":137,\"juegoDeVotacionUnoATodosId\":26}",
+      "215": "{\"id\":215,\"puntosTotales\":0,\"alumnoId\":139,\"juegoDeVotacionUnoATodosId\":26}"
+    },
     "Rubrica": {
       "3": "{\"Nombre\":\"Presentacion oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No mas de 3 lineas en cada una\"]}],\"profesorId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Presentacion oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No mas de 3 lineas en cada una\"]}],\"profesorId\":14,\"id\":4}",
@@ -813,7 +894,9 @@
       "7": "{\"Nombre\":\"Presentación oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No más de 3 lineas en cada una\"]}],\"profesorId\":14,\"id\":7}",
       "8": "{\"Nombre\":\"4 SÚPER-PODERS\",\"Descripcion\":\"Per avaluar els diferents reptes\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\"Capacitat de formular i dissenyar idees motivadores i originals.\",\"Capacitat per captar l’interès amb les idees aportades.\"]},{\"Nombre\":\"COMUNICACIÓ\",\"Elementos\":[\"Habilitat comunicativa per estructurar correctament i amb cohesió les idees.\",\"Capacitat de síntesi\"]},{\"Nombre\":\"INTEL·LIGÈNCIA\",\"Elementos\":[\"Capacitat d’aportar idees i/o arguments rellevants i importants.\",\"Domini del llenguatge específic segons diferents aspectes del món educatiu.\"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\"Capacitat d’adequació en l’ús de les noves tecnologies.\",\"Capacitat de presentar idees de manera motivadora i original amb l’ús de la tecnologia.\"]}],\"profesorId\":14,\"id\":8}",
       "9": "{\"Nombre\":\"Presentaci�n oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No m�s de 3 lineas en cada una\"]}],\"profesorId\":14,\"id\":9}",
-      "10": "{\"Nombre\":\"4 SÚPER-PODERS\",\"Descripcion\":\"Per avaluar els diferents reptes\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\"Capacitat de formular i dissenyar idees motivadores i originals.\",\"Capacitat per captar l’interès amb les idees aportades.\"]},{\"Nombre\":\"COMUNICACIÓ\",\"Elementos\":[\"Habilitat comunicativa per estructurar correctament i amb cohesió les idees.\",\"Capacitat de síntesi\"]},{\"Nombre\":\"INTEL·LIGÈNCIA\",\"Elementos\":[\"Capacitat d’aportar idees i/o arguments rellevants i importants.\",\"Domini del llenguatge específic segons diferents aspectes del món educatiu.\"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\"Capacitat d’adequació en l’ús de les noves tecnologies.\",\"Capacitat de presentar idees de manera motivadora i original amb l’ús de la tecnologia.\"]}],\"profesorId\":15,\"id\":10}"
+      "10": "{\"Nombre\":\"4 SÚPER-PODERS\",\"Descripcion\":\"Per avaluar els diferents reptes\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\"Capacitat de formular i dissenyar idees motivadores i originals.\",\"Capacitat per captar l’interès amb les idees aportades.\"]},{\"Nombre\":\"COMUNICACIÓ\",\"Elementos\":[\"Habilitat comunicativa per estructurar correctament i amb cohesió les idees.\",\"Capacitat de síntesi\"]},{\"Nombre\":\"INTEL·LIGÈNCIA\",\"Elementos\":[\"Capacitat d’aportar idees i/o arguments rellevants i importants.\",\"Domini del llenguatge específic segons diferents aspectes del món educatiu.\"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\"Capacitat d’adequació en l’ús de les noves tecnologies.\",\"Capacitat de presentar idees de manera motivadora i original amb l’ús de la tecnologia.\"]}],\"profesorId\":15,\"id\":10}",
+      "12": "{\"Nombre\":\"4 SÚPER-PODERS\",\"Descripcion\":\"Marca las estrellas que asignas a cada superpoder\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT: Capacitat de formular i dissenyar idees motivadores i originals. Capacitat per captar l’interès amb les idees aportades. \",\"Elementos\":[\" \",\" \",\" \",\" \",\" \"]}],\"profesorId\":1,\"id\":12}",
+      "13": "{\"Nombre\":\"4 SÚPER-PODERS\",\"Descripcion\":\"Marca las estrellas que asignas a cada superpoder\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\" \",\" \",\" \",\" \",\" \"]},{\"Nombre\":\"COMUNICACIÓ\",\"Elementos\":[\" \",\" \",\" \",\" \",\" \"]},{\"Nombre\":\"INTEL·LIGÈNCIA\",\"Elementos\":[\" \",\" \",\" \",\" \",\" \"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\" \",\" \",\" \",\" \",\" \"]}],\"profesorId\":14,\"id\":13}"
     },
     "JuegoDeVotacionTodosAUno": {},
     "AlumnoJuegoDeVotacionTodosAUno": {},
@@ -835,7 +918,9 @@
     "AlumnoJuegoDeCuestionarioSatisfaccion": {},
     "JuegoDeEncuestaRapida": {},
     "JuegoDeVotacionRapida": {},
-    "JuegoDeCuestionarioRapido": {},
+    "JuegoDeCuestionarioRapido": {
+      "50": "{\"NombreJuego\":\"prueba\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"Modalidad\":\"Kahoot\",\"PuntuacionCorrecta\":0,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":30,\"Presentacion\":\"Mostrar pregunta\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"52877268\",\"Respuestas\":[],\"profesorId\":14,\"cuestionarioId\":55,\"id\":50}"
+    },
     "JuegoDeCogerTurnoRapido": {},
     "JuegoDeEvaluacion": {
       "19": "{\"NombreJuego\":\"RETO 1\",\"Descripcion\":\"RETO 1\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":5,\"Pesos\":[],\"metodoSubcriterios\":false,\"Penalizacion\":[],\"PreguntasAbiertas\":[\"¿Qué aspecto podría mejorar?\",\"¿Qué aspecto debería mantener y potenciar?\"],\"id\":19,\"profesorId\":15,\"grupoId\":56,\"rubricaId\":0}",
@@ -849,7 +934,9 @@
       "42": "{\"NombreJuego\":\"sdsdds\",\"Descripcion\":\"ds\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":3,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":42,\"profesorId\":1,\"grupoId\":61,\"rubricaId\":3}",
       "44": "{\"NombreJuego\":\"evaluacion individual\",\"Descripcion\":\"ealuacion individual\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":44,\"profesorId\":14,\"grupoId\":55,\"rubricaId\":4}",
       "45": "{\"NombreJuego\":\"evaluacion equipos\",\"Descripcion\":\"evaluacuon equipos\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":45,\"profesorId\":14,\"grupoId\":55,\"rubricaId\":4}",
-      "46": "{\"NombreJuego\":\"equipos con evaluacion individual\",\"Descripcion\":\"equipos con evaluacion individual\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":46,\"profesorId\":14,\"grupoId\":55,\"rubricaId\":4}"
+      "46": "{\"NombreJuego\":\"equipos con evaluacion individual\",\"Descripcion\":\"equipos con evaluacion individual\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":true,\"autoEvaluacion\":true,\"Evaluadores\":2,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":46,\"profesorId\":14,\"grupoId\":55,\"rubricaId\":4}",
+      "48": "{\"NombreJuego\":\"prueba\",\"Descripcion\":\"CREATIVITAT: Capacitat de formular i dissenyar idees motivadores i originals. Capacitat per captar l’interès amb les idees aportades.\\nCOMUNICACIÓ: Habilitat comunicativa per estructurar correctament i amb cohesió les idees. Capacitat de síntesi.\\nINTEL·LIGÈNCIA: Capacitat d’aportar idees i/o arguments rellevants i importants. Domini del llenguatge específic segons diferents aspectes del món educatiu.\\nTECNOLOGIA: Capacitat d’adequació en l’ús de les noves tecnologies. Capacitat de presentar idees de manera motivadora i original amb l’ús de la tecnologia.\\nOBSERVACIÓ: El que més m'ha agradat és...\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":false,\"notaProfesorNormal\":true,\"autoEvaluacion\":false,\"Evaluadores\":3,\"Pesos\":[[25,20,20,20,20,20],[25,20,20,20,20,20],[25,20,20,20,20,20],[25,20,20,20,20,20]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":48,\"profesorId\":14,\"grupoId\":55,\"rubricaId\":13}",
+      "49": "{\"NombreJuego\":\"dsds\",\"Descripcion\":\"ddsds\",\"Tipo\":\"Evaluacion\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorEvalua\":true,\"notaProfesorNormal\":false,\"autoEvaluacion\":false,\"Evaluadores\":4,\"Pesos\":[[50,50,50],[50,33.33,33.33,33.33]],\"metodoSubcriterios\":true,\"Penalizacion\":[],\"PreguntasAbiertas\":[],\"id\":49,\"profesorId\":1,\"grupoId\":61,\"rubricaId\":3}"
     },
     "AlumnoJuegoEvaluado": {},
     "escena": {},
@@ -1063,7 +1150,35 @@
       "684": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[135,138],\"respuestas\":[{\"alumnoId\":135,\"respuesta\":[[true,true],[true,true,false],\"e2 a e8\"]},{\"alumnoId\":138,\"respuesta\":[[true,false],[false,false,false],\"e5 a e8\"]},{\"alumnoId\":142,\"respuesta\":[[true,true],[true,true,true],\"auto e8\"]},{\"profesorId\":14,\"respuesta\":[[false,true],[false,false,false],\"profe a e8\"]}],\"id\":684,\"alumnoId\":142,\"juegoDeEvaluacionId\":44}",
       "685": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[137,140],\"respuestas\":[{\"alumnoId\":137,\"respuesta\":[[false,false],[true,true,true],\"e3 a e5\"]},{\"alumnoId\":138,\"respuesta\":[[true,false],[false,false,true],\"auto\"]},{\"alumnoId\":140,\"respuesta\":[[true,true],[true,true,true],\"e6 a e5\"]},{\"profesorId\":14,\"respuesta\":[[false,false],[false,true,true],\"profe a e5\"]}],\"id\":685,\"alumnoId\":138,\"juegoDeEvaluacionId\":44}",
       "686": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[140,141],\"respuestas\":[{\"alumnoId\":137,\"respuesta\":[[true,false],[true,false,true],\"auto e3\"]},{\"alumnoId\":140,\"respuesta\":[[true,true],[false,false,false],\"e5 a e3\"]},{\"alumnoId\":141,\"respuesta\":[[true,true],[false,false,false],\"e7 a e3\"]},{\"profesorId\":14,\"respuesta\":[[true,true],[true,true,true],\"profe a e3\"]}],\"id\":686,\"alumnoId\":137,\"juegoDeEvaluacionId\":44}",
-      "687": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[141,136],\"respuestas\":[{\"alumnoId\":136,\"respuesta\":[[true,false],[true,true,false],\"e1 a e6\"]},{\"alumnoId\":140,\"respuesta\":[[false,false],[false,false,false],\"auto e6\"]},{\"alumnoId\":141,\"respuesta\":[[true,false],[true,false,false],\"e7 a e6\"]},{\"profesorId\":14,\"respuesta\":[[false,true],[false,false,false],\"proe a e6\"]}],\"id\":687,\"alumnoId\":140,\"juegoDeEvaluacionId\":44}"
+      "687": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[141,136],\"respuestas\":[{\"alumnoId\":136,\"respuesta\":[[true,false],[true,true,false],\"e1 a e6\"]},{\"alumnoId\":140,\"respuesta\":[[false,false],[false,false,false],\"auto e6\"]},{\"alumnoId\":141,\"respuesta\":[[true,false],[true,false,false],\"e7 a e6\"]},{\"profesorId\":14,\"respuesta\":[[false,true],[false,false,false],\"proe a e6\"]}],\"id\":687,\"alumnoId\":140,\"juegoDeEvaluacionId\":44}",
+      "696": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[141,138,139],\"respuestas\":null,\"id\":696,\"alumnoId\":137,\"juegoDeEvaluacionId\":48}",
+      "697": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[138,139,135],\"respuestas\":null,\"id\":697,\"alumnoId\":141,\"juegoDeEvaluacionId\":48}",
+      "698": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[136,140,142],\"respuestas\":[{\"alumnoId\":136,\"respuesta\":[[true,true,true,true,true],[true,true,true,false,false],[true,true,true,true,false],[false,false,false,false,false],\"qqq\"]}],\"id\":698,\"alumnoId\":135,\"juegoDeEvaluacionId\":48}",
+      "699": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[140,142,137],\"respuestas\":null,\"id\":699,\"alumnoId\":136,\"juegoDeEvaluacionId\":48}",
+      "700": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[139,135,136],\"respuestas\":[{\"alumnoId\":136,\"respuesta\":[[true,true,true,true,false],[true,true,false,false,false],[true,false,false,false,false],[false,false,false,false,false],\"Algo para mejorar\"]}],\"id\":700,\"alumnoId\":138,\"juegoDeEvaluacionId\":48}",
+      "701": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[135,136,140],\"respuestas\":null,\"id\":701,\"alumnoId\":139,\"juegoDeEvaluacionId\":48}",
+      "702": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[142,137,141],\"respuestas\":null,\"id\":702,\"alumnoId\":140,\"juegoDeEvaluacionId\":48}",
+      "703": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[137,141,138],\"respuestas\":null,\"id\":703,\"alumnoId\":142,\"juegoDeEvaluacionId\":48}",
+      "704": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[292,281,287,291],\"respuestas\":null,\"id\":704,\"alumnoId\":282,\"juegoDeEvaluacionId\":49}",
+      "705": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[291,285,276,283],\"respuestas\":null,\"id\":705,\"alumnoId\":287,\"juegoDeEvaluacionId\":49}",
+      "706": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[285,276,283,273],\"respuestas\":null,\"id\":706,\"alumnoId\":291,\"juegoDeEvaluacionId\":49}",
+      "707": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[276,283,273,288],\"respuestas\":null,\"id\":707,\"alumnoId\":285,\"juegoDeEvaluacionId\":49}",
+      "708": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[283,273,288,275],\"respuestas\":null,\"id\":708,\"alumnoId\":276,\"juegoDeEvaluacionId\":49}",
+      "709": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[273,288,275,290],\"respuestas\":null,\"id\":709,\"alumnoId\":283,\"juegoDeEvaluacionId\":49}",
+      "710": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[288,275,290,279],\"respuestas\":null,\"id\":710,\"alumnoId\":273,\"juegoDeEvaluacionId\":49}",
+      "711": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[275,290,279,280],\"respuestas\":null,\"id\":711,\"alumnoId\":288,\"juegoDeEvaluacionId\":49}",
+      "712": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[290,279,280,277],\"respuestas\":null,\"id\":712,\"alumnoId\":275,\"juegoDeEvaluacionId\":49}",
+      "713": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[279,280,277,274],\"respuestas\":null,\"id\":713,\"alumnoId\":290,\"juegoDeEvaluacionId\":49}",
+      "714": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[281,287,291,285],\"respuestas\":null,\"id\":714,\"alumnoId\":292,\"juegoDeEvaluacionId\":49}",
+      "715": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[280,277,274,286],\"respuestas\":null,\"id\":715,\"alumnoId\":279,\"juegoDeEvaluacionId\":49}",
+      "716": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[277,274,286,289],\"respuestas\":null,\"id\":716,\"alumnoId\":280,\"juegoDeEvaluacionId\":49}",
+      "717": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[274,286,289,284],\"respuestas\":null,\"id\":717,\"alumnoId\":277,\"juegoDeEvaluacionId\":49}",
+      "718": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[287,291,285,276],\"respuestas\":null,\"id\":718,\"alumnoId\":281,\"juegoDeEvaluacionId\":49}",
+      "719": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[286,289,284,278],\"respuestas\":null,\"id\":719,\"alumnoId\":274,\"juegoDeEvaluacionId\":49}",
+      "720": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[289,284,278,282],\"respuestas\":null,\"id\":720,\"alumnoId\":286,\"juegoDeEvaluacionId\":49}",
+      "721": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[284,278,282,292],\"respuestas\":null,\"id\":721,\"alumnoId\":289,\"juegoDeEvaluacionId\":49}",
+      "722": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[278,282,292,281],\"respuestas\":null,\"id\":722,\"alumnoId\":284,\"juegoDeEvaluacionId\":49}",
+      "723": "{\"notaFinal\":null,\"alumnosEvaluadoresIds\":[282,292,281,287],\"respuestas\":null,\"id\":723,\"alumnoId\":278,\"juegoDeEvaluacionId\":49}"
     },
     "EquipoJuegoDeEvaluacion": {
       "25": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[146,145,147,149,150,148],\"respuestas\":null,\"id\":25,\"equipoId\":42,\"juegoDeEvaluacionId\":20}",
@@ -1079,11 +1194,19 @@
       "50": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[142,137],\"respuestas\":null,\"id\":50,\"equipoId\":71,\"juegoDeEvaluacionId\":46}",
       "51": "{\"notaFinal\":null,\"equiposEvaluadoresIds\":null,\"alumnosEvaluadoresIds\":[137,136],\"respuestas\":null,\"id\":51,\"equipoId\":72,\"juegoDeEvaluacionId\":46}"
     },
-    "recursosLibro": {},
+    "recursosLibro": {
+      "5": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":1,\"id\":5}"
+    },
     "juego-de-libro": {},
     "recursosJuegoLibro": {},
     "alumnojuegodecuento": {},
     "Libro": {},
-    "frame": {}
+    "frame": {},
+    "EquipoJuegoDeVotacionUnoATodos": {
+      "1": "{\"id\":1,\"puntosTotales\":7,\"equipoId\":69,\"juegoDeVotacionUnoATodosId\":25,\"Votos\":[{\"equipoId\":69,\"puntos\":7},{\"equipoId\":70,\"puntos\":6},{\"equipoId\":71,\"puntos\":4},{\"equipoId\":72,\"puntos\":3}]}",
+      "2": "{\"id\":2,\"puntosTotales\":6,\"equipoId\":70,\"juegoDeVotacionUnoATodosId\":25,\"Votos\":[{\"equipoId\":69,\"puntos\":0},{\"equipoId\":70,\"puntos\":0},{\"equipoId\":71,\"puntos\":0},{\"equipoId\":72,\"puntos\":20}]}",
+      "3": "{\"id\":3,\"puntosTotales\":4,\"equipoId\":71,\"juegoDeVotacionUnoATodosId\":25}",
+      "4": "{\"id\":4,\"puntosTotales\":23,\"equipoId\":72,\"juegoDeVotacionUnoATodosId\":25}"
+    }
   }
 }
