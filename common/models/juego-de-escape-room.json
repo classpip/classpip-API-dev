@@ -1,27 +1,40 @@
 {
-  "name": "PuntoGeolocalizable",
-  "plural": "PuntosGeolocalizables",
+  "name": "JuegoDeEscapeRoom",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Latitud": {
+    "grupoId": {
+      "type": "number",
+      "required": true
+    },
+    "nombreJuego": {
       "type": "string",
       "required": true
     },
-    "Longitud": {
+    "escenario": {
+      "type": "any",
+      "required": true
+    },
+    "modo": {
       "type": "string",
       "required": true
     },
-    "PistaFacil": {
+    "tipo": {
       "type": "string",
       "required": true
     },
-    "PistaDificil": {
-      "type": "string",
-      "required": true
+    "juegoActivo": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "estado": {
+      "type": "boolean",
+      "required": true,
+      "default": false
     }
   },
   "validations": [],

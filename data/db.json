@@ -1,15 +1,15 @@
 {
   "ids": {
-    "Profesor": 16,
-    "Alumno": 318,
-    "Grupo": 63,
+    "Profesor": 17,
+    "Alumno": 321,
+    "Grupo": 69,
     "Punto": 12,
     "Coleccion": 18,
     "Cromo": 239,
     "Equipo": 73,
     "JuegoDePuntos": 32,
     "JuegoDeColeccion": 121,
-    "Matricula": 555,
+    "Matricula": 560,
     "AsignacionEquipo": 202,
     "AsignacionPuntoJuego": 98,
     "Nivel": 12,
@@ -46,8 +46,8 @@
     "JuegoDeGeocaching": 25,
     "AlumnoJuegoDeGeocaching": 89,
     "RespuestaJuegoDeCuestionario": 1150,
-    "JuegoDeVotacionUnoATodos": 27,
-    "AlumnoJuegoDeVotacionUnoATodos": 216,
+    "JuegoDeVotacionUnoATodos": 31,
+    "AlumnoJuegoDeVotacionUnoATodos": 222,
     "Rubrica": 14,
     "JuegoDeVotacionTodosAUno": 18,
     "AlumnoJuegoDeVotacionTodosAUno": 110,
@@ -70,14 +70,17 @@
     "Libro": 5,
     "escena": 6,
     "frame": 7,
-    "EquipoJuegoDeVotacionUnoATodos": 5
+    "EquipoJuegoDeVotacionUnoATodos": 5,
+    "JuegoDeEscapeRoom": 35,
+    "AlumnoJuegoDeEscapeRoom": 42
   },
   "models": {
     "Profesor": {
       "1": "{\"id\":1,\"Nombre\":\"Miguel\",\"PrimerApellido\":\"Valero\",\"SegundoApellido\":\"García\",\"NombreUsuario\":\"miguel\",\"email\":\"miguel.valero@upc.edu\",\"Password\":\"mimara\"}",
       "8": "{\"id\":8,\"Nombre\":\"talleres\",\"PrimerApellido\":\"talleres\",\"SegundoApellido\":\"talleresa\",\"NombreUsuario\":\"talleres\",\"email\":\"miguel.valero@upc.edu\",\"Password\":\"talleres\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/g104133.png\",\"Identificador\":\"61152\"}",
       "14": "{\"Nombre\":\"Evaluacion\",\"PrimerApellido\":\"Evaluacion\",\"SegundoApellido\":\"Evaluacion\",\"NombreUsuario\":\"evaluacion\",\"email\":\"miguel.valero@upc.edu\",\"Password\":\"evaluacion\",\"ImagenPerfil\":null,\"Identificador\":\"94969\",\"id\":14}",
-      "15": "{\"Nombre\":\"Laia\",\"PrimerApellido\":\"Lluch\",\"SegundoApellido\":\"Molins\",\"NombreUsuario\":\"lallumo\",\"email\":\"laia.lluch@ub.edu\",\"Password\":\"fly2008\",\"ImagenPerfil\":null,\"Identificador\":\"79919\",\"id\":15}"
+      "15": "{\"Nombre\":\"Laia\",\"PrimerApellido\":\"Lluch\",\"SegundoApellido\":\"Molins\",\"NombreUsuario\":\"lallumo\",\"email\":\"laia.lluch@ub.edu\",\"Password\":\"fly2008\",\"ImagenPerfil\":null,\"Identificador\":\"79919\",\"id\":15}",
+      "16": "{\"id\":16,\"Nombre\":\"Mario test\",\"PrimerApellido\":\"Sánchez test\",\"SegundoApellido\":\"Boto test\",\"NombreUsuario\":\"Mario test\",\"email\":\"marioboto98@gmail.com\",\"Password\":\"test\",\"ImagenPerfil\":null,\"Identificador\":\"07193\",\"Estacion\":\"winter\"}"
     },
     "Alumno": {
       "135": "{\"id\":135,\"Nombre\":\"e2\",\"PrimerApellido\":\"e2\",\"SegundoApellido\":\"e2\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/1.png\",\"PermisoCambioImagenPerfil\":false,\"Username\":\"e2\",\"Email\":\"e2@upc.edu\",\"Password\":\"e2\",\"profesorId\":14}",
@@ -187,15 +190,13 @@
       "308": "{\"id\":308,\"Nombre\":\"Diego\",\"PrimerApellido\":\"Vargas\",\"SegundoApellido\":\"Gómez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/37.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"Diego\",\"Email\":\"diego.vargas.gomez@estudiantat.upc.edu\",\"Password\":\"9hq246vg\",\"profesorId\":1}",
       "309": "{\"id\":309,\"Nombre\":\"Daniel\",\"PrimerApellido\":\"Avilés\",\"SegundoApellido\":\"Fernández\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/38.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DanielA\",\"Email\":\"daniel.aviles@upc.edu\",\"Password\":\"afxtclcg\",\"profesorId\":1}",
       "310": "{\"id\":310,\"Nombre\":\"Javier\",\"PrimerApellido\":\"Marquez\",\"SegundoApellido\":\"Camacho\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/39.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"JavierM\",\"Email\":\"javier.marquez.camacho@estudiantat.upc.edu\",\"Password\":\"r9fcj9h6\",\"profesorId\":1}",
-      "311": "{\"id\":311,\"Nombre\":\"David\",\"PrimerApellido\":\"Vazquez\",\"SegundoApellido\":\"Jimenez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/40.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DavidV\",\"Email\":\"david.vazquez.jimenez@estudiantat.upc.edu\",\"Password\":\"rtuihnk4\",\"profesorId\":1}"
+      "311": "{\"id\":311,\"Nombre\":\"David\",\"PrimerApellido\":\"Vazquez\",\"SegundoApellido\":\"Jimenez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/40.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DavidV\",\"Email\":\"david.vazquez.jimenez@estudiantat.upc.edu\",\"Password\":\"rtuihnk4\",\"profesorId\":1}",
+      "318": "{\"Nombre\":\"Mario\",\"PrimerApellido\":\"Sánchez\",\"SegundoApellido\":\"Boto\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"Mario\",\"Email\":\"marioaulavirtual@gmail.com\",\"Password\":\"unfnp04x\",\"profesorId\":16,\"id\":318}",
+      "319": "{\"Nombre\":\"Mario alumno\",\"PrimerApellido\":\"mejicano\",\"SegundoApellido\":\"flow\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"Mario bzrp\",\"Email\":\"marioboto98@gmail.com\",\"Password\":\"test\",\"profesorId\":16,\"id\":319}",
+      "320": "{\"Nombre\":\"El real\",\"PrimerApellido\":\"de la calle\",\"SegundoApellido\":\"del barrio\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"Mario el programmer\",\"Email\":\"marioboto98@gmail.com\",\"Password\":\"test\",\"profesorId\":16,\"id\":320}"
     },
     "Grupo": {
-      "55": "{\"Nombre\":\"pruebas evaluacion\",\"Descripcion\":\"pruebas evaluacion\",\"profesorId\":14,\"id\":55}",
-      "56": "{\"Nombre\":\"G1\",\"Descripcion\":\"G1\",\"profesorId\":15,\"id\":56}",
-      "57": "{\"Nombre\":\"Planificació, disseny i avaluació de l'aprenentatge i l'activitat docent\",\"Descripcion\":\"5A\",\"profesorId\":15,\"id\":57}",
-      "59": "{\"Nombre\":\"5A_Planificació, disseny i avaluació\",\"Descripcion\":\"5AUB\",\"profesorId\":15,\"id\":59}",
-      "61": "{\"Nombre\":\"SO_2020Q2_Mañana\",\"Descripcion\":\"SO_2020Q2_Mañana\",\"profesorId\":1,\"id\":61}",
-      "62": "{\"Nombre\":\"SO_2020Q2Tarde\",\"Descripcion\":\"SO_2020Q2Tarde\",\"profesorId\":1,\"id\":62}"
+      "68": "{\"Nombre\":\"The last\",\"Descripcion\":\"of us\",\"profesorId\":16,\"id\":68}"
     },
     "Punto": {
       "10": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":14,\"id\":10}",
@@ -469,7 +470,12 @@
       "551": "{\"alumnoId\":306,\"grupoId\":62,\"id\":551}",
       "552": "{\"alumnoId\":307,\"grupoId\":62,\"id\":552}",
       "553": "{\"alumnoId\":308,\"grupoId\":62,\"id\":553}",
-      "554": "{\"alumnoId\":311,\"grupoId\":62,\"id\":554}"
+      "554": "{\"alumnoId\":311,\"grupoId\":62,\"id\":554}",
+      "555": "{\"alumnoId\":318,\"grupoId\":64,\"id\":555}",
+      "556": "{\"alumnoId\":318,\"grupoId\":65,\"id\":556}",
+      "557": "{\"alumnoId\":319,\"grupoId\":66,\"id\":557}",
+      "558": "{\"alumnoId\":319,\"grupoId\":67,\"id\":558}",
+      "559": "{\"alumnoId\":320,\"grupoId\":68,\"id\":559}"
     },
     "AsignacionEquipo": {
       "95": "{\"alumnoId\":144,\"equipoId\":42,\"grupoId\":56,\"id\":95}",
@@ -885,7 +891,9 @@
       "212": "{\"id\":212,\"puntosTotales\":0,\"alumnoId\":142,\"juegoDeVotacionUnoATodosId\":26}",
       "213": "{\"id\":213,\"puntosTotales\":0,\"alumnoId\":135,\"juegoDeVotacionUnoATodosId\":26}",
       "214": "{\"id\":214,\"puntosTotales\":0,\"alumnoId\":137,\"juegoDeVotacionUnoATodosId\":26}",
-      "215": "{\"id\":215,\"puntosTotales\":0,\"alumnoId\":139,\"juegoDeVotacionUnoATodosId\":26}"
+      "215": "{\"id\":215,\"puntosTotales\":0,\"alumnoId\":139,\"juegoDeVotacionUnoATodosId\":26}",
+      "220": "{\"puntosTotales\":1,\"votos\":[1],\"alumnoId\":310,\"juegoDeVotacionUnoATodosId\":25,\"id\":220}",
+      "221": "{\"puntosTotales\":1,\"votos\":[1],\"alumnoId\":311,\"juegoDeVotacionUnoATodosId\":25,\"id\":221}"
     },
     "Rubrica": {
       "3": "{\"Nombre\":\"Presentacion oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No mas de 3 lineas en cada una\"]}],\"profesorId\":1,\"id\":3}",
@@ -1207,6 +1215,18 @@
       "2": "{\"id\":2,\"puntosTotales\":6,\"equipoId\":70,\"juegoDeVotacionUnoATodosId\":25,\"Votos\":[{\"equipoId\":69,\"puntos\":0},{\"equipoId\":70,\"puntos\":0},{\"equipoId\":71,\"puntos\":0},{\"equipoId\":72,\"puntos\":20}]}",
       "3": "{\"id\":3,\"puntosTotales\":4,\"equipoId\":71,\"juegoDeVotacionUnoATodosId\":25}",
       "4": "{\"id\":4,\"puntosTotales\":23,\"equipoId\":72,\"juegoDeVotacionUnoATodosId\":25}"
+    },
+    "JuegoDeEscapeRoom": {
+      "31": "{\"id\":31,\"grupoId\":68,\"nombreJuego\":\"Escape Room Habitación\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
+      "32": "{\"id\":32,\"grupoId\":68,\"nombreJuego\":\"Testing escape\",\"escenario\":{\"Mapa\":\"Cocina\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
+      "33": "{\"grupoId\":68,\"nombreJuego\":\"JuegoChuli\",\"escenario\":{\"Mapa\":\"Baño\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":false,\"id\":33}",
+      "34": "{\"id\":34,\"grupoId\":68,\"nombreJuego\":\"Testing limits\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}"
+    },
+    "AlumnoJuegoDeEscapeRoom": {
+      "38": "{\"id\":38,\"personaje\":\"Aitor Tugas\",\"alumnoId\":320,\"juegoEscapeRoomId\":31}",
+      "39": "{\"id\":39,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":32}",
+      "40": "{\"personaje\":\"moreno\",\"alumnoId\":320,\"juegoDeEscapeRoomId\":33,\"id\":40}",
+      "41": "{\"id\":41,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":34}"
     }
   }
 }

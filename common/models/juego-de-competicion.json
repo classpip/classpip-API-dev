@@ -1,1 +1,28 @@
-{"name":"JuegoDeCompeticion","plural":"JuegosDeCompeticion","base":"Juego","idInjection":true,"options":{"validateUpsert":true},"properties":{"TipoCompeticion":{"type":"string","required":true}},"validations":[],"relations":{"ligas":{"type":"hasOne","model":"Liga","foreignKey":"juegoDeCompeticionId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "JuegoDeCompeticion",
+  "plural": "JuegosDeCompeticion",
+  "base": "Juego",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "TipoCompeticion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "ligas": {
+      "type": "hasOne",
+      "model": "Liga",
+      "foreignKey": "juegoDeCompeticionId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
