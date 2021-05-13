@@ -71,8 +71,8 @@
     "escena": 6,
     "frame": 7,
     "EquipoJuegoDeVotacionUnoATodos": 5,
-    "JuegoDeEscapeRoom": 35,
-    "AlumnoJuegoDeEscapeRoom": 42
+    "JuegoDeEscapeRoom": 36,
+    "AlumnoJuegoDeEscapeRoom": 43
   },
   "models": {
     "Profesor": {
@@ -1218,13 +1218,13 @@
     },
     "JuegoDeEscapeRoom": {
       "31": "{\"id\":31,\"grupoId\":68,\"nombreJuego\":\"Escape Room Habitación\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
-      "32": "{\"id\":32,\"grupoId\":68,\"nombreJuego\":\"Testing escape\",\"escenario\":{\"Mapa\":\"Cocina\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
-      "34": "{\"id\":34,\"grupoId\":68,\"nombreJuego\":\"Testing limits\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}"
+      "34": "{\"id\":34,\"grupoId\":68,\"nombreJuego\":\"Testing limits\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
+      "35": "{\"id\":35,\"grupoId\":68,\"nombreJuego\":\"Escape para ver personajes\",\"escenario\":{\"Mapa\":\"Baño\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}"
     },
     "AlumnoJuegoDeEscapeRoom": {
       "38": "{\"id\":38,\"personaje\":\"Aitor Tugas\",\"alumnoId\":320,\"juegoEscapeRoomId\":31}",
-      "39": "{\"id\":39,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":32}",
-      "41": "{\"id\":41,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":34}"
+      "41": "{\"id\":41,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":34}",
+      "42": "{\"id\":42,\"personaje\":\"Conpa Tatas\",\"alumnoId\":320,\"juegoEscapeRoomId\":35}"
     }
   }
 }
