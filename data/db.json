@@ -1219,13 +1219,11 @@
     "JuegoDeEscapeRoom": {
       "31": "{\"id\":31,\"grupoId\":68,\"nombreJuego\":\"Escape Room Habitación\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
       "32": "{\"id\":32,\"grupoId\":68,\"nombreJuego\":\"Testing escape\",\"escenario\":{\"Mapa\":\"Cocina\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}",
-      "33": "{\"grupoId\":68,\"nombreJuego\":\"JuegoChuli\",\"escenario\":{\"Mapa\":\"Baño\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":false,\"id\":33}",
       "34": "{\"id\":34,\"grupoId\":68,\"nombreJuego\":\"Testing limits\",\"escenario\":{\"Mapa\":\"Habitación\",\"Descripcion\":\"test\"},\"modo\":\"Individual\",\"tipo\":\"Juego De Escape Room\",\"juegoActivo\":true,\"estado\":true}"
     },
     "AlumnoJuegoDeEscapeRoom": {
       "38": "{\"id\":38,\"personaje\":\"Aitor Tugas\",\"alumnoId\":320,\"juegoEscapeRoomId\":31}",
       "39": "{\"id\":39,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":32}",
-      "40": "{\"personaje\":\"moreno\",\"alumnoId\":320,\"juegoDeEscapeRoomId\":33,\"id\":40}",
       "41": "{\"id\":41,\"personaje\":\"Inés Table\",\"alumnoId\":320,\"juegoEscapeRoomId\":34}"
     }
   }
