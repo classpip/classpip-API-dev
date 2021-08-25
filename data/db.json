@@ -2,14 +2,14 @@
   "ids": {
     "Profesor": 16,
     "Alumno": 318,
-    "Grupo": 76,
+    "Grupo": 77,
     "Punto": 13,
-    "Coleccion": 19,
-    "Cromo": 248,
+    "Coleccion": 20,
+    "Cromo": 257,
     "Equipo": 89,
     "JuegoDePuntos": 39,
     "JuegoDeColeccion": 133,
-    "Matricula": 642,
+    "Matricula": 646,
     "AsignacionEquipo": 266,
     "AsignacionPuntoJuego": 118,
     "Nivel": 12,
@@ -33,8 +33,8 @@
     "EquipoJuegoDeCompeticionFormulaUno": 5,
     "Escenario": 12,
     "PuntoGeolocalizable": 29,
-    "Cuestionario": 58,
-    "PreguntaDelCuestionario": 175,
+    "Cuestionario": 59,
+    "PreguntaDelCuestionario": 177,
     "SesionClase": 205,
     "AsistenciaClase": 2815,
     "Pregunta": 271,
@@ -48,11 +48,11 @@
     "RespuestaJuegoDeCuestionario": 1190,
     "JuegoDeVotacionUnoATodos": 38,
     "AlumnoJuegoDeVotacionUnoATodos": 296,
-    "Rubrica": 14,
+    "Rubrica": 17,
     "JuegoDeVotacionTodosAUno": 21,
     "AlumnoJuegoDeVotacionTodosAUno": 134,
     "FamiliaImagenesPerfil": 26,
-    "CuestionarioSatisfaccion": 38,
+    "CuestionarioSatisfaccion": 39,
     "JuegoDeCuestionarioSatisfaccion": 29,
     "AlumnoJuegoDeCuestionarioSatisfaccion": 180,
     "JuegoDeEncuestaRapida": 83,
@@ -192,14 +192,17 @@
       "310": "{\"id\":310,\"Nombre\":\"Javier\",\"PrimerApellido\":\"Marquez\",\"SegundoApellido\":\"Camacho\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/39.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"JavierM\",\"Email\":\"javier.marquez.camacho@estudiantat.upc.edu\",\"Password\":\"r9fcj9h6\",\"profesorId\":1}",
       "311": "{\"id\":311,\"Nombre\":\"David\",\"PrimerApellido\":\"Vazquez\",\"SegundoApellido\":\"Jimenez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/40.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DavidV\",\"Email\":\"david.vazquez.jimenez@estudiantat.upc.edu\",\"Password\":\"rtuihnk4\",\"profesorId\":1}"
     },
-    "Grupo": {},
+    "Grupo": {
+      "76": "{\"Nombre\":\"aa\",\"Descripcion\":\"aa\",\"profesorId\":14,\"id\":76}"
+    },
     "Punto": {
       "10": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":14,\"id\":10}",
       "11": "{\"Nombre\":\"xz\",\"Descripcion\":\"xz\",\"profesorId\":14,\"id\":11}",
       "12": "{\"Nombre\":\"aaa\",\"Descripcion\":\"aaa\",\"profesorId\":14,\"id\":12}"
     },
     "Coleccion": {
-      "18": "{\"Nombre\":\"Compositores\",\"ImagenColeccion\":\"compositores.png\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":18}"
+      "18": "{\"Nombre\":\"Compositores\",\"ImagenColeccion\":\"compositores.png\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":18}",
+      "19": "{\"Nombre\":\"Mafala\",\"ImagenColeccion\":\"mafalda_logo.jpg\",\"DosCaras\":true,\"Publica\":false,\"profesorId\":14,\"id\":19}"
     },
     "Cromo": {
       "239": "{\"Nombre\":\"bach\",\"ImagenDelante\":\"bach_a.png\",\"ImagenDetras\":\"parte7.png\",\"Probabilidad\":\"Muy Baja\",\"Nivel\":\"Diamante\",\"coleccionId\":18,\"id\":239}",
@@ -210,12 +213,26 @@
       "244": "{\"Nombre\":\"vivaldi\",\"ImagenDelante\":\"vivaldi_a.png\",\"ImagenDetras\":\"parte6.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":18,\"id\":244}",
       "245": "{\"Nombre\":\"mozart\",\"ImagenDelante\":\"mozart_a.png\",\"ImagenDetras\":\"parte5.png\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":18,\"id\":245}",
       "246": "{\"Nombre\":\"beethoven\",\"ImagenDelante\":\"beethoven_a.png\",\"ImagenDetras\":\"parte4.png\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":18,\"id\":246}",
-      "247": "{\"Nombre\":\"chopin\",\"ImagenDelante\":\"chopin_a.png\",\"ImagenDetras\":\"parte8.png\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":18,\"id\":247}"
+      "247": "{\"Nombre\":\"chopin\",\"ImagenDelante\":\"chopin_a.png\",\"ImagenDetras\":\"parte8.png\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":18,\"id\":247}",
+      "248": "{\"Nombre\":\"mafalda\",\"ImagenDelante\":\"mafalda_a.png\",\"ImagenDetras\":\"mafalda_b.png\",\"Probabilidad\":\"Muy Baja\",\"Nivel\":\"Diamante\",\"coleccionId\":19,\"id\":248}",
+      "249": "{\"Nombre\":\"felipe\",\"ImagenDelante\":\"felipe_a.png\",\"ImagenDetras\":\"felipe_b.png\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":19,\"id\":249}",
+      "250": "{\"Nombre\":\"guille\",\"ImagenDelante\":\"guille_a.png\",\"ImagenDetras\":\"guille_b.png\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":19,\"id\":250}",
+      "251": "{\"Nombre\":\"susanita\",\"ImagenDelante\":\"susanita_a.png\",\"ImagenDetras\":\"susanita_b.png\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":19,\"id\":251}",
+      "252": "{\"Nombre\":\"miguelito\",\"ImagenDelante\":\"miguelito_a.png\",\"ImagenDetras\":\"miguelito_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":252}",
+      "253": "{\"Nombre\":\"manolito\",\"ImagenDelante\":\"manolito_a.png\",\"ImagenDetras\":\"manolito_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":253}",
+      "254": "{\"Nombre\":\"libertad\",\"ImagenDelante\":\"libertad_a.png\",\"ImagenDetras\":\"libertad_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":254}",
+      "255": "{\"Nombre\":\"papa\",\"ImagenDelante\":\"papa_a.png\",\"ImagenDetras\":\"papa_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":255}",
+      "256": "{\"Nombre\":\"mama\",\"ImagenDelante\":\"mama_a.png\",\"ImagenDetras\":\"mama_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":256}"
     },
     "Equipo": {},
     "JuegoDePuntos": {},
     "JuegoDeColeccion": {},
-    "Matricula": {},
+    "Matricula": {
+      "642": "{\"alumnoId\":136,\"grupoId\":76,\"id\":642}",
+      "643": "{\"alumnoId\":135,\"grupoId\":76,\"id\":643}",
+      "644": "{\"alumnoId\":137,\"grupoId\":76,\"id\":644}",
+      "645": "{\"alumnoId\":139,\"grupoId\":76,\"id\":645}"
+    },
     "AsignacionEquipo": {},
     "AsignacionPuntoJuego": {},
     "Nivel": {},
@@ -244,13 +261,16 @@
       "270": "{\"Titulo\":\"Empareja\",\"Tipo\":\"Emparejamiento\",\"Pregunta\":\"Empareja paises con sus capitales\",\"Tematica\":\"Ciudades\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. A ver si viajas más.\",\"Emparejamientos\":[{\"l\":\"Francia\",\"r\":\"París\"},{\"l\":\"España\",\"r\":\"Madrid\"},{\"l\":\"Italia\",\"r\":\"Roma\"},{\"l\":\"Portugal\",\"r\":\"Lisboa\"}],\"profesorId\":14,\"id\":270}"
     },
     "Cuestionario": {
-      "57": "{\"Titulo\":\"cues\",\"Descripcion\":\"cues\",\"Publico\":false,\"profesorId\":14,\"id\":57}"
+      "57": "{\"Titulo\":\"cues\",\"Descripcion\":\"cues\",\"Publico\":false,\"profesorId\":14,\"id\":57}",
+      "58": "{\"Titulo\":\"seguhndo\",\"Descripcion\":\"sasa\",\"Publico\":false,\"profesorId\":14,\"id\":58}"
     },
     "PreguntaDelCuestionario": {
       "171": "{\"preguntaId\":267,\"cuestionarioId\":57,\"id\":171}",
       "172": "{\"preguntaId\":268,\"cuestionarioId\":57,\"id\":172}",
       "173": "{\"preguntaId\":269,\"cuestionarioId\":57,\"id\":173}",
-      "174": "{\"preguntaId\":270,\"cuestionarioId\":57,\"id\":174}"
+      "174": "{\"preguntaId\":270,\"cuestionarioId\":57,\"id\":174}",
+      "175": "{\"preguntaId\":268,\"cuestionarioId\":58,\"id\":175}",
+      "176": "{\"preguntaId\":269,\"cuestionarioId\":58,\"id\":176}"
     },
     "Escenario": {
       "11": "{\"Mapa\":\"a\",\"Descripcion\":\"a\",\"profesorId\":14,\"id\":11}"
@@ -271,12 +291,17 @@
     "RespuestaJuegoDeCuestionario": {},
     "JuegoDeVotacionUnoATodos": {},
     "AlumnoJuegoDeVotacionUnoATodos": {},
-    "Rubrica": {},
+    "Rubrica": {
+      "14": "{\"Nombre\":\"Presentación oral\",\"Descripcion\":\"Para evaluar presentaciones orales\",\"Criterios\":[{\"Nombre\":\"Lenguaje corporal\",\"Elementos\":[\"Mira a toda la audiencia\",\"No permanece inmovil\"]},{\"Nombre\":\"Transparencias\",\"Elementos\":[\"Estan numeradas\",\"Se ven bien\",\"No más de 3 lineas en cada una\"]}],\"profesorId\":14,\"id\":14}",
+      "15": "{\"Nombre\":\"4 SÃšPER-PODERS\",\"Descripcion\":\"Per avaluar els diferents reptes\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\"Capacitat de formular i dissenyar idees motivadores i originals.\",\"Capacitat per captar lâ€™interÃ¨s amb les idees aportades.\"]},{\"Nombre\":\"COMUNICACIÃ“\",\"Elementos\":[\"Habilitat comunicativa per estructurar correctament i amb cohesiÃ³ les idees.\",\"Capacitat de sÃ­ntesi\"]},{\"Nombre\":\"INTELÂ·LIGÃˆNCIA\",\"Elementos\":[\"Capacitat dâ€™aportar idees i/o arguments rellevants i importants.\",\"Domini del llenguatge especÃ­fic segons diferents aspectes del mÃ³n educatiu.\"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\"Capacitat dâ€™adequaciÃ³ en lâ€™Ãºs de les noves tecnologies.\",\"Capacitat de presentar idees de manera motivadora i original amb lâ€™Ãºs de la tecnologia.\"]}],\"profesorId\":14,\"id\":15}",
+      "16": "{\"Nombre\":\"4 SÃšPER-PODERS\",\"Descripcion\":\"Per avaluar els diferents reptes\",\"Criterios\":[{\"Nombre\":\"CREATIVITAT\",\"Elementos\":[\"Capacitat de formular i dissenyar idees motivadores i originals.\",\"Capacitat per captar lâ€™interÃ¨s amb les idees aportades.\"]},{\"Nombre\":\"COMUNICACIÃ“\",\"Elementos\":[\"Habilitat comunicativa per estructurar correctament i amb cohesiÃ³ les idees.\",\"Capacitat de sÃ­ntesi\"]},{\"Nombre\":\"INTELÂ·LIGÃˆNCIA\",\"Elementos\":[\"Capacitat dâ€™aportar idees i/o arguments rellevants i importants.\",\"Domini del llenguatge especÃ­fic segons diferents aspectes del mÃ³n educatiu.\"]},{\"Nombre\":\"TECNOLOGIA\",\"Elementos\":[\"Capacitat dâ€™adequaciÃ³ en lâ€™Ãºs de les noves tecnologies.\",\"Capacitat de presentar idees de manera motivadora i original amb lâ€™Ãºs de la tecnologia.\"]}],\"profesorId\":14,\"id\":16}"
+    },
     "JuegoDeVotacionTodosAUno": {},
     "AlumnoJuegoDeVotacionTodosAUno": {},
     "FamiliaImagenesPerfil": {},
     "CuestionarioSatisfaccion": {
-      "37": "{\"Titulo\":\"Indicencias críticas\",\"Descripcion\":\"CUIC\",\"Publico\":false,\"Afirmaciones\":[\"En este curso me estoy divirtiendo\",\"Estoy aprendiendo cosas valiosas\"],\"PreguntasAbiertas\":[\"¿Cuál ha sido la incidencia crítica más positiva?\",\"¿Cuál ha sido la incidencia crítica más negativa?\"],\"profesorId\":14,\"id\":37}"
+      "37": "{\"Titulo\":\"Indicencias críticas\",\"Descripcion\":\"CUIC\",\"Publico\":false,\"Afirmaciones\":[\"En este curso me estoy divirtiendo\",\"Estoy aprendiendo cosas valiosas\"],\"PreguntasAbiertas\":[\"¿Cuál ha sido la incidencia crítica más positiva?\",\"¿Cuál ha sido la incidencia crítica más negativa?\"],\"profesorId\":14,\"id\":37}",
+      "38": "{\"Titulo\":\"Final de curso\",\"Descripcion\":\"Basado en SEEQ\",\"Publico\":false,\"Afirmaciones\":[\"En este curso he aprendido cosas que considero valiosas para mi formación\",\"La labor del profesorado me ha facilitado el proceso de aprendizaje\",\"El material del curso está bien preparado y es adecuado\",\"En todo momento he tenido claro lo que tenía que hacer (tanto en clase como fuera de clase)\",\"Siempre me he sentido bien informado sobre mi progreso (o falta de progreso) en el curso\",\"El trabajo en grupo me ha resultado de gran ayuda\",\"La forma de evaluación me ha parecido adecuada\",\"Este curso me ha ayudado a mejorar la gestión que hago de mi propio tiempo\"],\"PreguntasAbiertas\":[\"Indica lo que más te ha gustado del curso\",\"Indica lo que menos te ha gustado\"],\"profesorId\":14,\"id\":38}"
     },
     "JuegoDeCuestionarioSatisfaccion": {},
     "AlumnoJuegoDeCuestionarioSatisfaccion": {},
