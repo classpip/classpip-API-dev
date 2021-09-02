@@ -2,15 +2,15 @@
   "ids": {
     "Profesor": 16,
     "Alumno": 318,
-    "Grupo": 77,
+    "Grupo": 78,
     "Punto": 13,
     "Coleccion": 20,
     "Cromo": 257,
-    "Equipo": 89,
+    "Equipo": 91,
     "JuegoDePuntos": 39,
-    "JuegoDeColeccion": 133,
-    "Matricula": 646,
-    "AsignacionEquipo": 266,
+    "JuegoDeColeccion": 136,
+    "Matricula": 654,
+    "AsignacionEquipo": 274,
     "AsignacionPuntoJuego": 118,
     "Nivel": 12,
     "AlumnoJuegoDePuntos": 283,
@@ -18,9 +18,9 @@
     "HistorialPuntosAlumno": 349,
     "Insignia": 1,
     "HistorialPuntosEquipo": 2,
-    "AlumnoJuegoDeColeccion": 747,
-    "EquipoJuegoDeColeccion": 69,
-    "Album": 4382,
+    "AlumnoJuegoDeColeccion": 751,
+    "EquipoJuegoDeColeccion": 73,
+    "Album": 4394,
     "AlbumEquipo": 148,
     "JuegoDeCompeticionLiga": 13,
     "JornadaDeCompeticionLiga": 44,
@@ -41,11 +41,11 @@
     "FamiliaAvatares": 52,
     "JuegoDeAvatar": 52,
     "AlumnoJuegoDeAvatar": 340,
-    "JuegoDeCuestionario": 118,
-    "AlumnoJuegoDeCuestionario": 1029,
+    "JuegoDeCuestionario": 143,
+    "AlumnoJuegoDeCuestionario": 1109,
     "JuegoDeGeocaching": 33,
     "AlumnoJuegoDeGeocaching": 153,
-    "RespuestaJuegoDeCuestionario": 1190,
+    "RespuestaJuegoDeCuestionario": 1221,
     "JuegoDeVotacionUnoATodos": 38,
     "AlumnoJuegoDeVotacionUnoATodos": 296,
     "Rubrica": 17,
@@ -73,7 +73,9 @@
     "EquipoJuegoDeVotacionUnoATodos": 7,
     "JuegoDeControlDeTrabajoEnEquipo": 26,
     "EquipoJuegoDeControlDeTrabajoEnEquipo": 21,
-    "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137
+    "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
+    "EquipoJuegoDeCuestionario": 31,
+    "RespuestaEquipoJuegoDeCuestionario": 53
   },
   "models": {
     "Profesor": {
@@ -193,7 +195,8 @@
       "311": "{\"id\":311,\"Nombre\":\"David\",\"PrimerApellido\":\"Vazquez\",\"SegundoApellido\":\"Jimenez\",\"ImagenPerfil\":\"http://147.83.118.92:3000/api/imagenes/ImagenesPerfil/download/40.png\",\"PermisoCambioImagenPerfil\":true,\"Username\":\"DavidV\",\"Email\":\"david.vazquez.jimenez@estudiantat.upc.edu\",\"Password\":\"rtuihnk4\",\"profesorId\":1}"
     },
     "Grupo": {
-      "76": "{\"Nombre\":\"aa\",\"Descripcion\":\"aa\",\"profesorId\":14,\"id\":76}"
+      "76": "{\"Nombre\":\"aa\",\"Descripcion\":\"aa\",\"profesorId\":14,\"id\":76}",
+      "77": "{\"Nombre\":\"Prueba equipos\",\"Descripcion\":\"d\",\"profesorId\":14,\"id\":77}"
     },
     "Punto": {
       "10": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":14,\"id\":10}",
@@ -207,7 +210,6 @@
     "Cromo": {
       "239": "{\"Nombre\":\"bach\",\"ImagenDelante\":\"bach_a.png\",\"ImagenDetras\":\"parte7.png\",\"Probabilidad\":\"Muy Baja\",\"Nivel\":\"Diamante\",\"coleccionId\":18,\"id\":239}",
       "240": "{\"Nombre\":\"tchaicovsky\",\"ImagenDelante\":\"tchaicovsky_a.png\",\"ImagenDetras\":\"parte9.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":18,\"id\":240}",
-      "241": "{\"Nombre\":\"wagner\",\"ImagenDelante\":\"wagner_a.png\",\"ImagenDetras\":\"parte3.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":18,\"id\":241}",
       "242": "{\"Nombre\":\"brahms\",\"ImagenDelante\":\"brahms_a.png\",\"ImagenDetras\":\"parte1.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":18,\"id\":242}",
       "243": "{\"Nombre\":\"schubert\",\"ImagenDelante\":\"schubert_a.png\",\"ImagenDetras\":\"parte2.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":18,\"id\":243}",
       "244": "{\"Nombre\":\"vivaldi\",\"ImagenDelante\":\"vivaldi_a.png\",\"ImagenDetras\":\"parte6.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":18,\"id\":244}",
@@ -224,16 +226,36 @@
       "255": "{\"Nombre\":\"papa\",\"ImagenDelante\":\"papa_a.png\",\"ImagenDetras\":\"papa_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":255}",
       "256": "{\"Nombre\":\"mama\",\"ImagenDelante\":\"mama_a.png\",\"ImagenDetras\":\"mama_b.png\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":19,\"id\":256}"
     },
-    "Equipo": {},
+    "Equipo": {
+      "89": "{\"Nombre\":\"Equipo_0\",\"grupoId\":77,\"id\":89}",
+      "90": "{\"Nombre\":\"Equipo_1\",\"grupoId\":77,\"id\":90}"
+    },
     "JuegoDePuntos": {},
     "JuegoDeColeccion": {},
     "Matricula": {
       "642": "{\"alumnoId\":136,\"grupoId\":76,\"id\":642}",
       "643": "{\"alumnoId\":135,\"grupoId\":76,\"id\":643}",
       "644": "{\"alumnoId\":137,\"grupoId\":76,\"id\":644}",
-      "645": "{\"alumnoId\":139,\"grupoId\":76,\"id\":645}"
+      "645": "{\"alumnoId\":139,\"grupoId\":76,\"id\":645}",
+      "646": "{\"alumnoId\":136,\"grupoId\":77,\"id\":646}",
+      "647": "{\"alumnoId\":135,\"grupoId\":77,\"id\":647}",
+      "648": "{\"alumnoId\":137,\"grupoId\":77,\"id\":648}",
+      "649": "{\"alumnoId\":139,\"grupoId\":77,\"id\":649}",
+      "650": "{\"alumnoId\":138,\"grupoId\":77,\"id\":650}",
+      "651": "{\"alumnoId\":140,\"grupoId\":77,\"id\":651}",
+      "652": "{\"alumnoId\":141,\"grupoId\":77,\"id\":652}",
+      "653": "{\"alumnoId\":142,\"grupoId\":77,\"id\":653}"
     },
-    "AsignacionEquipo": {},
+    "AsignacionEquipo": {
+      "266": "{\"alumnoId\":141,\"equipoId\":89,\"grupoId\":77,\"id\":266}",
+      "267": "{\"alumnoId\":137,\"equipoId\":89,\"grupoId\":77,\"id\":267}",
+      "268": "{\"alumnoId\":142,\"equipoId\":89,\"grupoId\":77,\"id\":268}",
+      "269": "{\"alumnoId\":139,\"equipoId\":89,\"grupoId\":77,\"id\":269}",
+      "270": "{\"alumnoId\":136,\"equipoId\":90,\"grupoId\":77,\"id\":270}",
+      "271": "{\"alumnoId\":135,\"equipoId\":90,\"grupoId\":77,\"id\":271}",
+      "272": "{\"alumnoId\":138,\"equipoId\":90,\"grupoId\":77,\"id\":272}",
+      "273": "{\"alumnoId\":140,\"equipoId\":90,\"grupoId\":77,\"id\":273}"
+    },
     "AsignacionPuntoJuego": {},
     "Nivel": {},
     "AlumnoJuegoDePuntos": {},
@@ -284,7 +306,9 @@
     },
     "JuegoDeAvatar": {},
     "AlumnoJuegoDeAvatar": {},
-    "JuegoDeCuestionario": {},
+    "JuegoDeCuestionario": {
+      "142": "{\"id\":142,\"NombreJuego\":\"equipos\",\"Modo\":\"Equipos\",\"Modalidad\":\"Clásico\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":40,\"Presentacion\":\" \",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":14,\"grupoId\":77,\"cuestionarioId\":58,\"Tipo\":\"Juego De Cuestionario\"}"
+    },
     "AlumnoJuegoDeCuestionario": {},
     "JuegoDeGeocaching": {},
     "AlumnoJuegoDeGeocaching": {},
@@ -322,6 +346,16 @@
     "frame": {},
     "EquipoJuegoDeVotacionUnoATodos": {},
     "JuegoDeControlDeTrabajoEnEquipo": {},
-    "AlumnoJuegoDeControlDeTrabajoEnEquipo": {}
+    "AlumnoJuegoDeControlDeTrabajoEnEquipo": {},
+    "EquipoJuegoDeCuestionario": {
+      "29": "{\"id\":29,\"Nota\":2,\"Contestado\":true,\"TiempoEmpleado\":10,\"juegoDeCuestionarioId\":142,\"equipoId\":89}",
+      "30": "{\"id\":30,\"Nota\":6,\"Contestado\":true,\"TiempoEmpleado\":10,\"juegoDeCuestionarioId\":142,\"equipoId\":90}"
+    },
+    "RespuestaEquipoJuegoDeCuestionario": {
+      "49": "{\"Respuesta\":[\"Barcelona\"],\"equipoJuegoDeCuestionarioId\":30,\"preguntaId\":268,\"id\":49}",
+      "50": "{\"Respuesta\":[\"falso\"],\"equipoJuegoDeCuestionarioId\":30,\"preguntaId\":269,\"id\":50}",
+      "51": "{\"Respuesta\":[\"dsds\"],\"equipoJuegoDeCuestionarioId\":29,\"preguntaId\":268,\"id\":51}",
+      "52": "{\"Respuesta\":[\"falso\"],\"equipoJuegoDeCuestionarioId\":29,\"preguntaId\":269,\"id\":52}"
+    }
   }
 }

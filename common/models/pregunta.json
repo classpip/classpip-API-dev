@@ -83,6 +83,12 @@
             "model": "AlumnoJuegoDeCuestionario",
             "foreignKey": "preguntaId",
             "through": "RespuestaJuegoDeCuestionario"
+        },
+        "equipoJuegoDeCuestionarios": {
+            "type": "hasMany",
+            "model": "EquipoJuegoDeCuestionario",
+            "foreignKey": "preguntaId",
+            "through": "RespuestaEquipoJuegoDeCuestionario"
         }
     },
     "acls": [],

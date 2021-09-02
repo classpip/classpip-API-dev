@@ -1,6 +1,6 @@
 {
-    "name": "AlumnoJuegoDeCuestionario",
-    "plural": "AlumnosJuegoDeCuestionario",
+    "name": "EquipoJuegoDeCuestionario",
+    "plural": "equiposJuegoDeCuestionario",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
@@ -17,20 +17,11 @@
         },
         "TiempoEmpleado": {
             "type": "number",
-            "required": false,
             "default": 0
         }
     },
     "validations": [],
     "relations": {
-        "alumno": {
-            "type": "belongsTo",
-            "model": "Alumno",
-            "foreignKey": "alumnoId",
-            "options": {
-                "nestRemoting": true
-            }
-        },
         "juegoDeCuestionario": {
             "type": "belongsTo",
             "model": "JuegoDeCuestionario",
@@ -39,11 +30,19 @@
                 "nestRemoting": true
             }
         },
+        "equipo": {
+            "type": "belongsTo",
+            "model": "Equipo",
+            "foreignKey": "equipoId",
+            "options": {
+                "nestRemoting": true
+            }
+        },
         "pregunta": {
             "type": "hasMany",
             "model": "Pregunta",
-            "foreignKey": "alumnoJuegoDeCuestionarioId",
-            "through": "RespuestaJuegoDeCuestionario"
+            "foreignKey": "equipoJuegoDeCuestionarioId",
+            "through": "RespuestaEquipoJuegoDeCuestionario"
         }
     },
     "acls": [],
