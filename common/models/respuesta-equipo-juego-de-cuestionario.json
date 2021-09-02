@@ -1,6 +1,6 @@
 {
-    "name": "RespuestaJuegoDeCuestionario",
-    "plural": "respuestasJuegoDeCuestionario",
+    "name": "RespuestaEquipoJuegoDeCuestionario",
+    "plural": "respuestasEquipoJuegoDeCuestionario",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
@@ -16,10 +16,10 @@
     },
     "validations": [],
     "relations": {
-        "alumnoJuegoDeCuestionario": {
+        "equipoJuegoDeCuestionario": {
             "type": "belongsTo",
-            "model": "AlumnoJuegoDeCuestionario",
-            "foreignKey": "alumnoJuegoDeCuestionarioId"
+            "model": "EquipoJuegoDeCuestionario",
+            "foreignKey": "equipoJuegoDeCuestionarioId"
         },
         "pregunta": {
             "type": "belongsTo",
