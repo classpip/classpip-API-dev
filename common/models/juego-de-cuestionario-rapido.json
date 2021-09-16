@@ -1,1 +1,55 @@
-{"name":"JuegoDeCuestionarioRapido","plural":"juegosDeCuestionarioRapido","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"NombreJuego":{"type":"string","required":true},"Tipo":{"type":"string","required":true},"PuntuacionCorrecta":{"type":"number","required":true},"PuntuacionIncorrecta":{"type":"number","required":true},"TiempoLimite":{"type":"number","required":false},"Presentacion":{"type":"string","required":true},"JuegoActivo":{"type":"boolean","required":true},"JuegoTerminado":{"type":"boolean","required":true},"Clave":{"type":"string","required":true},"Respuestas":{"type":"object","required":false}},"validations":[],"relations":{},"acls":[],"methods":{}}
+{
+  "name": "JuegoDeCuestionarioRapido",
+  "plural": "juegosDeCuestionarioRapido",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "PuntuacionCorrecta": {
+      "type": "number",
+      "required": true
+    },
+    "PuntuacionIncorrecta": {
+      "type": "number",
+      "required": true
+    },
+    "TiempoLimite": {
+      "type": "number",
+      "required": false
+    },
+    "Presentacion": {
+      "type": "string",
+      "required": true
+    },
+    "JuegoActivo": {
+      "type": "boolean",
+      "required": true
+    },
+    "JuegoTerminado": {
+      "type": "boolean",
+      "required": true
+    },
+    "Clave": {
+      "type": "string",
+      "required": true
+    },
+    "Respuestas": {
+      "type": "object",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

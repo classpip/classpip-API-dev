@@ -1,0 +1,63 @@
+{
+  "name": "Evento",
+  "plural": "Eventos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "TipoEvento": {
+      "type": "number",
+      "required": true
+    },
+    "FechayHora": {
+      "type": "date",
+      "required": true
+    },
+    "ProfesorID": {
+      "type": "number",
+      "required": true
+    },
+    "AlumnoID": {
+      "type": "number"
+    },
+    "EquipoID": {
+      "type": "number"
+    },
+    "JuegoID": {
+      "type": "number"
+    },
+    "NombreJuego": {
+      "type": "string"
+    },
+    "TipoJuego": {
+      "type": "string"
+    },
+    "PuntoID": {
+      "type": "number"
+    },
+    "NumeroPuntos": {
+      "type": "number"
+    },
+    "NivelID": {
+      "type": "number"
+    },
+    "NumeroCromos": {
+      "type": "number"
+    },
+    "AlumnoReceptorCromoID": {
+      "type": "number"
+    },
+    "EquipoReceptorCromoID": {
+      "type": "number"
+    },
+    "Privilegio": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

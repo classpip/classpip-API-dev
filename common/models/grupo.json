@@ -1,1 +1,114 @@
-{"name":"Grupo","plural":"Grupos","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Descripcion":{"type":"string","required":true}},"validations":[],"relations":{"alumnos":{"type":"hasMany","model":"Alumno","foreignKey":"grupoId","options":{"nestRemoting":true},"through":"Matricula"},"equipos":{"type":"hasMany","model":"Equipo","foreignKey":"grupoId"},"juegoDePuntos":{"type":"hasMany","model":"JuegoDePuntos","foreignKey":"grupoId"},"juegoDeColeccions":{"type":"hasMany","model":"JuegoDeColeccion","foreignKey":"grupoId"},"juegoDeCompeticions":{"type":"hasMany","model":"JuegoDeCompeticion","foreignKey":"grupoId"},"asignacionEquipos":{"type":"hasMany","model":"AsignacionEquipo","foreignKey":"grupoId"},"juegosDeCompeticionLiga":{"type":"hasMany","model":"JuegoDeCompeticionLiga","foreignKey":"grupoId","options":{"nestRemoting":true}},"juegosDeCompeticionFormulaUno":{"type":"hasMany","model":"JuegoDeCompeticionFormulaUno","foreignKey":"grupoId","options":{"nestRemoting":true}},"juegosDeCuestionario":{"type":"hasMany","model":"JuegoDeCuestionario","foreignKey":"grupoId"},"juegoDeAvatars":{"type":"hasMany","model":"JuegoDeAvatar","foreignKey":"grupoId"},"juegosDeGeocaching":{"type":"hasMany","model":"JuegoDeGeocaching","foreignKey":"grupoId"},"juegoDeVotacionUnoATodos":{"type":"hasMany","model":"JuegoDeVotacionUnoATodos","foreignKey":"grupoId"},"juegoDeVotacionTodosAUno":{"type":"hasMany","model":"JuegoDeVotacionTodosAUno","foreignKey":"grupoId"},"sesionesClase":{"type":"hasMany","model":"SesionClase","foreignKey":"grupoId"},"juegoDeCuestionarioSatisfaccion":{"type":"hasMany","model":"JuegoDeCuestionarioSatisfaccion","foreignKey":"grupoId"},"juegosDeEvaluacion":{"type":"hasMany","model":"JuegoDeEvaluacion","foreignKey":"grupoId"}},"acls":[],"methods":{}}
+{
+  "name": "Grupo",
+  "plural": "Grupos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Matricula"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "grupoId"
+    },
+    "juegoDePuntos": {
+      "type": "hasMany",
+      "model": "JuegoDePuntos",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeCompeticions": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticion",
+      "foreignKey": "grupoId"
+    },
+    "asignacionEquipos": {
+      "type": "hasMany",
+      "model": "AsignacionEquipo",
+      "foreignKey": "grupoId"
+    },
+    "juegosDeCompeticionLiga": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticionLiga",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegosDeCompeticionFormulaUno": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticionFormulaUno",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeAvatars": {
+      "type": "hasMany",
+      "model": "JuegoDeAvatar",
+      "foreignKey": "grupoId"
+    },
+    "juegosDeGeocaching": {
+      "type": "hasMany",
+      "model": "JuegoDeGeocaching",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeVotacionUnoATodos": {
+      "type": "hasMany",
+      "model": "JuegoDeVotacionUnoATodos",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeVotacionTodosAUno": {
+      "type": "hasMany",
+      "model": "JuegoDeVotacionTodosAUno",
+      "foreignKey": "grupoId"
+    },
+    "sesionesClase": {
+      "type": "hasMany",
+      "model": "SesionClase",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeCuestionarioSatisfaccion": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionarioSatisfaccion",
+      "foreignKey": "grupoId"
+    },
+    "juegosDeEvaluacion": {
+      "type": "hasMany",
+      "model": "JuegoDeEvaluacion",
+      "foreignKey": "grupoId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
