@@ -382,5 +382,9 @@
   "RespuestaEquipoJuegoDeCuestionario": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "Evento": {
+    "dataSource": "baseDatos",
+    "public": true
   }
 }

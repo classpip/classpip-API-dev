@@ -8,7 +8,7 @@
     "Cromo": 257,
     "Equipo": 91,
     "JuegoDePuntos": 39,
-    "JuegoDeColeccion": 136,
+    "JuegoDeColeccion": 138,
     "Matricula": 654,
     "AsignacionEquipo": 274,
     "AsignacionPuntoJuego": 118,
@@ -18,9 +18,9 @@
     "HistorialPuntosAlumno": 349,
     "Insignia": 1,
     "HistorialPuntosEquipo": 2,
-    "AlumnoJuegoDeColeccion": 751,
+    "AlumnoJuegoDeColeccion": 767,
     "EquipoJuegoDeColeccion": 73,
-    "Album": 4394,
+    "Album": 4395,
     "AlbumEquipo": 148,
     "JuegoDeCompeticionLiga": 13,
     "JornadaDeCompeticionLiga": 44,
@@ -75,7 +75,8 @@
     "EquipoJuegoDeControlDeTrabajoEnEquipo": 21,
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
     "EquipoJuegoDeCuestionario": 31,
-    "RespuestaEquipoJuegoDeCuestionario": 53
+    "RespuestaEquipoJuegoDeCuestionario": 53,
+    "Evento": 2
   },
   "models": {
     "Profesor": {
@@ -231,7 +232,9 @@
       "90": "{\"Nombre\":\"Equipo_1\",\"grupoId\":77,\"id\":90}"
     },
     "JuegoDePuntos": {},
-    "JuegoDeColeccion": {},
+    "JuegoDeColeccion": {
+      "137": "{\"NombreJuego\":\"fdfd\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":77,\"coleccionId\":19,\"id\":137}"
+    },
     "Matricula": {
       "642": "{\"alumnoId\":136,\"grupoId\":76,\"id\":642}",
       "643": "{\"alumnoId\":135,\"grupoId\":76,\"id\":643}",
@@ -263,7 +266,16 @@
     "HistorialPuntosAlumno": {},
     "Insignia": {},
     "HistorialPuntosEquipo": {},
-    "AlumnoJuegoDeColeccion": {},
+    "AlumnoJuegoDeColeccion": {
+      "759": "{\"alumnoId\":136,\"juegoDeColeccionId\":137,\"id\":759}",
+      "760": "{\"alumnoId\":135,\"juegoDeColeccionId\":137,\"id\":760}",
+      "761": "{\"alumnoId\":137,\"juegoDeColeccionId\":137,\"id\":761}",
+      "762": "{\"alumnoId\":139,\"juegoDeColeccionId\":137,\"id\":762}",
+      "763": "{\"alumnoId\":138,\"juegoDeColeccionId\":137,\"id\":763}",
+      "764": "{\"alumnoId\":140,\"juegoDeColeccionId\":137,\"id\":764}",
+      "765": "{\"alumnoId\":141,\"juegoDeColeccionId\":137,\"id\":765}",
+      "766": "{\"alumnoId\":142,\"juegoDeColeccionId\":137,\"id\":766}"
+    },
     "EquipoJuegoDeColeccion": {},
     "Album": {},
     "AlbumEquipo": {},
@@ -356,6 +368,9 @@
       "50": "{\"Respuesta\":[\"falso\"],\"equipoJuegoDeCuestionarioId\":30,\"preguntaId\":269,\"id\":50}",
       "51": "{\"Respuesta\":[\"dsds\"],\"equipoJuegoDeCuestionarioId\":29,\"preguntaId\":268,\"id\":51}",
       "52": "{\"Respuesta\":[\"falso\"],\"equipoJuegoDeCuestionarioId\":29,\"preguntaId\":269,\"id\":52}"
+    },
+    "Evento": {
+      "1": "{\"TipoEvento\":1,\"FechayHora\":\"2021-09-17T14:04:47.782Z\",\"ProfesorID\":14,\"JuegoID\":137,\"NombreJuego\":\"fdfd\",\"TipoJuego\":\"Juego De Colección\",\"id\":1}"
     }
   }
 }
