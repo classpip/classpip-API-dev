@@ -1,12 +1,14 @@
 {
-    "name": "Pregunta",
-    "plural": "Preguntas",
-    "base": "PersistedModel",
-    "idInjection": true,
-    "options": {
-        "validateUpsert": true
-    },
-    "properties": {
+  "name": "Pregunta",
+  "plural": "Preguntas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  
+
+  "properties": {
         "Titulo": {
             "type": "string",
             "required": true
@@ -57,7 +59,7 @@
             ],
             "required": false
         }
-    },
+  },
     "validations": [],
     "relations": {
         "cuestionarios": {

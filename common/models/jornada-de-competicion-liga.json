@@ -1,1 +1,32 @@
-{"name":"JornadaDeCompeticionLiga","plural":"JornadasDeCompeticionLiga","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Fecha":{"type":"date","required":false},"CriterioGanador":{"type":"string","required":true}},"validations":[],"relations":{"enfrentamientosLiga":{"type":"hasMany","model":"EnfrentamientoLiga","foreignKey":"JornadaDeCompeticionLigaId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "JornadaDeCompeticionLiga",
+  "plural": "JornadasDeCompeticionLiga",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Fecha": {
+      "type": "date",
+      "required": false
+    },
+    "CriterioGanador": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "enfrentamientosLiga": {
+      "type": "hasMany",
+      "model": "EnfrentamientoLiga",
+      "foreignKey": "JornadaDeCompeticionLigaId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
