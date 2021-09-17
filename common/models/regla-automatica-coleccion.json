@@ -1,1 +1,23 @@
-{"name":"ReglaAutomaticaColeccion","plural":"ReglasAutomaticasColeccion","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Descripcion":{"type":"string","required":true}},"validations":[],"relations":{},"acls":[],"methods":{}}
+{
+  "name": "ReglaAutomaticaColeccion",
+  "plural": "ReglasAutomaticasColeccion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

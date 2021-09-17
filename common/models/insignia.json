@@ -1,1 +1,26 @@
-{"name":"Insignia","plural":"Insignias","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Descripcion":{"type":"string","required":true},"Imagen":{"type":"string"}},"validations":[],"relations":{},"acls":[],"methods":{}}
+{
+  "name": "Insignia",
+  "plural": "Insignias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "Imagen": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

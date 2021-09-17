@@ -1,11 +1,15 @@
 {
+
     "name": "RespuestaJuegoDeCuestionario",
     "plural": "respuestasJuegoDeCuestionario",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
         "validateUpsert": true
+
     },
+ 
+ 
     "properties": {
         "Respuesta": {
             "type": [
