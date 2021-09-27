@@ -39,6 +39,12 @@
     "Identificador": {
       "type": "string",
       "required": true
+    },
+    "configuracionEventos": {
+      "type": [
+        "object"
+      ],
+      "required": false
     }
   },
   "validations": [],
