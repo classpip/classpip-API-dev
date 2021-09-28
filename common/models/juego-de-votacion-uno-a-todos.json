@@ -1,1 +1,57 @@
-{"name":"JuegoDeVotacionUnoATodos","plural":"juegosDeVotacionUnoATodos","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Tipo":{"type":"string","required":true},"NombreJuego":{"type":"string","required":true},"Modo":{"type":"string","required":true},"ModoReparto":{"type":"string","required":true},"JuegoActivo":{"type":"boolean","required":true,"default":false},"JuegoTerminado":{"type":"boolean","required":true,"default":false},"Puntos":{"type":["number"],"required":true}},"validations":[],"relations":{"alumnos":{"type":"hasMany","model":"Alumno","foreignKey":"juegoDeVotacionUnoATodosId","options":{"nestRemoting":true},"through":"AlumnoJuegoDeVotacionUnoATodos"}},"acls":[],"methods":{}}
+{
+  "name": "JuegoDeVotacionUnoATodos",
+  "plural": "juegosDeVotacionUnoATodos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
+    "Modo": {
+      "type": "string",
+      "required": true
+    },
+    "ModoReparto": {
+      "type": "string",
+      "required": true
+    },
+    "JuegoActivo": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "JuegoTerminado": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "Puntos": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeVotacionUnoATodosId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeVotacionUnoATodos"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

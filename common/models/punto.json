@@ -1,1 +1,48 @@
-{"name":"Punto","plural":"Puntos","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Descripcion":{"type":"string","required":true}},"validations":[],"relations":{"juegoDePuntos":{"type":"hasMany","model":"JuegoDePuntos","foreignKey":"puntoId","options":{"nestRemoting":true},"through":"AsignacionPuntoJuego"},"alumnoJuegoDePuntos":{"type":"hasMany","model":"AlumnoJuegoDePuntos","foreignKey":"puntoId","options":{"nestRemoting":true},"through":"HistorialPuntosAlumno"},"equipoJuegoDePuntos":{"type":"hasMany","model":"EquipoJuegoDePuntos","foreignKey":"puntoId","through":"HistorialPuntosEquipo"}},"acls":[],"methods":{}}
+{
+  "name": "Punto",
+  "plural": "Puntos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "juegoDePuntos": {
+      "type": "hasMany",
+      "model": "JuegoDePuntos",
+      "foreignKey": "puntoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AsignacionPuntoJuego"
+    },
+    "alumnoJuegoDePuntos": {
+      "type": "hasMany",
+      "model": "AlumnoJuegoDePuntos",
+      "foreignKey": "puntoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "HistorialPuntosAlumno"
+    },
+    "equipoJuegoDePuntos": {
+      "type": "hasMany",
+      "model": "EquipoJuegoDePuntos",
+      "foreignKey": "puntoId",
+      "through": "HistorialPuntosEquipo"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

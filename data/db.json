@@ -14,7 +14,6 @@
     "AsignacionPuntoJuego": 67,
     "Nivel": 12,
     "AlumnoJuegoDePuntos": 160,
-
     "EquipoJuegoDePuntos": 6,
     "HistorialPuntosAlumno": 256,
     "Insignia": 1,
@@ -34,8 +33,6 @@
     "EquipoJuegoDeCompeticionFormulaUno": 5,
     "Escenario": 11,
     "PuntoGeolocalizable": 28,
-
-
     "Cuestionario": 49,
     "PreguntaDelCuestionario": 135,
     "SesionClase": 199,
@@ -51,20 +48,18 @@
     "RespuestaJuegoDeCuestionario": 1092,
     "JuegoDeVotacionUnoATodos": 24,
     "AlumnoJuegoDeVotacionUnoATodos": 200,
-
     "Rubrica": 4,
     "JuegoDeVotacionTodosAUno": 16,
     "AlumnoJuegoDeVotacionTodosAUno": 97,
     "FamiliaImagenesPerfil": 25,
-
     "CuestionarioSatisfaccion": 37,
     "JuegoDeCuestionarioSatisfaccion": 12,
     "AlumnoJuegoDeCuestionarioSatisfaccion": 61,
     "JuegoDeEncuestaRapida": 82,
     "JuegoDeVotacionRapida": 14,
     "JuegoDeCuestionarioRapido": 42,
-    "JuegoDeCogerTurnoRapido": 16
-
+    "JuegoDeCogerTurnoRapido": 16,
+    "RecursosCuento": 2
   },
   "models": {
     "Profesor": {
@@ -2258,17 +2253,17 @@
       "137": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":137}",
       "139": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":139}",
       "140": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":1,\"id\":140}",
-      "145": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":11,\"id\":145}",
-      "146": "{\"Titulo\":\"Suma\",\"Pregunta\":\"Â¿CuÃ¡nto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":11,\"id\":146}",
-      "149": "{\"Titulo\":\"A\",\"Pregunta\":\"¿A?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0001.jpg\",\"RespuestaCorrecta\":\"A\",\"RespuestaIncorrecta1\":\"B\",\"RespuestaIncorrecta2\":\"C\",\"RespuestaIncorrecta3\":\"D\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":149}",
-      "150": "{\"Titulo\":\"B\",\"Pregunta\":\"¿B?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0002.jpg\",\"RespuestaCorrecta\":\"B\",\"RespuestaIncorrecta1\":\"C\",\"RespuestaIncorrecta2\":\"D\",\"RespuestaIncorrecta3\":\"E\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":150}",
-      "151": "{\"Titulo\":\"C\",\"Pregunta\":\"¿C?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"C\",\"RespuestaIncorrecta1\":\"D\",\"RespuestaIncorrecta2\":\"E\",\"RespuestaIncorrecta3\":\"F\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":151}",
-      "152": "{\"Titulo\":\"Sense imatge\",\"Pregunta\":\"Â¿TÃ© imatge?\",\"Tematica\":\"Testing\",\"RespuestaCorrecta\":\"No\",\"RespuestaIncorrecta1\":\"A\",\"RespuestaIncorrecta2\":\"B\",\"RespuestaIncorrecta3\":\"C\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":152}",
       "141": "{\"Titulo\":\"Prueba\",\"Pregunta\":\"¿hola?\",\"Tematica\":\"mates\",\"Imagen\":\"linux.jpg\",\"RespuestaCorrecta\":\"a\",\"RespuestaIncorrecta1\":\"a\",\"RespuestaIncorrecta2\":\"a\",\"RespuestaIncorrecta3\":\"a\",\"FeedbackCorrecto\":\"a\",\"FeedbackIncorrecto\":\"a\",\"profesorId\":1,\"id\":141}",
       "142": "{\"Titulo\":\"Tipos de jugadores\",\"Pregunta\":\"¿Qué tipo de jugador es una persona que necesita completar una colección a toda costa?\",\"Tematica\":\"Gamificación\",\"Imagen\":\"acongojado.png\",\"RespuestaCorrecta\":\"Achiever\",\"RespuestaIncorrecta1\":\"Killer\",\"RespuestaIncorrecta2\":\"Explorer\",\"RespuestaIncorrecta3\":\"Socialite\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. La respuesta correcta es Achiever. Los achieves necesitan completar retos, como por ejemplo, conseguir la insignia de diamantes o tener todos los cromos de la colección.\",\"profesorId\":1,\"id\":142}",
       "143": "{\"Titulo\":\"Mind\",\"Pregunta\":\"dsds\",\"Tematica\":\"sdds\",\"Imagen\":\"abatido.png\",\"RespuestaCorrecta\":\"a\",\"RespuestaIncorrecta1\":\"a\",\"RespuestaIncorrecta2\":\"a\",\"RespuestaIncorrecta3\":\"a\",\"FeedbackCorrecto\":\"a\",\"FeedbackIncorrecto\":\"a\",\"profesorId\":1,\"id\":143}",
       "144": "{\"Titulo\":\"cccc\",\"Pregunta\":\"¿Qué tipo de jugador es una persona que necesita completar una colección a toda costa?\",\"Tematica\":\"Gamificación\",\"Imagen\":\"acongojado.png\",\"RespuestaCorrecta\":\"Achiever\",\"RespuestaIncorrecta1\":\"Killer\",\"RespuestaIncorrecta2\":\"Explorer\",\"RespuestaIncorrecta3\":\"Socialite\",\"FeedbackCorrecto\":\"Correcto.\",\"FeedbackIncorrecto\":\"No. La respuesta correcta es Achiever. Los achieves necesitan completar retos, como por ejemplo, conseguir la insignia de diamantes o tener todos los cromos de la colección.\",\"profesorId\":1,\"id\":144}",
+      "145": "{\"Titulo\":\"Prueba Json\",\"Pregunta\":\"¿Funciona?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0100.jpg\",\"RespuestaCorrecta\":\"Si\",\"RespuestaIncorrecta1\":\"Si, pero no guarda imagen\",\"RespuestaIncorrecta2\":\"Si, pero solo guarda imagen\",\"RespuestaIncorrecta3\":\"No\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":11,\"id\":145}",
+      "146": "{\"Titulo\":\"Suma\",\"Pregunta\":\"Â¿CuÃ¡nto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":11,\"id\":146}",
       "147": "{\"Titulo\":\"dsdds\",\"Pregunta\":\"sddsds\",\"Tematica\":\"dsds\",\"Imagen\":\"preocupada.png\",\"RespuestaCorrecta\":\"1\",\"RespuestaIncorrecta1\":\"1\",\"RespuestaIncorrecta2\":\"1\",\"RespuestaIncorrecta3\":\"1\",\"FeedbackCorrecto\":\"1\",\"FeedbackIncorrecto\":\"1\",\"profesorId\":1,\"id\":147}",
+      "149": "{\"Titulo\":\"A\",\"Pregunta\":\"¿A?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0001.jpg\",\"RespuestaCorrecta\":\"A\",\"RespuestaIncorrecta1\":\"B\",\"RespuestaIncorrecta2\":\"C\",\"RespuestaIncorrecta3\":\"D\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":149}",
+      "150": "{\"Titulo\":\"B\",\"Pregunta\":\"¿B?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0002.jpg\",\"RespuestaCorrecta\":\"B\",\"RespuestaIncorrecta1\":\"C\",\"RespuestaIncorrecta2\":\"D\",\"RespuestaIncorrecta3\":\"E\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":150}",
+      "151": "{\"Titulo\":\"C\",\"Pregunta\":\"¿C?\",\"Tematica\":\"Testing\",\"Imagen\":\"DSC_0003.jpg\",\"RespuestaCorrecta\":\"C\",\"RespuestaIncorrecta1\":\"D\",\"RespuestaIncorrecta2\":\"E\",\"RespuestaIncorrecta3\":\"F\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":151}",
+      "152": "{\"Titulo\":\"Sense imatge\",\"Pregunta\":\"Â¿TÃ© imatge?\",\"Tematica\":\"Testing\",\"RespuestaCorrecta\":\"No\",\"RespuestaIncorrecta1\":\"A\",\"RespuestaIncorrecta2\":\"B\",\"RespuestaIncorrecta3\":\"C\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":10,\"id\":152}",
       "169": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 9 ?\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"16\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":8,\"id\":169}",
       "170": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 8 ?\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"15\",\"RespuestaIncorrecta1\":\"16\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":8,\"id\":170}",
       "171": "{\"Titulo\":\"suma\",\"Pregunta\":\"¿Cuánto es 7 + 5 ?\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"12\",\"RespuestaIncorrecta1\":\"15\",\"RespuestaIncorrecta2\":\"17\",\"RespuestaIncorrecta3\":\"0\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Fatal\",\"profesorId\":8,\"id\":171}",
@@ -4082,15 +4077,16 @@
     },
     "JuegoDeVotacionRapida": {},
     "JuegoDeCuestionarioRapido": {
-
       "28": "{\"NombreJuego\":\"aaa\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":4,\"PuntuacionIncorrecta\":1,\"TiempoLimite\":56,\"Presentacion\":\"Preguntas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"87910733\",\"Respuestas\":[],\"profesorId\":8,\"cuestionarioId\":37,\"id\":28}",
       "29": "{\"NombreJuego\":\"Cuestionario de prueba\",\"Tipo\":\"Juego De Cuestionario Rápido\",\"PuntuacionCorrecta\":3,\"PuntuacionIncorrecta\":0,\"TiempoLimite\":60,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"Clave\":\"07182206\",\"Respuestas\":[],\"profesorId\":10,\"cuestionarioId\":38,\"id\":29}"
-
     },
     "JuegoDeCogerTurnoRapido": {
       "13": "{\"NombreJuego\":\"Turnos\",\"Tipo\":\"Juego De Coger Turno Rápido\",\"Presentacion\":\"Entrega Proyecto Final\",\"Turnos\":[{\"dia\":\"2021-01-22\",\"hora\":\"09:00\"},{\"dia\":\"2021-01-11\",\"hora\":\"22:21\"}],\"Clave\":\"41034762\",\"profesorId\":11,\"id\":13}",
       "14": "{\"id\":14,\"NombreJuego\":\"Demo proyecto SO 2020-2021Q1 (ensayo)\",\"Tipo\":\"Juego De Coger Turno Rápido\",\"Presentacion\":\"Turno para el ensayo de entrega\",\"Turnos\":[{\"dia\":\"*\",\"hora\":\"*\",\"persona\":\"g15\"},{\"dia\":\"*\",\"hora\":\"*\",\"persona\":\"g13\"},{\"dia\":\"2021-01-21\",\"hora\":\"08:30\"},{\"dia\":\"2021-01-21\",\"hora\":\"09:00\"},{\"dia\":\"2021-01-21\",\"hora\":\"12:00\",\"persona\":\"G3\"},{\"dia\":\"2021-01-21\",\"hora\":\"12:30\"},{\"dia\":\"2021-01-21\",\"hora\":\"13:00\"},{\"dia\":\"2021-01-21\",\"hora\":\"13:30\",\"persona\":\"G6\"},{\"dia\":\"2021-01-21\",\"hora\":\"16:00\",\"persona\":\"G2\"},{\"dia\":\"2021-01-21\",\"hora\":\"16:30\",\"persona\":\"g11\"},{\"dia\":\"2021-01-21\",\"hora\":\"17:00\",\"persona\":\"g12\"},{\"dia\":\"2021-01-21\",\"hora\":\"17:30\",\"persona\":\"8\"},{\"dia\":\"2021-01-21\",\"hora\":\"18:00\",\"persona\":\"T01\"},{\"dia\":\"2021-01-22\",\"hora\":\"08:30\"},{\"dia\":\"2021-01-22\",\"hora\":\"09:00\"},{\"dia\":\"2021-01-22\",\"hora\":\"09:30\"},{\"dia\":\"2021-01-22\",\"hora\":\"16:00\",\"persona\":\"grupo 7\"},{\"dia\":\"2021-01-22\",\"hora\":\"16:30\",\"persona\":\"G9\"},{\"dia\":\"2021-01-22\",\"hora\":\"17:00\",\"persona\":\"G14\"},{\"dia\":\"2021-01-22\",\"hora\":\"17:30\",\"persona\":\"5\"},{\"dia\":\"2021-01-22\",\"hora\":\"18:00\",\"persona\":\"G10\"}],\"Clave\":\"59787895\",\"profesorId\":8}",
       "15": "{\"id\":15,\"NombreJuego\":\"Demo proyecto SO 2020-21 Q1 (definitivo)\",\"Tipo\":\"Juego De Coger Turno Rápido\",\"Presentacion\":\"Turno para la demo final\",\"Turnos\":[{\"dia\":\"2021-01-26\",\"hora\":\"08:30\"},{\"dia\":\"2021-01-26\",\"hora\":\"09:00\"},{\"dia\":\"2021-01-26\",\"hora\":\"09:30\",\"persona\":\"yan\"},{\"dia\":\"2021-01-26\",\"hora\":\"12:30\",\"persona\":\"G3\"},{\"dia\":\"2021-01-26\",\"hora\":\"13:00\"},{\"dia\":\"2021-01-26\",\"hora\":\"16:00\",\"persona\":\"g7\"},{\"dia\":\"2021-01-26\",\"hora\":\"16:30\",\"persona\":\"G2\"},{\"dia\":\"2021-01-26\",\"hora\":\"17:00\"},{\"dia\":\"2021-01-26\",\"hora\":\"17:30\",\"persona\":\"g12\"},{\"dia\":\"2021-01-26\",\"hora\":\"18:30\",\"persona\":\"G6\"},{\"dia\":\"2021-01-27\",\"hora\":\"09:00\",\"persona\":\"FGF\"},{\"dia\":\"2021-01-27\",\"hora\":\"09:30\",\"persona\":\"G14\"},{\"dia\":\"2021-01-27\",\"hora\":\"10:00\",\"persona\":\"8\"},{\"dia\":\"2021-01-27\",\"hora\":\"10:30\",\"persona\":\"g11\"},{\"dia\":\"2021-01-27\",\"hora\":\"11:00\",\"persona\":\"grupo13\"},{\"dia\":\"2021-01-27\",\"hora\":\"11:30\",\"persona\":\"G9\"},{\"dia\":\"2021-01-27\",\"hora\":\"12:00\",\"persona\":\"T01\"}],\"Clave\":\"73044778\",\"profesorId\":8}"
+    },
+    "RecursosCuento": {
+      "1": "{\"nombre\":\"DemoTFG_recursos\",\"carpeta\":\"Recursos-DemoTFG_recursos\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":1,\"id\":1}"
     }
   }
 }
