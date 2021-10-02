@@ -330,5 +330,29 @@
   "RecursosCuento": {
     "dataSource": "baseDatos",
     "public": true
+  },
+  "JuegoDeCuento": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "RecursoJuegoDeCuento": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "AlumnoJuegoDeCuento": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Cuento": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Escena": {
+    "dataSource": "baseDatos",
+    "public": true
+  },
+  "Elemento": {
+    "dataSource": "baseDatos",
+    "public": true
   }
 }

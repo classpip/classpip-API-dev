@@ -107,6 +107,11 @@
       "type": "hasMany",
       "model": "JuegoDeEvaluacion",
       "foreignKey": "grupoId"
+    },
+    "JuegoDeCuento": {
+      "type": "hasMany",
+      "model": "JuegoDeCuento",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],
