@@ -1,0 +1,50 @@
+{
+    "name": "EquipoJuegoDeCuestionario",
+    "plural": "equiposJuegoDeCuestionario",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "Nota": {
+            "type": "number",
+            "required": true
+        },
+        "Contestado": {
+            "type": "boolean",
+            "default": false
+        },
+        "TiempoEmpleado": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "validations": [],
+    "relations": {
+        "juegoDeCuestionario": {
+            "type": "belongsTo",
+            "model": "JuegoDeCuestionario",
+            "foreignKey": "juegoDeCuestionarioId",
+            "options": {
+                "nestRemoting": true
+            }
+        },
+        "equipo": {
+            "type": "belongsTo",
+            "model": "Equipo",
+            "foreignKey": "equipoId",
+            "options": {
+                "nestRemoting": true
+            }
+        },
+        "pregunta": {
+            "type": "hasMany",
+            "model": "Pregunta",
+            "foreignKey": "equipoJuegoDeCuestionarioId",
+            "through": "RespuestaEquipoJuegoDeCuestionario"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}

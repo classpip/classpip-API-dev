@@ -1,3 +1,4 @@
+
 {
   "name": "Grupo",
   "plural": "Grupos",
@@ -108,9 +109,17 @@
       "model": "JuegoDeEvaluacion",
       "foreignKey": "grupoId"
     },
+
     "JuegoDeCuento": {
       "type": "hasMany",
       "model": "JuegoDeCuento",
+      "foreignKey": "grupoId"
+    },
+
+   
+    "juegosDeControlDeTrabajoEnEquipo": {
+      "type": "hasMany",
+      "model": "JuegoDeControlDeTrabajoEnEquipo",
       "foreignKey": "grupoId"
     }
   },

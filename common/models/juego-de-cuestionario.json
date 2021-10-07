@@ -1,3 +1,4 @@
+
 {
   "name": "JuegoDeCuestionario",
   "plural": "JuegosDeCuestionario",
@@ -11,6 +12,12 @@
       "type": "string",
       "required": true
     },
+
+    "Modo": {
+      "type": "string",
+      "required": true
+    },
+
     "Modalidad": {
       "type": "string",
       "required": true
@@ -53,6 +60,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeCuestionario"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "juegoDeCuestionarioId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDeCuestionario"
     }
   },
   "acls": [],

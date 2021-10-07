@@ -1,3 +1,4 @@
+
 {
   "name": "Profesor",
   "plural": "Profesores",
@@ -38,6 +39,13 @@
     "Identificador": {
       "type": "string",
       "required": true
+
+    },
+    "configuracionEventos": {
+      "type": [
+        "object"
+      ],
+      "required": false
     }
   },
   "validations": [],

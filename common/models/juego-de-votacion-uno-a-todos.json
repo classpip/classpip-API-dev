@@ -1,3 +1,4 @@
+
 {
   "name": "JuegoDeVotacionUnoATodos",
   "plural": "juegosDeVotacionUnoATodos",
@@ -50,6 +51,12 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeVotacionUnoATodos"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "juegoDeVotacionUnoATodosId",
+      "through": "EquipoJuegoDeVotacionUnoATodos"
     }
   },
   "acls": [],

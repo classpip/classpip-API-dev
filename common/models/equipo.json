@@ -1,3 +1,4 @@
+
 {
   "name": "Equipo",
   "plural": "Equipos",
@@ -45,6 +46,15 @@
       },
       "through": "EquipoJuegoDeColeccion"
     },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDeCuestionario"
+    },
     "juegosDeCompeticionFormulaUno": {
       "type": "hasMany",
       "model": "JuegoDeCompeticionFormulaUno",
@@ -62,6 +72,21 @@
         "nestRemoting": true
       },
       "through": "EquipoJuegoDeCompeticionLiga"
+    },
+    "juegosDeEvaluacion": {
+      "type": "hasMany",
+      "model": "JuegoDeEvaluacion",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDeEvaluacion"
+    },
+    "juegoDeVotacionUnoATodos": {
+      "type": "hasMany",
+      "model": "JuegoDeVotacionUnoATodos",
+      "foreignKey": "equipoId",
+      "through": "EquipoJuegoDeVotacionUnoATodos"
     }
   },
   "acls": [],

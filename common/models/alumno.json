@@ -1,3 +1,4 @@
+
 {
   "name": "Alumno",
   "plural": "Alumnos",
@@ -151,11 +152,11 @@
     "juegosDeEvaluacion": {
       "type": "hasMany",
       "model": "JuegoDeEvaluacion",
-      "foreignKey": "AlumnoJuegoDeEvaluacion",
+      "foreignKey": "alumnoId",
       "options": {
         "nestRemoting": true
       },
-      "through": "AlumnoJuegoEvaluado"
+      "through": "AlumnoJuegoDeEvaluacion"
     },
     "Cuento": {
       "type": "hasMany",
@@ -166,8 +167,16 @@
       "type": "hasMany",
       "model": "JuegoDeCuento",
       "foreignKey": "alumnoId"
+    },
+  
+    "juegoDeControlDeTrabajoEnEquipo": {
+      "type": "hasMany",
+      "model": "JuegoDeControlDeTrabajoEnEquipo",
+      "foreignKey": "alumnoId",
+      "through": "AlumnoJuegoDeControlDeTrabajoEnEquipo"
     }
   },
   "acls": [],
   "methods": {}
 }
+
