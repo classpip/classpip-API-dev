@@ -39,6 +39,7 @@
     "Identificador": {
       "type": "string",
       "required": true
+
     },
     "configuracionEventos": {
       "type": [
@@ -162,9 +163,9 @@
       "model": "JuegoDeEvaluacion",
       "foreignKey": "profesorId"
     },
-    "recursosLibros": {
+    "recursosCuentos": {
       "type": "hasMany",
-      "model": "recursosLibro",
+      "model": "RecursosCuento",
       "foreignKey": "profesorId"
     }
   },

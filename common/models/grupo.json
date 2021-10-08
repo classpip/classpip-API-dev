@@ -109,11 +109,14 @@
       "model": "JuegoDeEvaluacion",
       "foreignKey": "grupoId"
     },
-    "juegodelibro": {
+
+    "JuegoDeCuento": {
       "type": "hasMany",
-      "model": "juego-de-libro",
+      "model": "JuegoDeCuento",
       "foreignKey": "grupoId"
     },
+
+   
     "juegosDeControlDeTrabajoEnEquipo": {
       "type": "hasMany",
       "model": "JuegoDeControlDeTrabajoEnEquipo",

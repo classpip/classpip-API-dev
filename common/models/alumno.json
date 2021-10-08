@@ -158,16 +158,17 @@
       },
       "through": "AlumnoJuegoDeEvaluacion"
     },
-    "libro": {
+    "Cuento": {
       "type": "hasMany",
-      "model": "Libro",
+      "model": "Cuento",
       "foreignKey": "alumnoId"
     },
-    "juegodelibro": {
+    "juegoDeCuentos": {
       "type": "hasMany",
-      "model": "juego-de-libro",
+      "model": "JuegoDeCuento",
       "foreignKey": "alumnoId"
     },
+  
     "juegoDeControlDeTrabajoEnEquipo": {
       "type": "hasMany",
       "model": "JuegoDeControlDeTrabajoEnEquipo",
@@ -178,4 +179,4 @@
   "acls": [],
   "methods": {}
 }
- 
+

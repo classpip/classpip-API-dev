@@ -12,10 +12,12 @@
       "type": "string",
       "required": true
     },
+
     "Modo": {
       "type": "string",
       "required": true
     },
+
     "Modalidad": {
       "type": "string",
       "required": true

@@ -1,1 +1,58 @@
-{"name":"escena","plural":"escenas","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"fondo":{"type":"any","required":false},"duracionFrame":{"type":"number","required":true},"maximoFrames":{"type":"number","required":true},"numeroFrames":{"type":"number","required":true},"numeroframeActual":{"type":"number","required":true},"numeroEscena":{"type":"number","required":true},"tipoAudio":{"type":"any","required":false},"urlAudioFondo":{"type":"any","required":false}},"validations":[],"relations":{"frames":{"type":"hasMany","model":"frame","foreignKey":"escenaid","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+
+{
+  "name": "Escena",
+  "plural": "Escenas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fondo": {
+      "type": "any",
+      "required": false
+    },
+    "duracionFrame": {
+      "type": "number",
+      "required": true
+    },
+    "maximoFrames": {
+      "type": "number",
+      "required": true
+    },
+    "numeroFrames": {
+      "type": "number",
+      "required": true
+    },
+    "numeroframeActual": {
+      "type": "number",
+      "required": true
+    },
+    "numeroEscena": {
+      "type": "number",
+      "required": true
+    },
+    "tipoAudio": {
+      "type": "any",
+      "required": false
+    },
+    "urlAudioFondo": {
+      "type": "any",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Elementos": {
+      "type": "hasMany",
+      "model": "Elemento",
+      "foreignKey": "escenaid",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
+
