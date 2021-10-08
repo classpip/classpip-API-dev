@@ -20,6 +20,11 @@
         "string"
       ],
       "required": true
+    },
+    "Publica": {
+      "type": "boolean",
+      "required": false,
+      "default": false
     }
   },
   "validations": [],
