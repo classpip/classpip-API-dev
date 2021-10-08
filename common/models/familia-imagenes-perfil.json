@@ -23,7 +23,7 @@
     },
     "Publica": {
       "type": "boolean",
-      "required": false,
+      "required": false, 
       "default": false
     }
   },
