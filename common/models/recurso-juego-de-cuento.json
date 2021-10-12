@@ -1,0 +1,1 @@
+{"name":"RecursoJuegoDeCuento","plural":"RecursosJuegoDeCuento","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"nombre":{"type":"any","required":false},"carpeta":{"type":"any","required":false},"imagenes":{"type":"any","required":false}},"validations":[],"relations":{},"acls":[],"methods":{}}

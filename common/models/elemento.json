@@ -1,0 +1,87 @@
+{
+    "name": "Elemento",
+    "plural": "Elementos",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "personajeID": {
+            "type": "number",
+            "required": false
+          },
+          "nombre": {
+            "type": "any",
+            "required": false
+          },
+          "imagenDataX": {
+            "type": "any",
+            "required": false
+          },
+          "imagenDataY": {
+            "type": "any",
+            "required": false
+          },
+          "url": {
+            "type": "any",
+            "required": false
+          },
+          "tipo": {
+            "type": "any",
+            "required": false
+          },
+          "especial": {
+            "type": "any",
+            "required": false
+          },
+          "positionlista": {
+            "type": "any",
+            "required": false
+          },
+          "translate": {
+            "type": "any",
+            "required": false
+          },
+          "invertir": {
+            "type": "any",
+            "required": false
+          },
+          "imagenWidth": {
+            "type": "any",
+            "required": false
+          },
+          "imagenHeight": {
+            "type": "any",
+            "required": false
+          },
+          "canvasX": {
+            "type": "any",
+            "required": false
+          },
+          "canvasY": {
+            "type": "any",
+            "required": false
+          },
+          "rotate": {
+            "type": "any",
+            "required": false
+          },
+          "zindex": {
+            "type": "any",
+            "required": false
+          },
+          "pintado": {
+            "type": "any",
+            "required": false
+          },
+          "fondoUrl": {
+            "type": "any",
+            "required": false
+          }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

@@ -1,14 +1,1 @@
-{
-  "name": "imagen",
-  "plural": "imagenes",
-  "base": "Model",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {},
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
-}
+{"name":"imagen","plural":"imagenes","base":"Model","idInjection":true,"options":{"validateUpsert":true},"properties":{},"validations":[],"relations":{},"acls":[],"methods":{}}
