@@ -1,0 +1,31 @@
+{
+  "name": "EquipoJuegoDeCompeticionTorneo",
+  "plural": "EquiposJuegoDeCompeticionTorneo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "EquipoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCompeticionTorneo": {
+      "type": "belongsTo",
+      "model": "JuegoDeCompeticionTorneo",
+      "foreignKey": "JuegoDeCompeticionTorneoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

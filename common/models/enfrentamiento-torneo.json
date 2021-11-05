@@ -1,0 +1,26 @@
+{
+  "name": "EnfrentamientoTorneo",
+  "plural": "EnfrentamientosTorneo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "JugadorUno": {
+      "type": "number",
+      "required": true
+    },
+    "JugadorDos": {
+      "type": "number",
+      "required": true
+    },
+    "Ganador": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
