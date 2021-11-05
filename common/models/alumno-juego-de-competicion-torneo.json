@@ -1,0 +1,32 @@
+{
+  "name": "AlumnoJuegoDeCompeticionTorneo",
+  "plural": "AlumnosJuegoDeCompeticionTorneo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "AlumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCompeticionTorneo": {
+      "type": "belongsTo",
+      "model": "JuegoDeCompeticionTorneo",
+      "foreignKey": "JuegoDeCompeticionTorneoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+    
+  },
+  "acls": [],
+  "methods": {}
+}
