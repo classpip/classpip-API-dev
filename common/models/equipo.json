@@ -72,6 +72,15 @@
             },
             "through": "EquipoJuegoDeCompeticionLiga"
         },
+        "juegosDeCompeticionTorneo": {
+            "type": "hasMany",
+            "model": "JuegoDeCompeticionTorneo",
+            "foreignKey": "EquipoId",
+            "options": {
+              "nestRemoting": true
+            },
+            "through": "EquipoJuegoDeCompeticionTorneo"
+        },
         "juegosDeEvaluacion": {
             "type": "hasMany",
             "model": "JuegoDeEvaluacion",
@@ -86,16 +95,7 @@
             "model": "JuegoDeVotacionUnoATodos",
             "foreignKey": "equipoId",
             "through": "EquipoJuegoDeVotacionUnoATodos"
-        },
-        "juegosDeCompeticionTorneo": {
-            "type": "hasMany",
-            "model": "JuegoDeCompeticionTorneo",
-            "foreignKey": "EquipoId",
-            "options": {
-              "nestRemoting": true
-            },
-            "through": "EquipoJuegoDeCompeticionTorneo"
-          }
+        }
     },
     "acls": [],
     "methods": {}
