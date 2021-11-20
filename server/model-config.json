@@ -430,5 +430,13 @@
     "JornadaDeCompeticionTorneo": {
         "dataSource": "baseDatos",
         "public": true
+    },
+    "JuegoDeVotacionAOpciones": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "AlumnoJuegoDeVotacionAOpciones": {
+        "dataSource": "baseDatos",
+        "public": true
     }
 }

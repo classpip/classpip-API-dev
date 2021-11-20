@@ -142,6 +142,15 @@
             },
             "through": "AlumnoJuegoDeVotacionTodosAUno"
         },
+        "juegoDeVotacionAOpciones": {
+            "type": "hasMany",
+            "model": "JuegoDeVotacionAOpciones",
+            "foreignKey": "alumnoId",
+            "options": {
+                "nestRemoting": true
+            },
+            "through": "AlumnoJuegoDeVotacionAOpciones"
+        },
         "juegoDeCuestionarioSatisfaccion": {
             "type": "hasMany",
             "model": "JuegoDeCuestionarioSatisfaccion",
@@ -188,10 +197,10 @@
             "model": "JuegoDeCompeticionTorneo",
             "foreignKey": "AlumnoId",
             "options": {
-              "nestRemoting": true
+                "nestRemoting": true
             },
             "through": "AlumnoJuegoDeCompeticionTorneo"
-          }
+        }
     },
     "acls": [],
     "methods": {}

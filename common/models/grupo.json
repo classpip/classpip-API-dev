@@ -93,6 +93,11 @@
             "model": "JuegoDeVotacionTodosAUno",
             "foreignKey": "grupoId"
         },
+        "juegoDeVotacionAOpciones": {
+            "type": "hasMany",
+            "model": "JuegoDeVotacionAOpciones",
+            "foreignKey": "grupoId"
+        },
         "sesionesClase": {
             "type": "hasMany",
             "model": "SesionClase",
@@ -128,9 +133,9 @@
             "model": "JuegoDeCompeticionTorneo",
             "foreignKey": "grupoId",
             "options": {
-              "nestRemoting": true
+                "nestRemoting": true
             }
-          }
+        }
     },
     "acls": [],
     "methods": {}

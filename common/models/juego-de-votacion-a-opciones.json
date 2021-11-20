@@ -1,17 +1,17 @@
 {
-    "name": "JuegoDeVotacionUnoATodos",
-    "plural": "juegosDeVotacionUnoATodos",
+    "name": "JuegoDeVotacionAOpciones",
+    "plural": "juegosDeVotacionAOpciones",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
         "validateUpsert": true
     },
     "properties": {
-        "Tipo": {
+        "NombreJuego": {
             "type": "string",
             "required": true
         },
-        "NombreJuego": {
+        "Tipo": {
             "type": "string",
             "required": true
         },
@@ -25,13 +25,16 @@
         },
         "JuegoActivo": {
             "type": "boolean",
-            "required": true,
-            "default": false
+            "default": true
         },
         "JuegoTerminado": {
-            "type": "boolean",
-            "required": true,
-            "default": false
+            "type": "boolean"
+        },
+        "Opciones": {
+            "type": [
+                "string"
+            ],
+            "required": true
         },
         "Puntos": {
             "type": [
@@ -45,17 +48,11 @@
         "alumnos": {
             "type": "hasMany",
             "model": "Alumno",
-            "foreignKey": "juegoDeVotacionUnoATodosId",
+            "foreignKey": "juegoDeVotacionAOpcionesId",
             "options": {
                 "nestRemoting": true
             },
-            "through": "AlumnoJuegoDeVotacionUnoATodos"
-        },
-        "equipos": {
-            "type": "hasMany",
-            "model": "Equipo",
-            "foreignKey": "juegoDeVotacionUnoATodosId",
-            "through": "EquipoJuegoDeVotacionUnoATodos"
+            "through": "AlumnoJuegoDeVotacionAOpciones"
         }
     },
     "acls": [],
