@@ -23,6 +23,10 @@
             "type": "string",
             "required": true
         },
+        "PermitirAutovotacion": {
+            "type": "boolean",
+            "required": true
+        },
         "JuegoActivo": {
             "type": "boolean",
             "required": true,
@@ -38,6 +42,10 @@
                 "number"
             ],
             "required": true
+        },
+        "VotanEquipos": {
+            "type": "boolean",
+            "required": false
         }
     },
     "validations": [],
