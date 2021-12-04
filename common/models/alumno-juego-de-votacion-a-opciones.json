@@ -1,20 +1,15 @@
 {
-    "name": "AlumnoJuegoDeVotacionUnoATodos",
-    "plural": "alumnosJuegoDeVotacionUnoATodos",
+    "name": "AlumnoJuegoDeVotacionAOpciones",
+    "plural": "alumnosJuegoDeVotacionAOpciones",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
         "validateUpsert": true
     },
     "properties": {
-        "puntosTotales": {
-            "type": "number",
-            "required": false,
-            "default": 0
-        },
-        "votos": {
+        "Votos": {
             "type": [
-                "number"
+                "object"
             ]
         }
     },
@@ -28,10 +23,10 @@
                 "nestRemoting": true
             }
         },
-        "juegoDeVotacionUnoATodos": {
+        "juegoDeVotacionAOpciones": {
             "type": "belongsTo",
-            "model": "JuegoDeVotacionUnoATodos",
-            "foreignKey": "juegoDeVotacionUnoATodosId",
+            "model": "JuegoDeVotacionAOpciones",
+            "foreignKey": "juegoDeVotacionAOpcionesId",
             "options": {
                 "nestRemoting": true
             }
