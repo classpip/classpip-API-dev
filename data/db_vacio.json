@@ -1,19 +1,19 @@
 {
   "ids": {
-    "Profesor": 3,
-    "Alumno": 16,
-    "Grupo": 1,
-    "Punto": 1,
+    "Profesor": 2,
+    "Alumno": 2,
+    "Grupo": 2,
+    "Punto": 3,
     "Coleccion": 1,
     "Cromo": 1,
     "Equipo": 1,
-    "JuegoDePuntos": 1,
+    "JuegoDePuntos": 4,
     "JuegoDeColeccion": 1,
-    "Matricula": 1,
+    "Matricula": 2,
     "AsignacionEquipo": 1,
-    "AsignacionPuntoJuego": 1,
+    "AsignacionPuntoJuego": 3,
     "Nivel": 1,
-    "AlumnoJuegoDePuntos": 1,
+    "AlumnoJuegoDePuntos": 2,
     "EquipoJuegoDePuntos": 1,
     "HistorialPuntosAlumno": 1,
     "Insignia": 1,
@@ -28,6 +28,7 @@
     "AlumnoJuegoDeCompeticionLiga": 1,
     "EquipoJuegoDeCompeticionLiga": 1,
     "JuegoDeCompeticionFormulaUno": 1,
+    "JuegoDeCompeticionTorneo": 1,
     "JornadaDeCompeticionFormulaUno": 1,
     "AlumnoJuegoDeCompeticionFormulaUno": 1,
     "EquipoJuegoDeCompeticionFormulaUno": 1,
@@ -44,111 +45,82 @@
     "JuegoDeCuestionario": 1,
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
-    "AlumnoJuegoDeGeocaching": 1
+    "AlumnoJuegoDeGeocaching": 1,
+    "JuegoDeVotacionAOpciones": 3,
+    "JuegoDeVotacionUnoATodos": 1,
+    "AlumnoJuegoDeVotacionAOpciones": 2
   },
   "models": {
     "Profesor": {
-      "1": "{\"Nombre\":\"Miguel\",\"Apellido\":\"Valero\",\"ImagenPerfil\":\"foto\",\"id\":1}",
-      "2": "{\"Nombre\":\"Roc\",\"Apellido\":\"Meseguer\",\"ImagenPerfil\":\"foto\",\"id\":2}"
+      "1": "{\"id\":1,\"Nombre\":\"a\",\"PrimerApellido\":\"a\",\"SegundoApellido\":\"a\",\"NombreUsuario\":\"a\",\"email\":\"miguel.valero@upc.edu\",\"Password\":\"a\",\"ImagenPerfil\":null,\"Identificador\":\"33892\",\"configuracionEventos\":[[false,false],[false,false],[false,false],[false,false]]}"
     },
     "Alumno": {
-      "1": "{\"Nombre\":\"Pol\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Sergio\",\"PrimerApellido\":\"Sánchez\",\"SegundoApellido\":\"Plaza\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":2}",
-      "3": "{\"Nombre\":\"Albert\",\"PrimerApellido\":\"Lillo\",\"SegundoApellido\":\"Méndez\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":3}",
-      "4": "{\"Nombre\":\"Noa\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Esteve\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":4}",
-      "5": "{\"Nombre\":\"Berta\",\"PrimerApellido\":\"Junqué\",\"SegundoApellido\":\"Llaudet\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":5}",
-      "6": "{\"Nombre\":\"Victor\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":6}",
-      "7": "{\"Nombre\":\"David\",\"PrimerApellido\":\"Balboa\",\"SegundoApellido\":\"Mato\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":7}",
-      "8": "{\"Nombre\":\"Rocio\",\"PrimerApellido\":\"Saez\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":8}",
-      "9": "{\"Nombre\":\"Alex\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":9}",
-      "10": "{\"Nombre\":\"Francesc\",\"PrimerApellido\":\"Torrens\",\"SegundoApellido\":\"García\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":10}",
-      "11": "{\"Nombre\":\"Juan\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":11}",
-      "12": "{\"Nombre\":\"Iván\",\"PrimerApellido\":\"Aguilera\",\"SegundoApellido\":\"Martinez\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":12}",
-      "13": "{\"Nombre\":\"Josep\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":13}",
-      "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":14}",
-      "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":15}"
+      "1": "{\"Nombre\":\"e1\",\"PrimerApellido\":\"e1\",\"SegundoApellido\":\"e1\",\"ImagenPerfil\":null,\"PermisoCambioImagenPerfil\":false,\"Username\":\"e1\",\"Email\":\"miguel.valero@upc.edu\",\"Password\":\"e1\",\"profesorId\":1,\"id\":1}"
     },
     "Grupo": {
-
+      "1": "{\"Nombre\":\"prueba\",\"Descripcion\":\"prueba\",\"profesorId\":1,\"id\":1}"
     },
     "Punto": {
+      "1": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"dssd\",\"profesorId\":1,\"id\":2}"
     },
-    "Coleccion": {
-
-    },
-    "Cromo": {
-    },
-    "Equipo": {
-
-    },
+    "Coleccion": {},
+    "Cromo": {},
+    "Equipo": {},
     "JuegoDePuntos": {
+      "3": "{\"NombreJuego\":\"Puntos\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":3}"
     },
-    "JuegoDeColeccion": {
-    },
+    "JuegoDeColeccion": {},
     "Matricula": {
-
+      "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}"
     },
-    "AsignacionEquipo": {
-    },
+    "AsignacionEquipo": {},
     "AsignacionPuntoJuego": {
-
+      "1": "{\"juegoDePuntosId\":3,\"puntoId\":2,\"id\":1}",
+      "2": "{\"juegoDePuntosId\":3,\"puntoId\":1,\"id\":2}"
     },
-    "Nivel": {
-    },
+    "Nivel": {},
     "AlumnoJuegoDePuntos": {
+      "1": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":1,\"juegoDePuntosId\":3,\"id\":1}"
     },
-    "EquipoJuegoDePuntos": {
-    },
-    "HistorialPuntosAlumno": {
-    },
+    "EquipoJuegoDePuntos": {},
+    "HistorialPuntosAlumno": {},
     "Insignia": {},
     "HistorialPuntosEquipo": {},
-    "AlumnoJuegoDeColeccion": {
-    },
-    "EquipoJuegoDeColeccion": {
-    },
-    "Album": {
-    },
+    "AlumnoJuegoDeColeccion": {},
+    "EquipoJuegoDeColeccion": {},
+    "Album": {},
     "AlbumEquipo": {},
     "JuegoDeCompeticionLiga": {},
     "JornadaDeCompeticionLiga": {},
     "EnfrentamientoLiga": {},
     "AlumnoJuegoDeCompeticionLiga": {},
     "EquipoJuegoDeCompeticionLiga": {},
-    "JuegoDeCompeticionFormulaUno": {
-    },
-    "JornadaDeCompeticionFormulaUno": {
-    },
-    "AlumnoJuegoDeCompeticionFormulaUno": {
-    },
+    "JuegoDeCompeticionFormulaUno": {},
+    "JuegoDeCompeticionTorneo": {},
+    "JornadaDeCompeticionFormulaUno": {},
+    "AlumnoJuegoDeCompeticionFormulaUno": {},
     "EquipoJuegoDeCompeticionFormulaUno": {},
-    "Pregunta": {
+    "Pregunta": {},
+    "Cuestionario": {},
+    "PreguntaDelCuestionario": {},
+    "Escenario": {},
+    "PuntoGeolocalizable": {},
+    "SesionClase": {},
+    "AsistenciaClase": {},
+    "FamiliaAvatares": {},
+    "JuegoDeAvatar": {},
+    "AlumnoJuegoDeAvatar": {},
+    "JuegoDeCuestionario": {},
+    "AlumnoJuegoDeCuestionario": {},
+    "JuegoDeGeocaching": {},
+    "AlumnoJuegoDeGeocaching": {},
+    "JuegoDeVotacionAOpciones": {
+      "2": "{\"NombreJuego\":\"Opciones\",\"Tipo\":\"Juego De Votación Votar opciones\",\"Modo\":\"Individual\",\"ModoReparto\":\"Reparto libre\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Opciones\":[\"aa\",\"ss\"],\"Puntos\":[10],\"grupoId\":1,\"id\":2}"
     },
-    "Cuestionario": {
-    },
-    "PreguntaDelCuestionario": {
-    },
-    "Escenario": {
-    },
-    "PuntoGeolocalizable": {
-    },
-    "SesionClase": {
-    },
-    "AsistenciaClase": {
-    },
-    "FamiliaAvatares": {
-    },
-    "JuegoDeAvatar": {
-    },
-    "AlumnoJuegoDeAvatar": {
-    },
-    "JuegoDeCuestionario": {
-    },
-    "AlumnoJuegoDeCuestionario": {
-    },
-    "JuegoDeGeocaching": {
-    },
-    "AlumnoJuegoDeGeocaching": {
+    "JuegoDeVotacionUnoATodos": {},
+    "AlumnoJuegoDeVotacionAOpciones": {
+      "1": "{\"alumnoId\":1,\"juegoDeVotacionAOpcionesId\":2,\"id\":1}"
     }
   }
 }
