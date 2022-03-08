@@ -1,16 +1,23 @@
 {
-    "name": "AlumnoJuegoDePuntos",
-    "plural": "AlumnoJuegosDePuntos",
+    "name": "AlumnoJuegoDeMemorama",
+    "plural": "alumnosJuegoDeMemorama",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
         "validateUpsert": true
     },
     "properties": {
-        "PuntosTotalesAlumno": {
+        "alumnoId": {
             "type": "number",
-            "required": true,
-            "default": 0
+            "required": true
+        },
+        "juegoDeMemoramaId": {
+            "type": "number",
+            "required": true
+        },
+        "puntuacion": {
+            "type": "number",
+            "required": false
         }
     },
     "validations": [],
@@ -23,22 +30,21 @@
                 "nestRemoting": true
             }
         },
-        "juegoDePuntos": {
+        "juegosDeMemorama": {
             "type": "belongsTo",
-            "model": "JuegoDePuntos",
-            "foreignKey": "juegoDePuntosId",
+            "model": "JuegoDeMemorama",
+            "foreignKey": "juegoDeMemoramaId",
             "options": {
                 "nestRemoting": true
             }
         },
-        "puntos": {
+        "cartasMemorama": {
             "type": "hasMany",
-            "model": "Punto",
-            "foreignKey": "alumnoJuegoDePuntosId",
+            "model": "Carta",
+            "foreignKey": "alumnoJuegoDeMemoramaId",
             "options": {
                 "nestRemoting": true
-            },
-            "through": "HistorialPuntosAlumno"
+            }
         }
     },
     "acls": [],

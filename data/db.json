@@ -4,11 +4,11 @@
     "Alumno": 330,
     "Grupo": 87,
     "Punto": 13,
-    "Coleccion": 25,
-    "Cromo": 323,
+    "Coleccion": 27,
+    "Cromo": 325,
     "Equipo": 135,
     "JuegoDePuntos": 47,
-    "JuegoDeColeccion": 143,
+    "JuegoDeColeccion": 144,
     "Matricula": 703,
     "AsignacionEquipo": 388,
     "AsignacionPuntoJuego": 140,
@@ -18,9 +18,9 @@
     "HistorialPuntosAlumno": 369,
     "Insignia": 1,
     "HistorialPuntosEquipo": 2,
-    "AlumnoJuegoDeColeccion": 807,
+    "AlumnoJuegoDeColeccion": 817,
     "EquipoJuegoDeColeccion": 73,
-    "Album": 4572,
+    "Album": 4579,
     "AlbumEquipo": 148,
     "JuegoDeCompeticionLiga": 18,
     "JornadaDeCompeticionLiga": 59,
@@ -50,7 +50,7 @@
     "Rubrica": 28,
     "JuegoDeVotacionTodosAUno": 23,
     "AlumnoJuegoDeVotacionTodosAUno": 162,
-    "FamiliaImagenesPerfil": 26,
+    "FamiliaImagenesPerfil": 27,
     "CuestionarioSatisfaccion": 40,
     "JuegoDeCuestionarioSatisfaccion": 32,
     "AlumnoJuegoDeCuestionarioSatisfaccion": 204,
@@ -75,7 +75,7 @@
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
     "EquipoJuegoDeCuestionario": 31,
     "RespuestaEquipoJuegoDeCuestionario": 53,
-    "Evento": 745,
+    "Evento": 756,
     "RecursosCuento": 5,
     "JuegoDeCuento": 9,
     "RecursoJuegoDeCuento": 9,
@@ -89,7 +89,11 @@
     "AlumnoJuegoDeCompeticionTorneo": 106,
     "EquipoJuegoDeCompeticionTorneo": 5,
     "JuegoDeVotacionAOpciones": 9,
-    "AlumnoJuegoDeVotacionAOpciones": 49
+    "AlumnoJuegoDeVotacionAOpciones": 49,
+    "Familia": 59,
+    "Carta": 227,
+    "JuegoDeMemorama": 10,
+    "AlumnoJuegoDeMemorama": 71
   },
   "models": {
     "Profesor": {
@@ -688,7 +692,9 @@
       "140": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":141,\"juegoDeVotacionTodosAUnoId\":2,\"id\":140}",
       "141": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":142,\"juegoDeVotacionTodosAUnoId\":2,\"id\":141}"
     },
-    "FamiliaImagenesPerfil": {},
+    "FamiliaImagenesPerfil": {
+      "26": "{\"NombreFamilia\":\"ddd\",\"NumeroImagenes\":4,\"Imagenes\":[\"cabra.png\",\"caiman.png\",\"canguro.png\",\"cocodrilo.png\"],\"Publica\":false,\"profesorId\":14,\"id\":26}"
+    },
     "CuestionarioSatisfaccion": {
       "37": "{\"Titulo\":\"Indicencias críticas\",\"Descripcion\":\"CUIC\",\"Publico\":false,\"Afirmaciones\":[\"En este curso me estoy divirtiendo\",\"Estoy aprendiendo cosas valiosas\"],\"PreguntasAbiertas\":[\"¿Cuál ha sido la incidencia crítica más positiva?\",\"¿Cuál ha sido la incidencia crítica más negativa?\"],\"profesorId\":14,\"id\":37}",
       "38": "{\"Titulo\":\"Final de curso\",\"Descripcion\":\"Basado en SEEQ\",\"Publico\":false,\"Afirmaciones\":[\"En este curso he aprendido cosas que considero valiosas para mi formación\",\"La labor del profesorado me ha facilitado el proceso de aprendizaje\",\"El material del curso está bien preparado y es adecuado\",\"En todo momento he tenido claro lo que tenía que hacer (tanto en clase como fuera de clase)\",\"Siempre me he sentido bien informado sobre mi progreso (o falta de progreso) en el curso\",\"El trabajo en grupo me ha resultado de gran ayuda\",\"La forma de evaluación me ha parecido adecuada\",\"Este curso me ha ayudado a mejorar la gestión que hago de mi propio tiempo\"],\"PreguntasAbiertas\":[\"Indica lo que más te ha gustado del curso\",\"Indica lo que menos te ha gustado\"],\"profesorId\":14,\"id\":38}"
@@ -1366,7 +1372,18 @@
       "741": "{\"TipoEvento\":2,\"FechayHora\":\"2022-01-07T14:46:04.241Z\",\"ProfesorID\":14,\"AlumnoID\":319,\"JuegoID\":89,\"NombreJuego\":\"eq\",\"TipoJuego\":\"Juego De Votación Uno A Todos\",\"id\":741}",
       "742": "{\"TipoEvento\":2,\"FechayHora\":\"2022-01-07T14:46:13.457Z\",\"ProfesorID\":14,\"AlumnoID\":319,\"JuegoID\":90,\"NombreJuego\":\"eq2\",\"TipoJuego\":\"Juego De Votación Uno A Todos\",\"id\":742}",
       "743": "{\"TipoEvento\":20,\"FechayHora\":\"2022-02-01T09:55:52.040Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":141,\"NombreJuego\":\"Coleccion\",\"TipoJuego\":\"Juego De Colección\",\"NumeroCromos\":4,\"id\":743}",
-      "744": "{\"TipoEvento\":20,\"FechayHora\":\"2022-02-01T10:03:51.872Z\",\"ProfesorID\":14,\"AlumnoID\":137,\"JuegoID\":141,\"NombreJuego\":\"Coleccion\",\"TipoJuego\":\"Juego De Colección\",\"NumeroCromos\":3,\"id\":744}"
+      "744": "{\"TipoEvento\":20,\"FechayHora\":\"2022-02-01T10:03:51.872Z\",\"ProfesorID\":14,\"AlumnoID\":137,\"JuegoID\":141,\"NombreJuego\":\"Coleccion\",\"TipoJuego\":\"Juego De Colección\",\"NumeroCromos\":3,\"id\":744}",
+      "745": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-02T18:09:54.457Z\",\"ProfesorID\":14,\"JuegoID\":1,\"NombreJuego\":\"memorama\",\"TipoJuego\":\"Juego De Memorama\",\"id\":745}",
+      "746": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-02T18:14:18.751Z\",\"ProfesorID\":14,\"JuegoID\":2,\"NombreJuego\":\"Memporama\",\"TipoJuego\":\"Juego De Memorama\",\"id\":746}",
+      "747": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-02T18:18:00.639Z\",\"ProfesorID\":14,\"JuegoID\":3,\"NombreJuego\":\"memorama\",\"TipoJuego\":\"Juego De Memorama\",\"id\":747}",
+      "748": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-02T18:21:58.178Z\",\"ProfesorID\":14,\"JuegoID\":143,\"NombreJuego\":\"coleccion\",\"TipoJuego\":\"Juego De Colección\",\"id\":748}",
+      "749": "{\"TipoEvento\":20,\"FechayHora\":\"2022-03-02T18:22:10.919Z\",\"ProfesorID\":14,\"AlumnoID\":328,\"JuegoID\":143,\"NombreJuego\":\"coleccion\",\"TipoJuego\":\"Juego De Colección\",\"NumeroCromos\":7,\"id\":749}",
+      "750": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-02T18:34:31.073Z\",\"ProfesorID\":14,\"JuegoID\":4,\"NombreJuego\":\"Memorama\",\"TipoJuego\":\"Juego De Memorama\",\"id\":750}",
+      "751": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-03T15:13:47.201Z\",\"ProfesorID\":14,\"JuegoID\":5,\"NombreJuego\":\"animalesMemorama\",\"TipoJuego\":\"Juego De Memorama\",\"id\":751}",
+      "752": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-03T17:16:09.258Z\",\"ProfesorID\":14,\"JuegoID\":6,\"NombreJuego\":\"Bajo el mar\",\"TipoJuego\":\"Juego De Memorama\",\"id\":752}",
+      "753": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-04T12:40:25.165Z\",\"ProfesorID\":14,\"JuegoID\":7,\"NombreJuego\":\"Escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":753}",
+      "754": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-05T09:38:13.267Z\",\"ProfesorID\":14,\"JuegoID\":8,\"NombreJuego\":\"Escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":754}",
+      "755": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-05T09:39:57.027Z\",\"ProfesorID\":14,\"JuegoID\":9,\"NombreJuego\":\"escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":755}"
     },
     "RecursosCuento": {
       "3": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":14,\"id\":3}",
@@ -1552,6 +1569,25 @@
       "46": "{\"alumnoId\":140,\"juegoDeVotacionAOpcionesId\":8,\"id\":46}",
       "47": "{\"alumnoId\":141,\"juegoDeVotacionAOpcionesId\":8,\"id\":47}",
       "48": "{\"alumnoId\":142,\"juegoDeVotacionAOpcionesId\":8,\"id\":48}"
-    }
+    },
+    "Familia": {
+      "58": "{\"Nombre\":\"Escritores\",\"ImagenFamilia\":\"escritores_fondo.png\",\"profesorId\":14,\"DosCaras\":true,\"Publica\":false,\"relacion\":true,\"id\":58}"
+    },
+    "Carta": {
+      "215": "{\"id\":215,\"Nombre\":\"Poe\",\"imagenDelante\":\"poe_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":216}",
+      "216": "{\"id\":216,\"Nombre\":\"PoeL\",\"imagenDelante\":\"poe_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":215}",
+      "217": "{\"id\":217,\"Nombre\":\"Shelly\",\"imagenDelante\":\"shelly_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":218}",
+      "218": "{\"id\":218,\"Nombre\":\"ShellyL\",\"imagenDelante\":\"shelly_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":217}",
+      "219": "{\"id\":219,\"Nombre\":\"Dosto\",\"imagenDelante\":\"dosto_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":220}",
+      "220": "{\"id\":220,\"Nombre\":\"DostoL\",\"imagenDelante\":\"dosto_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":219}",
+      "221": "{\"id\":221,\"Nombre\":\"Marquez\",\"imagenDelante\":\"marquez_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":222}",
+      "222": "{\"id\":222,\"Nombre\":\"MarquezL\",\"imagenDelante\":\"marquez_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":221}",
+      "223": "{\"id\":223,\"Nombre\":\"Faulk\",\"imagenDelante\":\"faulkner_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":224}",
+      "224": "{\"id\":224,\"Nombre\":\"FaulkL\",\"imagenDelante\":\"faulkner_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":223}",
+      "225": "{\"id\":225,\"Nombre\":\"Dickens\",\"imagenDelante\":\"dickens_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":226}",
+      "226": "{\"id\":226,\"Nombre\":\"DickensL\",\"imagenDelante\":\"dickens_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":225}"
+    },
+    "JuegoDeMemorama": {},
+    "AlumnoJuegoDeMemorama": {}
   }
 }
