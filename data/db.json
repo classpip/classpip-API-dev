@@ -15,7 +15,7 @@
     "Nivel": 12,
     "AlumnoJuegoDePuntos": 340,
     "EquipoJuegoDePuntos": 18,
-    "HistorialPuntosAlumno": 369,
+    "HistorialPuntosAlumno": 371,
     "Insignia": 1,
     "HistorialPuntosEquipo": 2,
     "AlumnoJuegoDeColeccion": 817,
@@ -90,8 +90,8 @@
     "EquipoJuegoDeCompeticionTorneo": 5,
     "JuegoDeVotacionAOpciones": 9,
     "AlumnoJuegoDeVotacionAOpciones": 49,
-    "Familia": 59,
-    "Carta": 227,
+    "Familia": 62,
+    "Carta": 257,
     "JuegoDeMemorama": 10,
     "AlumnoJuegoDeMemorama": 71
   },
@@ -386,11 +386,11 @@
     "AlumnoJuegoDePuntos": {
       "331": "{\"id\":331,\"PuntosTotalesAlumno\":3,\"alumnoId\":137,\"juegoDePuntosId\":45}",
       "332": "{\"id\":332,\"PuntosTotalesAlumno\":2,\"alumnoId\":136,\"juegoDePuntosId\":45}",
-      "333": "{\"id\":333,\"PuntosTotalesAlumno\":1,\"alumnoId\":135,\"juegoDePuntosId\":45}",
+      "333": "{\"id\":333,\"PuntosTotalesAlumno\":2,\"alumnoId\":135,\"juegoDePuntosId\":45}",
       "334": "{\"id\":334,\"PuntosTotalesAlumno\":1,\"alumnoId\":139,\"juegoDePuntosId\":45}",
       "335": "{\"id\":335,\"PuntosTotalesAlumno\":1,\"alumnoId\":138,\"juegoDePuntosId\":45}",
       "336": "{\"id\":336,\"PuntosTotalesAlumno\":1,\"alumnoId\":140,\"juegoDePuntosId\":45}",
-      "337": "{\"id\":337,\"PuntosTotalesAlumno\":1,\"alumnoId\":141,\"juegoDePuntosId\":45}",
+      "337": "{\"id\":337,\"PuntosTotalesAlumno\":2,\"alumnoId\":141,\"juegoDePuntosId\":45}",
       "338": "{\"id\":338,\"PuntosTotalesAlumno\":1,\"alumnoId\":142,\"juegoDePuntosId\":45}"
     },
     "EquipoJuegoDePuntos": {},
@@ -405,7 +405,9 @@
       "365": "{\"ValorPunto\":1,\"puntoId\":12,\"alumnoJuegoDePuntosId\":336,\"fecha\":\"19/9/2021  22:25:39\",\"id\":365}",
       "366": "{\"ValorPunto\":1,\"puntoId\":12,\"alumnoJuegoDePuntosId\":337,\"fecha\":\"19/9/2021  22:25:39\",\"id\":366}",
       "367": "{\"ValorPunto\":1,\"puntoId\":12,\"alumnoJuegoDePuntosId\":338,\"fecha\":\"19/9/2021  22:25:39\",\"id\":367}",
-      "368": "{\"ValorPunto\":1,\"puntoId\":10,\"alumnoJuegoDePuntosId\":332,\"fecha\":\"19/9/2021  22:29:21\",\"id\":368}"
+      "368": "{\"ValorPunto\":1,\"puntoId\":10,\"alumnoJuegoDePuntosId\":332,\"fecha\":\"19/9/2021  22:29:21\",\"id\":368}",
+      "369": "{\"ValorPunto\":1,\"puntoId\":10,\"alumnoJuegoDePuntosId\":337,\"fecha\":\"8/3/2022  11:34:17\",\"id\":369}",
+      "370": "{\"ValorPunto\":1,\"puntoId\":10,\"alumnoJuegoDePuntosId\":333,\"fecha\":\"8/3/2022  11:34:29\",\"id\":370}"
     },
     "Insignia": {},
     "HistorialPuntosEquipo": {},
@@ -1571,21 +1573,18 @@
       "48": "{\"alumnoId\":142,\"juegoDeVotacionAOpcionesId\":8,\"id\":48}"
     },
     "Familia": {
-      "58": "{\"Nombre\":\"Escritores\",\"ImagenFamilia\":\"escritores_fondo.png\",\"profesorId\":14,\"DosCaras\":true,\"Publica\":false,\"relacion\":true,\"id\":58}"
+      "61": "{\"Nombre\":\"Basjo el mar\",\"ImagenFamilia\":\"familia_bajo_el_mar.png\",\"profesorId\":14,\"Publica\":false,\"relacion\":\"false\",\"id\":61}"
     },
     "Carta": {
-      "215": "{\"id\":215,\"Nombre\":\"Poe\",\"imagenDelante\":\"poe_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":216}",
-      "216": "{\"id\":216,\"Nombre\":\"PoeL\",\"imagenDelante\":\"poe_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":215}",
-      "217": "{\"id\":217,\"Nombre\":\"Shelly\",\"imagenDelante\":\"shelly_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":218}",
-      "218": "{\"id\":218,\"Nombre\":\"ShellyL\",\"imagenDelante\":\"shelly_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":217}",
-      "219": "{\"id\":219,\"Nombre\":\"Dosto\",\"imagenDelante\":\"dosto_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":220}",
-      "220": "{\"id\":220,\"Nombre\":\"DostoL\",\"imagenDelante\":\"dosto_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":219}",
-      "221": "{\"id\":221,\"Nombre\":\"Marquez\",\"imagenDelante\":\"marquez_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":222}",
-      "222": "{\"id\":222,\"Nombre\":\"MarquezL\",\"imagenDelante\":\"marquez_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":221}",
-      "223": "{\"id\":223,\"Nombre\":\"Faulk\",\"imagenDelante\":\"faulkner_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":224}",
-      "224": "{\"id\":224,\"Nombre\":\"FaulkL\",\"imagenDelante\":\"faulkner_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":223}",
-      "225": "{\"id\":225,\"Nombre\":\"Dickens\",\"imagenDelante\":\"dickens_a.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":226}",
-      "226": "{\"id\":226,\"Nombre\":\"DickensL\",\"imagenDelante\":\"dickens_b.png\",\"imagenDetras\":\"escritores_dorso.png\",\"familiaId\":58,\"relacion\":225}"
+      "248": "{\"Nombre\":\"imagen1\",\"imagenDelante\":\"bajo_el_mar_1.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":248,\"relacion\":249}",
+      "249": "{\"Nombre\":\"imagen2\",\"imagenDelante\":\"bajo_el_mar_2.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":249,\"relacion\":248}",
+      "250": "{\"Nombre\":\"imagen3\",\"imagenDelante\":\"bajo_el_mar_3.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":250,\"relacion\":248}",
+      "251": "{\"Nombre\":\"imagen4\",\"imagenDelante\":\"bajo_el_mar_4.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":251,\"relacion\":248}",
+      "252": "{\"Nombre\":\"imagen5\",\"imagenDelante\":\"bajo_el_mar_5.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":252,\"relacion\":248}",
+      "253": "{\"Nombre\":\"imagen6\",\"imagenDelante\":\"bajo_el_mar_6.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":253,\"relacion\":248}",
+      "254": "{\"Nombre\":\"imagen7\",\"imagenDelante\":\"bajo_el_mar_7.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":254,\"relacion\":248}",
+      "255": "{\"Nombre\":\"imagen8\",\"imagenDelante\":\"bajo_el_mar_8.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":255,\"relacion\":248}",
+      "256": "{\"Nombre\":\"imagen9\",\"imagenDelante\":\"bajo_el_mar_9.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":256,\"relacion\":248}"
     },
     "JuegoDeMemorama": {},
     "AlumnoJuegoDeMemorama": {}
