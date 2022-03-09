@@ -78,6 +78,11 @@
             "model": "Coleccion",
             "foreignKey": "profesorId"
         },
+        "familiasMemorama": {
+            "type": "hasMany",
+            "model": "Familia",
+            "foreignKey": "profesorId"
+        },
         "insignia": {
             "type": "hasMany",
             "model": "Insignia",

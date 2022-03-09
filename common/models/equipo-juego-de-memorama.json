@@ -1,0 +1,48 @@
+{
+    "name": "EquipoJuegoDeMemorama",
+    "plural": "equiposJuegoDeMemorama",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "equipoId": {
+            "type": "number",
+            "required": true
+        },
+        "juegoDeMemoramaId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {
+        "juegosDeMemorama": {
+            "type": "belongsTo",
+            "model": "JuegoDeMemorama",
+            "foreignKey": "juegoDeMemoramaId",
+            "options": {
+                "nestRemoting": true
+            }
+        },
+        "equipo": {
+            "type": "belongsTo",
+            "model": "Equipo",
+            "foreignKey": "equipoId",
+            "options": {
+                "nestRemoting": true
+            },
+            "cartas": {
+                "type": "hasMany",
+                "model": "Carta",
+                "foreignKey": "equipoJuegoDeMemoramaId",
+                "options": {
+                    "nestRemoting": true
+                }
+            }
+        }
+    },
+    "acls": [],
+    "methods": {}
+}
