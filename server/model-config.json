@@ -410,5 +410,33 @@
     "Elemento": {
         "dataSource": "baseDatos",
         "public": true
+    },
+    "JuegoDeCompeticionTorneo": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "AlumnoJuegoDeCompeticionTorneo": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "EquipoJuegoDeCompeticionTorneo": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "EnfrentamientoTorneo": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "JornadaDeCompeticionTorneo": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "JuegoDeVotacionAOpciones": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
+    "AlumnoJuegoDeVotacionAOpciones": {
+        "dataSource": "baseDatos",
+        "public": true
     }
 }
