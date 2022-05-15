@@ -1,1 +1,32 @@
-{"name":"Rubrica","plural":"rubricas","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Descripcion":{"type":"string"},"Criterios":{"type":["object"]},"Publica":{"type":"boolean","required":false,"default":false}},"validations":[],"relations":{},"acls":[],"methods":{}}
+{
+  "name": "Rubrica",
+  "plural": "rubricas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "Criterios": {
+      "type": [
+        "object"
+      ]
+    },
+    "Publica": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

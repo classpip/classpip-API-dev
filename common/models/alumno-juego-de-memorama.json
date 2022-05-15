@@ -1,52 +1,52 @@
 {
-    "name": "AlumnoJuegoDeMemorama",
-    "plural": "alumnosJuegoDeMemorama",
-    "base": "PersistedModel",
-    "idInjection": true,
-    "options": {
-        "validateUpsert": true
+  "name": "AlumnoJuegoDeMemorama",
+  "plural": "alumnosJuegoDeMemorama",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "alumnoId": {
+      "type": "number",
+      "required": true
     },
-    "properties": {
-        "alumnoId": {
-            "type": "number",
-            "required": true
-        },
-        "juegoDeMemoramaId": {
-            "type": "number",
-            "required": true
-        },
-        "puntuacion": {
-            "type": "number",
-            "required": false
-        }
+    "juegoDeMemoramaId": {
+      "type": "number",
+      "required": true
     },
-    "validations": [],
-    "relations": {
-        "alumno": {
-            "type": "belongsTo",
-            "model": "Alumno",
-            "foreignKey": "alumnoId",
-            "options": {
-                "nestRemoting": true
-            }
-        },
-        "juegosDeMemorama": {
-            "type": "belongsTo",
-            "model": "JuegoDeMemorama",
-            "foreignKey": "juegoDeMemoramaId",
-            "options": {
-                "nestRemoting": true
-            }
-        },
-        "cartasMemorama": {
-            "type": "hasMany",
-            "model": "Carta",
-            "foreignKey": "alumnoJuegoDeMemoramaId",
-            "options": {
-                "nestRemoting": true
-            }
-        }
+    "puntuacion": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
     },
-    "acls": [],
-    "methods": {}
+    "juegosDeMemorama": {
+      "type": "belongsTo",
+      "model": "JuegoDeMemorama",
+      "foreignKey": "juegoDeMemoramaId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "cartasMemorama": {
+      "type": "hasMany",
+      "model": "Carta",
+      "foreignKey": "alumnoJuegoDeMemoramaId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
 }

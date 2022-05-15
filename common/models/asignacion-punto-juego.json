@@ -1,1 +1,31 @@
-{"name":"AsignacionPuntoJuego","plural":"AsignacionPuntosJuego","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{},"validations":[],"relations":{"juegoDePuntos":{"type":"belongsTo","model":"JuegoDePuntos","foreignKey":"juegoDePuntosId","options":{"nestRemoting":true}},"punto":{"type":"belongsTo","model":"Punto","foreignKey":"puntoId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "AsignacionPuntoJuego",
+  "plural": "AsignacionPuntosJuego",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "juegoDePuntos": {
+      "type": "belongsTo",
+      "model": "JuegoDePuntos",
+      "foreignKey": "juegoDePuntosId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "punto": {
+      "type": "belongsTo",
+      "model": "Punto",
+      "foreignKey": "puntoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

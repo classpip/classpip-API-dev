@@ -1,6 +1,6 @@
 {
-  "name": "AlumnoJuegoDeVotacionTodosAUno",
-  "plural": "alumnosJuegoDeVotacionTodosAUno",
+  "name": "EquipoJuegoDeVotacionTodosAUno",
+  "plural": "equiposJuegoDeVotacionTodosAUno",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,7 +8,8 @@
   },
   "properties": {
     "PuntosTotales": {
-      "type": "number"
+      "type": "number",
+      "default": 0
     },
     "VotosEmitidos": {
       "type": [
@@ -19,19 +20,28 @@
       "type": [
         "object"
       ]
+    },
+    "VotosEmitidosMiembro": {
+      "type": "any"
     }
   },
   "validations": [],
   "relations": {
-    "alumno": {
+    "equipo": {
       "type": "belongsTo",
-      "model": "Alumno",
-      "foreignKey": "alumnoId"
+      "model": "Equipo",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      }
     },
     "juegoDeVotacionTodosAUno": {
       "type": "belongsTo",
       "model": "JuegoDeVotacionTodosAUno",
-      "foreignKey": "juegoDeVotacionTodosAUnoId"
+      "foreignKey": "juegoDeVotacionTodosAUnoId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

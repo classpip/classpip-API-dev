@@ -1,1 +1,22 @@
-{"name":"mochila","plural":"mochilas","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nombre":{"type":"string","required":true},"Capacidad":{"type":"number"}},"validations":[],"relations":{},"acls":[],"methods":{}}
+{
+  "name": "mochila",
+  "plural": "mochilas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Capacidad": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

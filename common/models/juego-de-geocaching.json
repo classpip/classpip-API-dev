@@ -1,1 +1,76 @@
-{"name":"JuegoDeGeocaching","plural":"JuegosDeGeocaching","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"NombreJuego":{"type":"string","required":true},"PuntuacionCorrecta":{"type":"number","required":true},"PuntuacionIncorrecta":{"type":"number","required":true},"PuntuacionCorrectaBonus":{"type":"number","required":true},"PuntuacionIncorrectaBonus":{"type":"number","required":true},"PreguntasBasicas":{"type":["number"],"required":true},"PreguntasBonus":{"type":["number"],"required":true},"JuegoActivo":{"type":"boolean","required":true,"default":false},"JuegoTerminado":{"type":"boolean","required":true,"default":false}},"validations":[],"relations":{"alumnos":{"type":"hasMany","model":"Alumno","foreignKey":"juegoDeGeocachingId","options":{"nestRemoting":true},"through":"AlumnoJuegoDeGeocaching"},"pregunta":{"type":"hasMany","model":"Pregunta","foreignKey":"JuegoDeGeocachingId","options":{"nestRemoting":true},"through":"JuegoDeGeocachingPregunta"}},"acls":[],"methods":{}}
+{
+  "name": "JuegoDeGeocaching",
+  "plural": "JuegosDeGeocaching",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
+    "PuntuacionCorrecta": {
+      "type": "number",
+      "required": true
+    },
+    "PuntuacionIncorrecta": {
+      "type": "number",
+      "required": true
+    },
+    "PuntuacionCorrectaBonus": {
+      "type": "number",
+      "required": true
+    },
+    "PuntuacionIncorrectaBonus": {
+      "type": "number",
+      "required": true
+    },
+    "PreguntasBasicas": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "PreguntasBonus": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "JuegoActivo": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "JuegoTerminado": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeGeocachingId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeGeocaching"
+    },
+    "pregunta": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "JuegoDeGeocachingId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "JuegoDeGeocachingPregunta"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
