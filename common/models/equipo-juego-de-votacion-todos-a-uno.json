@@ -22,7 +22,9 @@
       ]
     },
     "VotosEmitidosMiembro": {
-      "type": "any"
+      "type": [
+        "object"
+      ]
     }
   },
   "validations": [],
