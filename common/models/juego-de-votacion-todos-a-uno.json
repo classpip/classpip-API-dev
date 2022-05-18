@@ -37,6 +37,10 @@
         "number"
       ],
       "required": true
+    },
+    "VotanEquipos": {
+      "type": "boolean",
+      "required": false
     }
   },
   "validations": [],
