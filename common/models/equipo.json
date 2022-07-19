@@ -105,13 +105,10 @@
       "foreignKey": "equipoId",
       "through": "EquipoJuegoDeVotacionUnoATodos"
     },
-    "juegoDeVotacionTodosAUnos": {
+    "juegoDeVotacionTodosAUno": {
       "type": "hasMany",
       "model": "JuegoDeVotacionTodosAUno",
       "foreignKey": "equipoId",
-      "options": {
-        "nestRemoting": true
-      },
       "through": "EquipoJuegoDeVotacionTodosAUno"
     }
   },

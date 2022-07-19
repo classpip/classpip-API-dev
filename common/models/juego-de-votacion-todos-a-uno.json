@@ -55,9 +55,6 @@
       "type": "hasMany",
       "model": "Equipo",
       "foreignKey": "juegoDeVotacionTodosAUnoId",
-      "options": {
-        "nestRemoting": true
-      },
       "through": "EquipoJuegoDeVotacionTodosAUno"
     }
   },
