@@ -48,7 +48,7 @@
     "JuegoDeVotacionUnoATodos": 93,
     "AlumnoJuegoDeVotacionUnoATodos": 394,
     "Rubrica": 28,
-    "JuegoDeVotacionTodosAUno": 38,
+    "JuegoDeVotacionTodosAUno": 46,
     "AlumnoJuegoDeVotacionTodosAUno": 170,
     "FamiliaImagenesPerfil": 27,
     "CuestionarioSatisfaccion": 40,
@@ -70,12 +70,13 @@
     "escena": 6,
     "frame": 7,
     "EquipoJuegoDeVotacionUnoATodos": 137,
+    "EquipoJuegoDeVotacionTodosAUno": 3,
     "JuegoDeControlDeTrabajoEnEquipo": 26,
     "EquipoJuegoDeControlDeTrabajoEnEquipo": 21,
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
     "EquipoJuegoDeCuestionario": 31,
     "RespuestaEquipoJuegoDeCuestionario": 53,
-    "Evento": 914,
+    "Evento": 932,
     "RecursosCuento": 5,
     "JuegoDeCuento": 9,
     "RecursoJuegoDeCuento": 9,
@@ -673,8 +674,7 @@
       "1269": "{\"Respuesta\":[],\"alumnoJuegoDeCuestionarioId\":1165,\"preguntaId\":268,\"id\":1269}"
     },
     "JuegoDeVotacionUnoATodos": {
-      "60": "{\"Tipo\":\"Juego De Votación Uno A Todos\",\"NombreJuego\":\"votacion equipos\",\"Modo\":\"Equipos\",\"ModoReparto\":\"Reparto libre\",\"PermitirAutovotacion\":false,\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Puntos\":[10],\"VotanEquipos\":true,\"grupoId\":77,\"id\":60}",
-      "92": "{\"Tipo\":\"Juego De Votación Uno A Todos\",\"NombreJuego\":\"pruebadelalgodon\",\"Modo\":\"Equipos\",\"ModoReparto\":\"Reparto libre\",\"PermitirAutovotacion\":false,\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Puntos\":[10],\"VotanEquipos\":true,\"grupoId\":77,\"id\":92}"
+      "60": "{\"Tipo\":\"Juego De Votación Uno A Todos\",\"NombreJuego\":\"votacion equipos\",\"Modo\":\"Equipos\",\"ModoReparto\":\"Reparto libre\",\"PermitirAutovotacion\":false,\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Puntos\":[10],\"VotanEquipos\":true,\"grupoId\":77,\"id\":60}"
     },
     "AlumnoJuegoDeVotacionUnoATodos": {},
     "Rubrica": {
@@ -685,16 +685,7 @@
       "24": "{\"Nombre\":\"talleres(copia)\",\"Descripcion\":\"talleres\",\"Criterios\":[{\"Nombre\":\"talleres\",\"Elementos\":[]}],\"Publica\":false,\"profesorId\":14,\"id\":24}"
     },
     "JuegoDeVotacionTodosAUno": {
-      "24": "{\"NombreJuego\":\"todosaunoinv\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"p\"],\"Pesos\":[100],\"grupoId\":77,\"id\":24}",
-      "29": "{\"NombreJuego\":\"pruebatodosaunoequipos\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"lol\",\"jaja\"],\"Pesos\":[70,30],\"VotanEquipos\":false,\"grupoId\":77,\"id\":29}",
-      "30": "{\"NombreJuego\":\"equiposvotanequipos\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\",\"b\"],\"Pesos\":[10,90],\"VotanEquipos\":true,\"grupoId\":77,\"id\":30}",
-      "31": "{\"NombreJuego\":\"pruebanovotanequipos\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\",\"b\"],\"Pesos\":[30,70],\"VotanEquipos\":false,\"grupoId\":77,\"id\":31}",
-      "32": "{\"NombreJuego\":\"PruebaTodosAuno\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\",\"b\"],\"Pesos\":[70,30],\"VotanEquipos\":false,\"grupoId\":77,\"id\":32}",
-      "33": "{\"NombreJuego\":\"pruebamodelos\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\",\"b\"],\"Pesos\":[20,80],\"VotanEquipos\":false,\"grupoId\":77,\"id\":33}",
-      "34": "{\"NombreJuego\":\"pruebamodificacion\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\",\"b\"],\"Pesos\":[40,60],\"VotanEquipos\":true,\"grupoId\":77,\"id\":34}",
-      "35": "{\"NombreJuego\":\"pruebamod2\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\"],\"Pesos\":[100],\"VotanEquipos\":false,\"grupoId\":77,\"id\":35}",
-      "36": "{\"NombreJuego\":\"bdprueba\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\"],\"Pesos\":[100],\"VotanEquipos\":true,\"grupoId\":77,\"id\":36}",
-      "37": "{\"NombreJuego\":\"w\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"g\"],\"Pesos\":[100],\"VotanEquipos\":false,\"grupoId\":77,\"id\":37}"
+      "45": "{\"NombreJuego\":\"pruebabaseDatos\",\"Tipo\":\"Juego De Votación Todos A Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"Conceptos\":[\"a\"],\"Pesos\":[100],\"VotanEquipos\":true,\"grupoId\":77,\"id\":45}"
     },
     "AlumnoJuegoDeVotacionTodosAUno": {
       "134": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":136,\"juegoDeVotacionTodosAUnoId\":2,\"id\":134}",
@@ -788,9 +779,11 @@
     "frame": {},
     "EquipoJuegoDeVotacionUnoATodos": {
       "47": "{\"puntosTotales\":0,\"equipoId\":89,\"juegoDeVotacionUnoATodosId\":60,\"id\":47}",
-      "48": "{\"id\":48,\"puntosTotales\":0,\"equipoId\":90,\"juegoDeVotacionUnoATodosId\":60,\"Votos\":[{\"equipoId\":89,\"puntos\":10,\"alumnoId\":136}]}",
-      "135": "{\"puntosTotales\":0,\"equipoId\":89,\"juegoDeVotacionUnoATodosId\":92,\"id\":135}",
-      "136": "{\"puntosTotales\":0,\"equipoId\":90,\"juegoDeVotacionUnoATodosId\":92,\"id\":136}"
+      "48": "{\"id\":48,\"puntosTotales\":0,\"equipoId\":90,\"juegoDeVotacionUnoATodosId\":60,\"Votos\":[{\"equipoId\":89,\"puntos\":10,\"alumnoId\":136}]}"
+    },
+    "EquipoJuegoDeVotacionTodosAUno": {
+      "1": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"VotosEmitidosMiembro\":[],\"equipoId\":89,\"juegoDeVotacionTodosAUnoId\":45,\"id\":1}",
+      "2": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"VotosEmitidosMiembro\":[],\"equipoId\":90,\"juegoDeVotacionTodosAUnoId\":45,\"id\":2}"
     },
     "JuegoDeControlDeTrabajoEnEquipo": {},
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": {},
@@ -1565,7 +1558,25 @@
       "910": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T12:57:53.258Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":37,\"NombreJuego\":\"w\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":910}",
       "911": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T12:57:57.545Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":36,\"NombreJuego\":\"bdprueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":911}",
       "912": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T12:58:16.570Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":36,\"NombreJuego\":\"bdprueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":912}",
-      "913": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T12:58:20.720Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":37,\"NombreJuego\":\"w\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":913}"
+      "913": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T12:58:20.720Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":37,\"NombreJuego\":\"w\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":913}",
+      "914": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T13:01:09.520Z\",\"ProfesorID\":14,\"AlumnoID\":137,\"JuegoID\":36,\"NombreJuego\":\"bdprueba\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":914}",
+      "915": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-19T15:41:47.903Z\",\"ProfesorID\":14,\"JuegoID\":38,\"NombreJuego\":\"bdpruebaVotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":915}",
+      "916": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-19T15:42:10.036Z\",\"ProfesorID\":14,\"JuegoID\":39,\"NombreJuego\":\"pruebabdnovotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":916}",
+      "917": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T15:49:45.061Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":38,\"NombreJuego\":\"bdpruebaVotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":917}",
+      "918": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T15:49:55.870Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":38,\"NombreJuego\":\"bdpruebaVotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":918}",
+      "919": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T15:50:33.260Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":39,\"NombreJuego\":\"pruebabdnovotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":919}",
+      "920": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-19T15:52:22.938Z\",\"ProfesorID\":14,\"JuegoID\":40,\"NombreJuego\":\"a\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":920}",
+      "921": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T15:53:15.171Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":39,\"NombreJuego\":\"pruebabdnovotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":921}",
+      "922": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T15:53:23.010Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":39,\"NombreJuego\":\"pruebabdnovotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":922}",
+      "923": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-19T15:54:28.352Z\",\"ProfesorID\":14,\"AlumnoID\":137,\"JuegoID\":39,\"NombreJuego\":\"pruebabdnovotaneq\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":923}",
+      "924": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-21T16:01:04.867Z\",\"ProfesorID\":14,\"JuegoID\":41,\"NombreJuego\":\"prueba21\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":924}",
+      "925": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-21T16:01:21.453Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":41,\"NombreJuego\":\"prueba21\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":925}",
+      "926": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-21T16:01:31.914Z\",\"ProfesorID\":14,\"AlumnoID\":136,\"JuegoID\":41,\"NombreJuego\":\"prueba21\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":926}",
+      "927": "{\"TipoEvento\":2,\"FechayHora\":\"2022-07-21T16:02:45.098Z\",\"ProfesorID\":14,\"AlumnoID\":135,\"JuegoID\":41,\"NombreJuego\":\"prueba21\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":927}",
+      "928": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-21T16:15:36.944Z\",\"ProfesorID\":14,\"JuegoID\":42,\"NombreJuego\":\"pruebabd\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":928}",
+      "929": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-21T16:23:43.626Z\",\"ProfesorID\":14,\"JuegoID\":43,\"NombreJuego\":\"pruebainscripcion\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":929}",
+      "930": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-21T17:00:38.680Z\",\"ProfesorID\":14,\"JuegoID\":44,\"NombreJuego\":\"pb\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":930}",
+      "931": "{\"TipoEvento\":1,\"FechayHora\":\"2022-07-21T17:22:41.966Z\",\"ProfesorID\":14,\"JuegoID\":45,\"NombreJuego\":\"pruebabaseDatos\",\"TipoJuego\":\"Juego De Votación Todos A Uno\",\"id\":931}"
     },
     "RecursosCuento": {
       "3": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":14,\"id\":3}",
