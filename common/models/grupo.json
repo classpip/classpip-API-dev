@@ -47,6 +47,11 @@
             "model": "JuegoDeMemorama",
             "foreignKey": "grupoId"
         },
+        "juegosDePuzzle": {
+            "type": "hasMany",
+            "model": "JuegoDePuzzle",
+            "foreignKey": "grupoId"
+        },
         "juegoDeCompeticions": {
             "type": "hasMany",
             "model": "JuegoDeCompeticion",

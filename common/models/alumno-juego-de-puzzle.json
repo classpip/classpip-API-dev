@@ -1,0 +1,48 @@
+{
+    "name": "AlumnoJuegoDePuzzle",
+    "plural": "alumnosJuegoDePuzzle",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "alumnoId": {
+            "type": "number",
+            "required": true
+        },
+        "juegoDePuzzleId": {
+            "type": "number",
+            "required": true
+        },
+        "puntuacion": {
+            "type": "number",
+            "required": false
+        },
+        "tiempo": {
+            "type": "string",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {
+        "alumno": {
+            "type": "belongsTo",
+            "model": "Alumno",
+            "foreignKey": "alumnoId",
+            "options": {
+                "nestRemoting": true
+            }
+        },
+        "juegosDePuzzle": {
+            "type": "belongsTo",
+            "model": "JuegoDePuzzle",
+            "foreignKey": "juegoDePuzzleId",
+            "options": {
+                "nestRemoting": true
+            }
+        }
+    },
+    "acls": [],
+    "methods": {}
+}

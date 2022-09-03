@@ -175,6 +175,11 @@
             "type": "hasMany",
             "model": "RecursosCuento",
             "foreignKey": "profesorId"
+        },
+        "recursosPuzzle": {
+            "type": "hasMany",
+            "model": "RecursosCuento",
+            "foreignKey": "profesorId"
         }
     },
     "acls": [],
