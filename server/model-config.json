@@ -287,6 +287,10 @@
         "dataSource": "baseDatos",
         "public": true
     },
+    "FamiliaImagenesPuzzle": {
+        "dataSource": "baseDatos",
+        "public": true
+    },
     "CuestionarioSatisfaccion": {
         "dataSource": "baseDatos",
         "public": true

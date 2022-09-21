@@ -1,6 +1,6 @@
 {
-    "name": "FamiliaImagenesPerfil",
-    "plural": "familiasImagenesPerfil",
+    "name": "FamiliaImagenesPuzzle",
+    "plural": "familiasImagenesPuzzle",
     "base": "PersistedModel",
     "idInjection": true,
     "options": {
@@ -9,10 +9,6 @@
     "properties": {
         "NombreFamilia": {
             "type": "string",
-            "required": true
-        },
-        "NumeroImagenes": {
-            "type": "number",
             "required": true
         },
         "Imagenes": {

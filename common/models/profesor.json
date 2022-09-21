@@ -131,6 +131,11 @@
             "model": "FamiliaImagenesPerfil",
             "foreignKey": "profesorId"
         },
+        "familiasImagenesDePuzzle": {
+            "type": "hasMany",
+            "model": "FamiliaImagenesPuzzle",
+            "foreignKey": "profesorId"
+        },
         "cuestionariosSatisfaccion": {
             "type": "hasMany",
             "model": "CuestionarioSatisfaccion",

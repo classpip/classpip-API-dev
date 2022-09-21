@@ -29,11 +29,11 @@
             "type": "number",
             "required": true
         },
-        "ModoJuego": {
+        "Dificultad": {
             "type": "string",
             "required": true
         },
-        "Dificultad": {
+        "NombreImagen": {
             "type": "string",
             "required": true
         }
