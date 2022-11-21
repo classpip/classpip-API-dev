@@ -1,1 +1,40 @@
-{"name":"EquipoJuegoDeColeccion","plural":"EquiposJuegoDeColeccion","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{},"validations":[],"relations":{"juegoDeColeccion":{"type":"belongsTo","model":"JuegoDeColeccion","foreignKey":"juegoDeColeccionId","options":{"nestRemoting":true}},"equipo":{"type":"belongsTo","model":"Equipo","foreignKey":"equipoId","options":{"nestRemoting":true}},"cromos":{"type":"hasMany","model":"Cromo","foreignKey":"equipoJuegoDeColeccionId","options":{"nestRemoting":true},"through":"AlbumEquipo"}},"acls":[],"methods":{}}
+{
+  "name": "EquipoJuegoDeColeccion",
+  "plural": "EquiposJuegoDeColeccion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "juegoDeColeccion": {
+      "type": "belongsTo",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "juegoDeColeccionId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "cromos": {
+      "type": "hasMany",
+      "model": "Cromo",
+      "foreignKey": "equipoJuegoDeColeccionId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlbumEquipo"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,1 +1,25 @@
-{"name":"Liga","plural":"Ligas","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"NumeroJornadas":{"type":"number","required":true}},"validations":[],"relations":{"jornadas":{"type":"hasMany","model":"Jornada","foreignKey":"ligaId"}},"acls":[],"methods":{}}
+{
+  "name": "Liga",
+  "plural": "Ligas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NumeroJornadas": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "jornadas": {
+      "type": "hasMany",
+      "model": "Jornada",
+      "foreignKey": "ligaId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

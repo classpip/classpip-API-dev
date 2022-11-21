@@ -1,1 +1,40 @@
-{"name":"AlumnoJuegoDeGeocaching","plural":"AlumnosJuegoDeGeocaching","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Puntuacion":{"type":"number","required":true},"Etapa":{"type":"number","required":true}},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId","options":{"nestRemoting":true}},"juegoDeGeocaching":{"type":"belongsTo","model":"JuegoDeGeocaching","foreignKey":"juegoDeGeocachingId","options":{"nestRemoting":true}}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeGeocaching",
+  "plural": "AlumnosJuegoDeGeocaching",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Puntuacion": {
+      "type": "number",
+      "required": true
+    },
+    "Etapa": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeGeocaching": {
+      "type": "belongsTo",
+      "model": "JuegoDeGeocaching",
+      "foreignKey": "juegoDeGeocachingId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

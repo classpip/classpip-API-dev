@@ -1,1 +1,32 @@
-{"name":"RespuestaEquipoJuegoDeCuestionario","plural":"respuestasEquipoJuegoDeCuestionario","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Respuesta":{"type":["string"],"required":false}},"validations":[],"relations":{"equipoJuegoDeCuestionario":{"type":"belongsTo","model":"EquipoJuegoDeCuestionario","foreignKey":"equipoJuegoDeCuestionarioId"},"pregunta":{"type":"belongsTo","model":"Pregunta","foreignKey":"preguntaId"}},"acls":[],"methods":{}}
+{
+  "name": "RespuestaEquipoJuegoDeCuestionario",
+  "plural": "respuestasEquipoJuegoDeCuestionario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Respuesta": {
+      "type": [
+        "string"
+      ],
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "equipoJuegoDeCuestionario": {
+      "type": "belongsTo",
+      "model": "EquipoJuegoDeCuestionario",
+      "foreignKey": "equipoJuegoDeCuestionarioId"
+    },
+    "pregunta": {
+      "type": "belongsTo",
+      "model": "Pregunta",
+      "foreignKey": "preguntaId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
