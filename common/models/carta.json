@@ -1,45 +1,45 @@
 {
-    "name": "Carta",
-    "plural": "cartasMemorama",
-    "base": "PersistedModel",
-    "idInjection": true,
-    "options": {
-        "validateUpsert": true
+  "name": "Carta",
+  "plural": "cartasMemorama",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
     },
-    "properties": {
-        "Nombre": {
-            "type": "string",
-            "required": true
-        },
-        "imagenDelante": {
-            "type": "string",
-            "required": true
-        },
-        "imagenDetras": {
-            "type": "string"
-        },
-        "familiaId": {
-            "type": "number",
-            "required": true
-        },
-        "relacion": {
-            "type": "number",
-            "required": false
-        }
+    "imagenDelante": {
+      "type": "string",
+      "required": true
     },
-    "validations": [],
-    "relations": {
-        "alumnosJuegoDeMemorama": {
-            "type": "hasMany",
-            "model": "AlumnoJuegoDeMemorama",
-            "foreignKey": "cartaId"
-        },
-        "equiposJuegoDeMemorama": {
-            "type": "hasMany",
-            "model": "EquipoJuegoDeMemorama",
-            "foreignKey": "cartaId"
-        }
+    "imagenDetras": {
+      "type": "string"
     },
-    "acls": [],
-    "methods": {}
+    "familiaId": {
+      "type": "number",
+      "required": true
+    },
+    "relacion": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnosJuegoDeMemorama": {
+      "type": "hasMany",
+      "model": "AlumnoJuegoDeMemorama",
+      "foreignKey": "cartaId"
+    },
+    "equiposJuegoDeMemorama": {
+      "type": "hasMany",
+      "model": "EquipoJuegoDeMemorama",
+      "foreignKey": "cartaId"
+    }
+  },
+  "acls": [],
+  "methods": {}
 }

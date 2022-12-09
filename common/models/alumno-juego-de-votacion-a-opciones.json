@@ -1,37 +1,37 @@
 {
-    "name": "AlumnoJuegoDeVotacionAOpciones",
-    "plural": "alumnosJuegoDeVotacionAOpciones",
-    "base": "PersistedModel",
-    "idInjection": true,
-    "options": {
-        "validateUpsert": true
+  "name": "AlumnoJuegoDeVotacionAOpciones",
+  "plural": "alumnosJuegoDeVotacionAOpciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Votos": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
     },
-    "properties": {
-        "Votos": {
-            "type": [
-                "object"
-            ]
-        }
-    },
-    "validations": [],
-    "relations": {
-        "alumno": {
-            "type": "belongsTo",
-            "model": "Alumno",
-            "foreignKey": "alumnoId",
-            "options": {
-                "nestRemoting": true
-            }
-        },
-        "juegoDeVotacionAOpciones": {
-            "type": "belongsTo",
-            "model": "JuegoDeVotacionAOpciones",
-            "foreignKey": "juegoDeVotacionAOpcionesId",
-            "options": {
-                "nestRemoting": true
-            }
-        }
-    },
-    "acls": [],
-    "methods": {}
+    "juegoDeVotacionAOpciones": {
+      "type": "belongsTo",
+      "model": "JuegoDeVotacionAOpciones",
+      "foreignKey": "juegoDeVotacionAOpcionesId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
 }

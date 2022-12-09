@@ -470,5 +470,9 @@
     "JuegoDePuzzle": {
         "dataSource": "baseDatos",
         "public": true
+    },
+    "EquipoJuegoDeVotacionTodosAUno": {
+    "dataSource": "baseDatos",
+    "public": true
     }
 }

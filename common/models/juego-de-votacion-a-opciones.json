@@ -1,1 +1,60 @@
-{"name":"JuegoDeVotacionAOpciones","plural":"juegosDeVotacionAOpciones","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"NombreJuego":{"type":"string","required":true},"Tipo":{"type":"string","required":true},"Modo":{"type":"string","required":true},"ModoReparto":{"type":"string","required":true},"JuegoActivo":{"type":"boolean","default":true},"JuegoTerminado":{"type":"boolean"},"Opciones":{"type":["string"],"required":true},"Puntos":{"type":["number"],"required":true}},"validations":[],"relations":{"alumnos":{"type":"hasMany","model":"Alumno","foreignKey":"juegoDeVotacionAOpcionesId","options":{"nestRemoting":true},"through":"AlumnoJuegoDeVotacionAOpciones"}},"acls":[],"methods":{}}
+{
+  "name": "JuegoDeVotacionAOpciones",
+  "plural": "juegosDeVotacionAOpciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Modo": {
+      "type": "string",
+      "required": true
+    },
+    "ModoReparto": {
+      "type": "string",
+      "required": true
+    },
+    "JuegoActivo": {
+      "type": "boolean",
+      "default": true
+    },
+    "JuegoTerminado": {
+      "type": "boolean"
+    },
+    "Opciones": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "Puntos": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeVotacionAOpcionesId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeVotacionAOpciones"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

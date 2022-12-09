@@ -1,1 +1,51 @@
-{"name":"AlumnoJuegoDeCuestionario","plural":"AlumnosJuegoDeCuestionario","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"Nota":{"type":"number","required":true},"Contestado":{"type":"boolean","default":false},"TiempoEmpleado":{"type":"number","required":false,"default":0}},"validations":[],"relations":{"alumno":{"type":"belongsTo","model":"Alumno","foreignKey":"alumnoId","options":{"nestRemoting":true}},"juegoDeCuestionario":{"type":"belongsTo","model":"JuegoDeCuestionario","foreignKey":"juegoDeCuestionarioId","options":{"nestRemoting":true}},"pregunta":{"type":"hasMany","model":"Pregunta","foreignKey":"alumnoJuegoDeCuestionarioId","through":"RespuestaJuegoDeCuestionario"}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeCuestionario",
+  "plural": "AlumnosJuegoDeCuestionario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nota": {
+      "type": "number",
+      "required": true
+    },
+    "Contestado": {
+      "type": "boolean",
+      "default": false
+    },
+    "TiempoEmpleado": {
+      "type": "number",
+      "required": false,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCuestionario": {
+      "type": "belongsTo",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "juegoDeCuestionarioId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "pregunta": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "alumnoJuegoDeCuestionarioId",
+      "through": "RespuestaJuegoDeCuestionario"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

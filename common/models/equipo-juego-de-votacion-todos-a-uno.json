@@ -1,37 +1,30 @@
 {
-  "name": "EquipoJuegoDeEvaluacion",
-  "plural": "equiposJuegoDeEvaluacion",
+  "name": "EquipoJuegoDeVotacionTodosAUno",
+  "plural": "equiposJuegoDeVotacionTodosAUno",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "notaFinal": {
+    "PuntosTotales": {
       "type": "number",
-      "required": false,
-      "default": null
+      "default": 0
     },
-    "equiposEvaluadoresIds": {
+    "VotosEmitidos": {
       "type": [
-        "number"
-      ],
-      "required": false,
-      "default": null
+        "object"
+      ]
     },
-    "alumnosEvaluadoresIds": {
+    "VotosRecibidos": {
       "type": [
-        "number"
-      ],
-      "required": false,
-      "default": null
+        "object"
+      ]
     },
-    "respuestas": {
+    "VotosEmitidosMiembro": {
       "type": [
-        "any"
-      ],
-      "required": false,
-      "default": null
+        "object"
+      ]
     }
   },
   "validations": [],
@@ -44,10 +37,10 @@
         "nestRemoting": true
       }
     },
-    "juegoDeEvaluacion": {
+    "juegoDeVotacionTodosAUno": {
       "type": "belongsTo",
-      "model": "JuegoDeEvaluacion",
-      "foreignKey": "juegoDeEvaluacionId",
+      "model": "JuegoDeVotacionTodosAUno",
+      "foreignKey": "juegoDeVotacionTodosAUnoId",
       "options": {
         "nestRemoting": true
       }

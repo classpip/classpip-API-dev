@@ -1,1 +1,36 @@
-{"name":"AlumnoJuegoDeCuento","plural":"AlumnosJuegoDeCuento","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"nivel1":{"type":"boolean"},"nivel2":{"type":"boolean"},"nivel3":{"type":"boolean"},"permisoparaver":{"type":"boolean"},"alumnoID":{"type":"any"}},"validations":[],"relations":{"Cuento":{"type":"hasMany","model":"Cuento","foreignKey":"alumnoJuegoCuentoId"}},"acls":[],"methods":{}}
+{
+  "name": "AlumnoJuegoDeCuento",
+  "plural": "AlumnosJuegoDeCuento",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nivel1": {
+      "type": "boolean"
+    },
+    "nivel2": {
+      "type": "boolean"
+    },
+    "nivel3": {
+      "type": "boolean"
+    },
+    "permisoparaver": {
+      "type": "boolean"
+    },
+    "alumnoID": {
+      "type": "any"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Cuento": {
+      "type": "hasMany",
+      "model": "Cuento",
+      "foreignKey": "alumnoJuegoCuentoId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

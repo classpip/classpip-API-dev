@@ -1,38 +1,38 @@
 {
-    "name": "Familia",
-    "plural":"familiasMemorama",
-    "base": "PersistedModel",
-    "idInjection": true,
-    "options": {
-        "validateUpsert": true
+  "name": "Familia",
+  "plural": "familiasMemorama",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
     },
-    "properties": {
-        "Nombre": {
-            "type": "string",
-            "required": true
-        },
-        "ImagenFamilia": {
-            "type": "string",
-            "required": true
-        },
-        "profesorId": {
-            "type": "number",
-            "required": true
-        }
+    "ImagenFamilia": {
+      "type": "string",
+      "required": true
     },
-    "validations": [],
-    "relations": {
-        "juegosDeMemorama": {
-            "type": "hasMany",
-            "model": "JuegoDeMemorama",
-            "foreignKey": "familiaId"
-        },
-        "cartasMemorama": {
-            "type": "hasMany",
-            "model": "Carta",
-            "foreignKey": "familiaId"
-        }
+    "profesorId": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "juegosDeMemorama": {
+      "type": "hasMany",
+      "model": "JuegoDeMemorama",
+      "foreignKey": "familiaId"
     },
-    "acls": [],
-    "methods": {}
+    "cartasMemorama": {
+      "type": "hasMany",
+      "model": "Carta",
+      "foreignKey": "familiaId"
+    }
+  },
+  "acls": [],
+  "methods": {}
 }
