@@ -78,9 +78,9 @@
     "RespuestaEquipoJuegoDeCuestionario": 53,
     "Evento": 946,
     "RecursosCuento": 5,
-    "JuegoDeCuento": 9,
-    "RecursoJuegoDeCuento": 9,
-    "AlumnoJuegoDeCuento": 65,
+    "JuegoDeCuento": 14,
+    "RecursoJuegoDeCuento": 14,
+    "AlumnoJuegoDeCuento": 93,
     "Cuento": 17,
     "Escena": 40,
     "Elemento": 439,
@@ -94,7 +94,10 @@
     "Familia": 62,
     "Carta": 257,
     "JuegoDeMemorama": 10,
-    "AlumnoJuegoDeMemorama": 71
+    "AlumnoJuegoDeMemorama": 71,
+    "JuegoDePuzzle": 11,
+    "AlumnoJuegoDePuzzle": 54,
+    "FamiliaImagenesPuzzle": 4
   },
   "models": {
     "Profesor": {
@@ -651,7 +654,7 @@
     },
     "SesionClase": {},
     "FamiliaAvatares": {
-      "51": "{\"profesorId\":14,\"NombreFamilia\":\"Chicho\",\"Publica\":false,\"Silueta\":\"chicho_silueta.png\",\"NombreComplemento1\":\"pelos\",\"Complemento1\":[\"chicho_pelo1.png\",\"chicho_pelo2.png\",\"chicho_pelo3.png\",\"chicho_pelo4.png\"],\"NombreComplemento2\":\"sombreros\",\"Complemento2\":[\"chicho_sombrero1.png\",\"chicho_sombrero2.png\",\"chicho_sombrero3.png\",\"chicho_sombrero4.png\"],\"NombreComplemento3\":\"camisas\",\"Complemento3\":[\"chicho_camisa1.png\",\"chicho_camisa2.png\",\"chicho_camisa3.png\",\"chicho_camisa4.png\"],\"NombreComplemento4\":\"gafas\",\"Complemento4\":[\"chicho_gafas1.png\",\"chicho_gafas2.png\",\"chicho_gafas3.png\",\"chicho_gafas4.png\"],\"id\":51}"
+      "51": "{\"id\":51,\"profesorId\":14,\"NombreFamilia\":\"Chicho\",\"Publica\":false,\"Silueta\":\"chicho_silueta.png\",\"NombreComplemento1\":\"pelos\",\"Complemento1\":[\"chicho_pelo1.png\",\"chicho_pelo2.png\",\"chicho_pelo3.png\",\"chicho_pelo4.png\"],\"NombreComplemento2\":\"sombreros\",\"Complemento2\":[\"chicho_sombrero1.png\",\"chicho_sombrero2.png\",\"chicho_sombrero3.png\",\"chicho_sombrero4.png\"],\"NombreComplemento3\":\"camisas\",\"Complemento3\":[\"chicho_camisa1.png\",\"chicho_camisa2.png\",\"chicho_camisa3.png\",\"chicho_camisa4.png\"],\"NombreComplemento4\":\"gafas\",\"Complemento4\":[\"chicho_gafas1.png\",\"chicho_gafas2.png\",\"chicho_gafas3.png\",\"chicho_gafas4.png\"]}"
     },
     "JuegoDeAvatar": {},
     "AlumnoJuegoDeAvatar": {},
@@ -707,7 +710,7 @@
       "169": "{\"PuntosTotales\":0,\"VotosEmitidos\":[],\"VotosRecibidos\":[],\"alumnoId\":142,\"juegoDeVotacionTodosAUnoId\":24,\"id\":169}"
     },
     "FamiliaImagenesPerfil": {
-      "26": "{\"NombreFamilia\":\"ddd\",\"NumeroImagenes\":4,\"Imagenes\":[\"cabra.png\",\"caiman.png\",\"canguro.png\",\"cocodrilo.png\"],\"Publica\":false,\"profesorId\":14,\"id\":26}"
+      "26": "{\"id\":26,\"NombreFamilia\":\"ddd\",\"NumeroImagenes\":4,\"Imagenes\":[\"cabra.png\",\"caiman.png\",\"canguro.png\",\"cocodrilo.png\"],\"Publica\":false,\"profesorId\":14}"
     },
     "CuestionarioSatisfaccion": {
       "37": "{\"Titulo\":\"Indicencias críticas\",\"Descripcion\":\"CUIC\",\"Publico\":false,\"Afirmaciones\":[\"En este curso me estoy divirtiendo\",\"Estoy aprendiendo cosas valiosas\"],\"PreguntasAbiertas\":[\"¿Cuál ha sido la incidencia crítica más positiva?\",\"¿Cuál ha sido la incidencia crítica más negativa?\"],\"profesorId\":14,\"id\":37}",
@@ -1600,10 +1603,12 @@
       "4": "{\"nombre\":\"Caso1\",\"carpeta\":\"Recursos-Caso1\",\"imagenes\":[{\"url\":\"g5765.png\",\"nombre\":\"g5765.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g5876.png\",\"nombre\":\"g5876.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6112.png\",\"nombre\":\"g6112.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6297.png\",\"nombre\":\"g6297.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6528.png\",\"nombre\":\"g6528.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6637.png\",\"nombre\":\"g6637.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g5389.png\",\"nombre\":\"g5389.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5447.png\",\"nombre\":\"g5447.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5518.png\",\"nombre\":\"g5518.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5577.png\",\"nombre\":\"g5577.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5670.png\",\"nombre\":\"g5670.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5848.png\",\"nombre\":\"g5848.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6047.png\",\"nombre\":\"g6047.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6240.png\",\"nombre\":\"g6240.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6362.png\",\"nombre\":\"g6362.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6460.png\",\"nombre\":\"g6460.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":14,\"id\":4}"
     },
     "JuegoDeCuento": {
-      "8": "{\"NombreJuego\":\"cuentos 1\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":77,\"criterioprivilegio1\":\"ds\",\"criterioprivilegio2\":\"ds\",\"criterioprivilegio3\":\"sd\",\"descripcion\":\"cuentos 1\",\"id\":8}"
+      "8": "{\"NombreJuego\":\"cuentos 1\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":77,\"criterioprivilegio1\":\"ds\",\"criterioprivilegio2\":\"ds\",\"criterioprivilegio3\":\"sd\",\"descripcion\":\"cuentos 1\",\"id\":8}",
+      "10": "{\"NombreJuego\":\"Prueba\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":83,\"criterioprivilegio1\":\"sef\",\"criterioprivilegio2\":\"sef\",\"criterioprivilegio3\":\"sef\",\"descripcion\":\"sef\",\"id\":10}"
     },
     "RecursoJuegoDeCuento": {
-      "8": "{\"nombre\":\"Caso1\",\"carpeta\":\"Recursos-Caso1\",\"imagenes\":[{\"url\":\"g5765.png\",\"nombre\":\"g5765.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g5876.png\",\"nombre\":\"g5876.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6112.png\",\"nombre\":\"g6112.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6297.png\",\"nombre\":\"g6297.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6528.png\",\"nombre\":\"g6528.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6637.png\",\"nombre\":\"g6637.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g5389.png\",\"nombre\":\"g5389.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5447.png\",\"nombre\":\"g5447.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5518.png\",\"nombre\":\"g5518.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5577.png\",\"nombre\":\"g5577.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5670.png\",\"nombre\":\"g5670.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5848.png\",\"nombre\":\"g5848.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6047.png\",\"nombre\":\"g6047.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6240.png\",\"nombre\":\"g6240.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6362.png\",\"nombre\":\"g6362.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6460.png\",\"nombre\":\"g6460.png\",\"tipo\":\"personaje\",\"especial\":false}],\"juegoId\":8,\"id\":8}"
+      "8": "{\"nombre\":\"Caso1\",\"carpeta\":\"Recursos-Caso1\",\"imagenes\":[{\"url\":\"g5765.png\",\"nombre\":\"g5765.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g5876.png\",\"nombre\":\"g5876.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6112.png\",\"nombre\":\"g6112.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6297.png\",\"nombre\":\"g6297.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6528.png\",\"nombre\":\"g6528.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g6637.png\",\"nombre\":\"g6637.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g5389.png\",\"nombre\":\"g5389.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5447.png\",\"nombre\":\"g5447.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5518.png\",\"nombre\":\"g5518.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5577.png\",\"nombre\":\"g5577.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5670.png\",\"nombre\":\"g5670.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g5848.png\",\"nombre\":\"g5848.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6047.png\",\"nombre\":\"g6047.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6240.png\",\"nombre\":\"g6240.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6362.png\",\"nombre\":\"g6362.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g6460.png\",\"nombre\":\"g6460.png\",\"tipo\":\"personaje\",\"especial\":false}],\"juegoId\":8,\"id\":8}",
+      "10": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false}],\"juegoId\":10,\"id\":10}"
     },
     "Cuento": {
       "12": "{\"titulo\":\"e2 cuentos 1\",\"autor\":\"e2\",\"resumen\":\"Ffff\",\"portada\":\"aa\",\"finalizado\":false,\"idAlumno\":\"62\",\"numeropag\":\"32\",\"criterio1\":0,\"criterio2\":0,\"criterio3\":0,\"criteriototal\":0,\"alumnoJuegoCuentoId\":62,\"id\":12}",
@@ -1620,10 +1625,17 @@
       "61": "{\"nivel1\":true,\"nivel2\":true,\"nivel3\":true,\"permisoparaver\":true,\"alumnoID\":140,\"juegoId\":8,\"Nombre\":\"e6\",\"id\":61}",
       "62": "{\"nivel1\":true,\"nivel2\":true,\"nivel3\":true,\"permisoparaver\":true,\"alumnoID\":135,\"juegoId\":8,\"Nombre\":\"e2\",\"id\":62}",
       "63": "{\"nivel1\":true,\"nivel2\":true,\"nivel3\":true,\"permisoparaver\":true,\"alumnoID\":137,\"juegoId\":8,\"Nombre\":\"e3\",\"id\":63}",
-      "64": "{\"nivel1\":true,\"nivel2\":true,\"nivel3\":true,\"permisoparaver\":true,\"alumnoID\":139,\"juegoId\":8,\"Nombre\":\"e4\",\"id\":64}"
+      "64": "{\"nivel1\":true,\"nivel2\":true,\"nivel3\":true,\"permisoparaver\":true,\"alumnoID\":139,\"juegoId\":8,\"Nombre\":\"e4\",\"id\":64}",
+      "70": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":136,\"juegoId\":10,\"Nombre\":\"e1\",\"id\":70}",
+      "71": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":138,\"juegoId\":10,\"Nombre\":\"e5\",\"id\":71}",
+      "72": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":135,\"juegoId\":10,\"Nombre\":\"e2\",\"id\":72}",
+      "73": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":140,\"juegoId\":10,\"Nombre\":\"e6\",\"id\":73}",
+      "74": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":141,\"juegoId\":10,\"Nombre\":\"e7\",\"id\":74}",
+      "75": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":142,\"juegoId\":10,\"Nombre\":\"e8\",\"id\":75}",
+      "76": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":137,\"juegoId\":10,\"Nombre\":\"e3\",\"id\":76}",
+      "77": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"alumnoID\":139,\"juegoId\":10,\"Nombre\":\"e4\",\"id\":77}"
     },
     "Escena": {
-      "33": "{\"fondo\":\"\",\"duracionFrame\":1,\"maximoFrames\":1,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":0,\"tipoAudio\":\"\",\"urlAudioFondo\":\"\",\"cuentoId\":12,\"id\":33}",
       "34": "{\"fondo\":\"\",\"duracionFrame\":1,\"maximoFrames\":1,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":0,\"tipoAudio\":\"\",\"urlAudioFondo\":\"\",\"cuentoId\":14,\"id\":34}",
       "35": "{\"fondo\":\"\",\"duracionFrame\":1,\"maximoFrames\":1,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":0,\"tipoAudio\":\"\",\"urlAudioFondo\":\"\",\"cuentoId\":15,\"id\":35}",
       "36": "{\"fondo\":\"\",\"duracionFrame\":1,\"maximoFrames\":1,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":0,\"tipoAudio\":\"\",\"urlAudioFondo\":\"\",\"cuentoId\":16,\"id\":36}",
@@ -1781,7 +1793,7 @@
       "48": "{\"alumnoId\":142,\"juegoDeVotacionAOpcionesId\":8,\"id\":48}"
     },
     "Familia": {
-      "61": "{\"Nombre\":\"Basjo el mar\",\"ImagenFamilia\":\"familia_bajo_el_mar.png\",\"profesorId\":14,\"Publica\":false,\"relacion\":\"false\",\"id\":61}"
+      "61": "{\"id\":61,\"Nombre\":\"Basjo el mar\",\"ImagenFamilia\":\"familia_bajo_el_mar.png\",\"profesorId\":14,\"Publica\":false,\"relacion\":\"false\"}"
     },
     "Carta": {
       "248": "{\"Nombre\":\"imagen1\",\"imagenDelante\":\"bajo_el_mar_1.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":248,\"relacion\":249}",
@@ -1795,6 +1807,36 @@
       "256": "{\"Nombre\":\"imagen9\",\"imagenDelante\":\"bajo_el_mar_9.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":256,\"relacion\":248}"
     },
     "JuegoDeMemorama": {},
-    "AlumnoJuegoDeMemorama": {}
+    "AlumnoJuegoDeMemorama": {},
+    "JuegoDePuzzle": {
+      "8": "{\"id\":8,\"Tipo\":\"Juego De Puzzle\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"NombreJuego\":\"Puzzle\",\"grupoId\":79,\"Dificultad\":\"facil\",\"NombreImagen\":\"mario.jpg\"}",
+      "9": "{\"Tipo\":\"Juego De Puzzle\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"NombreJuego\":\"Puzzle Mario\",\"grupoId\":79,\"Dificultad\":\"facil\",\"NombreImagen\":\"mario.jpg\",\"id\":9}",
+      "10": "{\"Tipo\":\"Juego De Puzzle\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"NombreJuego\":\"Puzzle fondo\",\"grupoId\":79,\"Dificultad\":\"muy dificil\",\"NombreImagen\":\"fondo.jpg\",\"id\":10}"
+    },
+    "AlumnoJuegoDePuzzle": {
+      "36": "{\"alumnoId\":136,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":36}",
+      "37": "{\"alumnoId\":135,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":37}",
+      "38": "{\"alumnoId\":137,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":38}",
+      "39": "{\"alumnoId\":139,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":39}",
+      "40": "{\"alumnoId\":138,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":40}",
+      "41": "{\"alumnoId\":136,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:12\",\"id\":41}",
+      "42": "{\"alumnoId\":136,\"juegoDePuzzleId\":8,\"puntuacion\":0,\"tiempo\":\"00:12\",\"id\":42}",
+      "43": "{\"alumnoId\":136,\"juegoDePuzzleId\":9,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":43}",
+      "44": "{\"alumnoId\":135,\"juegoDePuzzleId\":9,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":44}",
+      "45": "{\"alumnoId\":137,\"juegoDePuzzleId\":9,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":45}",
+      "46": "{\"alumnoId\":139,\"juegoDePuzzleId\":9,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":46}",
+      "47": "{\"alumnoId\":138,\"juegoDePuzzleId\":9,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":47}",
+      "48": "{\"alumnoId\":136,\"juegoDePuzzleId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":48}",
+      "49": "{\"alumnoId\":135,\"juegoDePuzzleId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":49}",
+      "50": "{\"alumnoId\":137,\"juegoDePuzzleId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":50}",
+      "51": "{\"alumnoId\":139,\"juegoDePuzzleId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":51}",
+      "52": "{\"alumnoId\":138,\"juegoDePuzzleId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":52}",
+      "53": "{\"alumnoId\":136,\"juegoDePuzzleId\":9,\"puntuacion\":0,\"tiempo\":\"00:26\",\"id\":53}"
+    },
+    "FamiliaImagenesPuzzle": {
+      "1": "{\"NombreFamilia\":\"Pikachu\",\"Imagenes\":[\"pikachu.jpg\"],\"Publica\":false,\"profesorId\":14,\"id\":1}",
+      "2": "{\"NombreFamilia\":\"Mario Bros\",\"Imagenes\":[\"mario.jpg\"],\"Publica\":false,\"profesorId\":14,\"id\":2}",
+      "3": "{\"NombreFamilia\":\"Fondo\",\"Imagenes\":[\"fondo.jpg\"],\"Publica\":false,\"profesorId\":14,\"id\":3}"
+    }
   }
 }

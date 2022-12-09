@@ -1,0 +1,64 @@
+{
+    "name": "JuegoDePuzzle",
+    "plural": "juegosDePuzzle",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        
+        "Tipo": {
+            "type": "string",
+            "required": true
+        },
+        "Modo": {
+            "type": "string",
+            "required": true
+        },
+        "JuegoActivo": {
+            "type": "boolean",
+            "required": true,
+            "default": true
+        },
+        "NombreJuego": {
+            "type": "string",
+            "required": true
+        },
+        "grupoId": {
+            "type": "number",
+            "required": true
+        },
+        "Dificultad": {
+            "type": "string",
+            "required": true
+        },
+        "NombreImagen": {
+            "type": "string",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {
+        "alumnos": {
+            "type": "hasMany",
+            "model": "Alumno",
+            "foreignKey": "juegoDePuzzleId",
+            "options": {
+                "nestRemoting": true
+            },
+            "through": "AlumnoJuegoDePuzzle"
+        },
+        "equipos": {
+            "type": "hasMany",
+            "model": "Equipo",
+            "foreignKey": "juegoDePuzzleId",
+            "options": {
+                "nestRemoting": true
+            },
+            "through": "EquipoJuegoDePuzzle"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}
